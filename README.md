@@ -36,10 +36,10 @@ cd ecommerce
 
 ### 2. Crear un archivo env con estas variables:
 
-DATABASE_URL=jdbc:mysql://localhost:3306/<db_name>
-DATABASE_USER=<user_name>
-DATABASE_PASSWORD=<password>
-DATABASE_DRIVER=com.mysql.cj.jdbc.Driver
+- `DATABASE_URL=jdbc:mysql://localhost:3306/<db_name>`
+- `DATABASE_USER=<user_name>`
+- `DATABASE_PASSWORD=<password>`
+- `DATABASE_DRIVER=com.mysql.cj.jdbc.Driver`
 
 ### 3. Crear la base de datos (archivo sql.sql)
 
