@@ -3224,3 +3224,21 @@ GRAVE: A severe compiler error occurred, full details of the error can be found 
 2025.06.18 15:54:22 WARN  Could not load snapshot text for /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/http/controllers/CategoryAdminController.scala[0m
 2025.06.18 15:54:23 INFO  compiling root (1 scala source)[0m
 2025.06.18 15:54:24 INFO  time: compiled root in 1.31s[0m
+2025.06.18 15:56:27 INFO  compiling root (10 scala sources)[0m
+2025.06.18 15:56:27 WARN  Invalid text document uri received from build server: file:///home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/http/Server.scala[0m
+2025.06.18 15:56:27 WARN  Invalid text document uri received from build server: file:///home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/http/views/HomeController.scala[0m
+2025.06.18 15:56:27 INFO  time: compiled root in 0.69s[0m
+2025.06.18 15:56:27 INFO  compiling root (10 scala sources)[0m
+2025.06.18 15:56:28 INFO  time: compiled root in 0.58s[0m
+2025.06.18 15:56:53 INFO  compiling root (10 scala sources)[0m
+2025.06.18 15:56:53 INFO  time: compiled root in 0.45s[0m
+2025.06.18 15:57:07 INFO  compiling root (10 scala sources)[0m
+2025.06.18 15:57:07 INFO  time: compiled root in 0.92s[0m
+2025.06.18 15:57:12 WARN  Could not load snapshot text for /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/model/Order.scala[0m
+2025.06.18 15:57:14 WARN  Could not load snapshot text for /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/model/Order.scala[0m
+2025.06.18 15:57:15 INFO  compiling root (10 scala sources)[0m
+2025.06.18 15:57:15 WARN  Could not load snapshot text for /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/model/Order.scala[0m
+2025.06.18 15:57:15 INFO  time: compiled root in 0.44s[0m
+2025.06.18 15:57:15 WARN  Could not load snapshot text for /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/model/Order.scala[0m
+jun. 18, 2025 3:57:40 P. M. org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFORMACIÓN: Unsupported notification method: $/setTrace
