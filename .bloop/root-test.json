@@ -21,6 +21,11 @@
             "/home/enkit/.cache/coursier/v1/https/repo1.maven.org/maven2/org/http4s/http4s-ember-client_2.13/0.23.24/http4s-ember-client_2.13-0.23.24.jar",
             "/home/enkit/.cache/coursier/v1/https/repo1.maven.org/maven2/org/http4s/http4s-dsl_2.13/0.23.24/http4s-dsl_2.13-0.23.24.jar",
             "/home/enkit/.cache/coursier/v1/https/repo1.maven.org/maven2/org/http4s/http4s-circe_2.13/0.23.24/http4s-circe_2.13-0.23.24.jar",
+            "/home/enkit/.cache/coursier/v1/https/repo1.maven.org/maven2/org/http4s/http4s-scalatags_2.13/0.25.2/http4s-scalatags_2.13-0.25.2.jar",
+            "/home/enkit/.cache/coursier/v1/https/repo1.maven.org/maven2/com/lihaoyi/scalatags_2.13/0.12.0/scalatags_2.13-0.12.0.jar",
+            "/home/enkit/.cache/coursier/v1/https/repo1.maven.org/maven2/org/webjars/bootstrap/5.3.2/bootstrap-5.3.2.jar",
+            "/home/enkit/.cache/coursier/v1/https/repo1.maven.org/maven2/org/webjars/jquery/3.7.1/jquery-3.7.1.jar",
+            "/home/enkit/.cache/coursier/v1/https/repo1.maven.org/maven2/org/webjars/npm/htmx.org/1.9.6/htmx.org-1.9.6.jar",
             "/home/enkit/.cache/coursier/v1/https/repo1.maven.org/maven2/io/circe/circe-generic_2.13/0.14.6/circe-generic_2.13-0.14.6.jar",
             "/home/enkit/.cache/coursier/v1/https/repo1.maven.org/maven2/io/circe/circe-parser_2.13/0.14.6/circe-parser_2.13-0.14.6.jar",
             "/home/enkit/.cache/coursier/v1/https/repo1.maven.org/maven2/org/typelevel/cats-effect_2.13/3.5.2/cats-effect_2.13-3.5.2.jar",
@@ -29,28 +34,33 @@
             "/home/enkit/.cache/coursier/v1/https/repo1.maven.org/maven2/org/tpolecat/doobie-specs2_2.13/1.0.0-RC4/doobie-specs2_2.13-1.0.0-RC4.jar",
             "/home/enkit/.cache/coursier/v1/https/repo1.maven.org/maven2/org/tpolecat/doobie-scalatest_2.13/1.0.0-RC4/doobie-scalatest_2.13-1.0.0-RC4.jar",
             "/home/enkit/.cache/coursier/v1/https/repo1.maven.org/maven2/com/github/pureconfig/pureconfig_2.13/0.17.4/pureconfig_2.13-0.17.4.jar",
+            "/home/enkit/.cache/coursier/v1/https/repo1.maven.org/maven2/ch/qos/logback/logback-classic/1.4.11/logback-classic-1.4.11.jar",
+            "/home/enkit/.cache/coursier/v1/https/repo1.maven.org/maven2/org/typelevel/log4cats-slf4j_2.13/2.6.0/log4cats-slf4j_2.13-2.6.0.jar",
+            "/home/enkit/.cache/coursier/v1/https/repo1.maven.org/maven2/org/http4s/http4s-server_2.13/0.23.24/http4s-server_2.13-0.23.24.jar",
             "/home/enkit/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scalatest/scalatest_2.13/3.2.17/scalatest_2.13-3.2.17.jar",
             "/home/enkit/.cache/coursier/v1/https/repo1.maven.org/maven2/org/typelevel/cats-effect-testing-scalatest_2.13/1.5.0/cats-effect-testing-scalatest_2.13-1.5.0.jar",
             "/home/enkit/.cache/coursier/v1/https/repo1.maven.org/maven2/org/http4s/http4s-ember-core_2.13/0.23.24/http4s-ember-core_2.13-0.23.24.jar",
-            "/home/enkit/.cache/coursier/v1/https/repo1.maven.org/maven2/org/http4s/http4s-server_2.13/0.23.24/http4s-server_2.13-0.23.24.jar",
-            "/home/enkit/.cache/coursier/v1/https/repo1.maven.org/maven2/org/typelevel/log4cats-slf4j_2.13/2.6.0/log4cats-slf4j_2.13-2.6.0.jar",
             "/home/enkit/.cache/coursier/v1/https/repo1.maven.org/maven2/org/http4s/http4s-client_2.13/0.23.24/http4s-client_2.13-0.23.24.jar",
             "/home/enkit/.cache/coursier/v1/https/repo1.maven.org/maven2/org/typelevel/keypool_2.13/0.4.8/keypool_2.13-0.4.8.jar",
             "/home/enkit/.cache/coursier/v1/https/repo1.maven.org/maven2/org/http4s/http4s-core_2.13/0.23.24/http4s-core_2.13-0.23.24.jar",
             "/home/enkit/.cache/coursier/v1/https/repo1.maven.org/maven2/org/http4s/http4s-jawn_2.13/0.23.24/http4s-jawn_2.13-0.23.24.jar",
             "/home/enkit/.cache/coursier/v1/https/repo1.maven.org/maven2/io/circe/circe-core_2.13/0.14.6/circe-core_2.13-0.14.6.jar",
             "/home/enkit/.cache/coursier/v1/https/repo1.maven.org/maven2/io/circe/circe-jawn_2.13/0.14.6/circe-jawn_2.13-0.14.6.jar",
+            "/home/enkit/.cache/coursier/v1/https/repo1.maven.org/maven2/com/lihaoyi/sourcecode_2.13/0.3.0/sourcecode_2.13-0.3.0.jar",
+            "/home/enkit/.cache/coursier/v1/https/repo1.maven.org/maven2/com/lihaoyi/geny_2.13/1.0.0/geny_2.13-1.0.0.jar",
             "/home/enkit/.cache/coursier/v1/https/repo1.maven.org/maven2/com/chuusai/shapeless_2.13/2.3.10/shapeless_2.13-2.3.10.jar",
             "/home/enkit/.cache/coursier/v1/https/repo1.maven.org/maven2/org/typelevel/cats-effect-kernel_2.13/3.5.2/cats-effect-kernel_2.13-3.5.2.jar",
             "/home/enkit/.cache/coursier/v1/https/repo1.maven.org/maven2/org/typelevel/cats-effect-std_2.13/3.5.2/cats-effect-std_2.13-3.5.2.jar",
             "/home/enkit/.cache/coursier/v1/https/repo1.maven.org/maven2/org/tpolecat/doobie-free_2.13/1.0.0-RC4/doobie-free_2.13-1.0.0-RC4.jar",
             "/home/enkit/.cache/coursier/v1/https/repo1.maven.org/maven2/org/tpolecat/typename_2.13/1.1.0/typename_2.13-1.1.0.jar",
             "/home/enkit/.cache/coursier/v1/https/repo1.maven.org/maven2/com/zaxxer/HikariCP/5.0.1/HikariCP-5.0.1.jar",
-            "/home/enkit/.cache/coursier/v1/https/repo1.maven.org/maven2/org/slf4j/slf4j-api/1.7.36/slf4j-api-1.7.36.jar",
+            "/home/enkit/.cache/coursier/v1/https/repo1.maven.org/maven2/org/slf4j/slf4j-api/2.0.7/slf4j-api-2.0.7.jar",
             "/home/enkit/.cache/coursier/v1/https/repo1.maven.org/maven2/org/specs2/specs2-core_2.13/4.20.0/specs2-core_2.13-4.20.0.jar",
             "/home/enkit/.cache/coursier/v1/https/repo1.maven.org/maven2/com/mysql/mysql-connector-j/8.0.33/mysql-connector-j-8.0.33.jar",
             "/home/enkit/.cache/coursier/v1/https/repo1.maven.org/maven2/com/github/pureconfig/pureconfig-core_2.13/0.17.4/pureconfig-core_2.13-0.17.4.jar",
             "/home/enkit/.cache/coursier/v1/https/repo1.maven.org/maven2/com/github/pureconfig/pureconfig-generic_2.13/0.17.4/pureconfig-generic_2.13-0.17.4.jar",
+            "/home/enkit/.cache/coursier/v1/https/repo1.maven.org/maven2/ch/qos/logback/logback-core/1.4.11/logback-core-1.4.11.jar",
+            "/home/enkit/.cache/coursier/v1/https/repo1.maven.org/maven2/org/typelevel/log4cats-core_2.13/2.6.0/log4cats-core_2.13-2.6.0.jar",
             "/home/enkit/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scalatest/scalatest-core_2.13/3.2.17/scalatest-core_2.13-3.2.17.jar",
             "/home/enkit/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scalatest/scalatest-featurespec_2.13/3.2.17/scalatest-featurespec_2.13-3.2.17.jar",
             "/home/enkit/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scalatest/scalatest-flatspec_2.13/3.2.17/scalatest-flatspec_2.13-3.2.17.jar",
@@ -66,7 +76,6 @@
             "/home/enkit/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scalatest/scalatest-mustmatchers_2.13/3.2.17/scalatest-mustmatchers_2.13-3.2.17.jar",
             "/home/enkit/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.13.12/scala-reflect-2.13.12.jar",
             "/home/enkit/.cache/coursier/v1/https/repo1.maven.org/maven2/org/typelevel/cats-effect-testing-core_2.13/1.5.0/cats-effect-testing-core_2.13-1.5.0.jar",
-            "/home/enkit/.cache/coursier/v1/https/repo1.maven.org/maven2/org/typelevel/log4cats-core_2.13/2.6.0/log4cats-core_2.13-2.6.0.jar",
             "/home/enkit/.cache/coursier/v1/https/repo1.maven.org/maven2/com/twitter/hpack/1.0.2/hpack-1.0.2.jar",
             "/home/enkit/.cache/coursier/v1/https/repo1.maven.org/maven2/org/typelevel/cats-core_2.13/2.10.0/cats-core_2.13-2.10.0.jar",
             "/home/enkit/.cache/coursier/v1/https/repo1.maven.org/maven2/org/typelevel/case-insensitive_2.13/1.4.0/case-insensitive_2.13-1.4.0.jar",
@@ -291,6 +300,86 @@
                     ]
                 },
                 {
+                    "organization": "org.http4s",
+                    "name": "http4s-scalatags_2.13",
+                    "version": "0.25.2",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "http4s-scalatags_2.13",
+                            "path": "/home/enkit/.cache/coursier/v1/https/repo1.maven.org/maven2/org/http4s/http4s-scalatags_2.13/0.25.2/http4s-scalatags_2.13-0.25.2.jar"
+                        },
+                        {
+                            "name": "http4s-scalatags_2.13",
+                            "classifier": "sources",
+                            "path": "/home/enkit/.cache/coursier/v1/https/repo1.maven.org/maven2/org/http4s/http4s-scalatags_2.13/0.25.2/http4s-scalatags_2.13-0.25.2-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "com.lihaoyi",
+                    "name": "scalatags_2.13",
+                    "version": "0.12.0",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "scalatags_2.13",
+                            "path": "/home/enkit/.cache/coursier/v1/https/repo1.maven.org/maven2/com/lihaoyi/scalatags_2.13/0.12.0/scalatags_2.13-0.12.0.jar"
+                        },
+                        {
+                            "name": "scalatags_2.13",
+                            "classifier": "sources",
+                            "path": "/home/enkit/.cache/coursier/v1/https/repo1.maven.org/maven2/com/lihaoyi/scalatags_2.13/0.12.0/scalatags_2.13-0.12.0-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.webjars",
+                    "name": "bootstrap",
+                    "version": "5.3.2",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "bootstrap",
+                            "path": "/home/enkit/.cache/coursier/v1/https/repo1.maven.org/maven2/org/webjars/bootstrap/5.3.2/bootstrap-5.3.2.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.webjars",
+                    "name": "jquery",
+                    "version": "3.7.1",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "jquery",
+                            "path": "/home/enkit/.cache/coursier/v1/https/repo1.maven.org/maven2/org/webjars/jquery/3.7.1/jquery-3.7.1.jar"
+                        },
+                        {
+                            "name": "jquery",
+                            "classifier": "sources",
+                            "path": "/home/enkit/.cache/coursier/v1/https/repo1.maven.org/maven2/org/webjars/jquery/3.7.1/jquery-3.7.1-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.webjars.npm",
+                    "name": "htmx.org",
+                    "version": "1.9.6",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "htmx.org",
+                            "path": "/home/enkit/.cache/coursier/v1/https/repo1.maven.org/maven2/org/webjars/npm/htmx.org/1.9.6/htmx.org-1.9.6.jar"
+                        },
+                        {
+                            "name": "htmx.org",
+                            "classifier": "sources",
+                            "path": "/home/enkit/.cache/coursier/v1/https/repo1.maven.org/maven2/org/webjars/npm/htmx.org/1.9.6/htmx.org-1.9.6-sources.jar"
+                        }
+                    ]
+                },
+                {
                     "organization": "io.circe",
                     "name": "circe-generic_2.13",
                     "version": "0.14.6",
@@ -410,19 +499,36 @@
                     ]
                 },
                 {
-                    "organization": "org.http4s",
-                    "name": "http4s-ember-core_2.13",
-                    "version": "0.23.24",
+                    "organization": "ch.qos.logback",
+                    "name": "logback-classic",
+                    "version": "1.4.11",
                     "configurations": "default",
                     "artifacts": [
                         {
-                            "name": "http4s-ember-core_2.13",
-                            "path": "/home/enkit/.cache/coursier/v1/https/repo1.maven.org/maven2/org/http4s/http4s-ember-core_2.13/0.23.24/http4s-ember-core_2.13-0.23.24.jar"
+                            "name": "logback-classic",
+                            "path": "/home/enkit/.cache/coursier/v1/https/repo1.maven.org/maven2/ch/qos/logback/logback-classic/1.4.11/logback-classic-1.4.11.jar"
                         },
                         {
-                            "name": "http4s-ember-core_2.13",
+                            "name": "logback-classic",
                             "classifier": "sources",
-                            "path": "/home/enkit/.cache/coursier/v1/https/repo1.maven.org/maven2/org/http4s/http4s-ember-core_2.13/0.23.24/http4s-ember-core_2.13-0.23.24-sources.jar"
+                            "path": "/home/enkit/.cache/coursier/v1/https/repo1.maven.org/maven2/ch/qos/logback/logback-classic/1.4.11/logback-classic-1.4.11-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.typelevel",
+                    "name": "log4cats-slf4j_2.13",
+                    "version": "2.6.0",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "log4cats-slf4j_2.13",
+                            "path": "/home/enkit/.cache/coursier/v1/https/repo1.maven.org/maven2/org/typelevel/log4cats-slf4j_2.13/2.6.0/log4cats-slf4j_2.13-2.6.0.jar"
+                        },
+                        {
+                            "name": "log4cats-slf4j_2.13",
+                            "classifier": "sources",
+                            "path": "/home/enkit/.cache/coursier/v1/https/repo1.maven.org/maven2/org/typelevel/log4cats-slf4j_2.13/2.6.0/log4cats-slf4j_2.13-2.6.0-sources.jar"
                         }
                     ]
                 },
@@ -444,19 +550,19 @@
                     ]
                 },
                 {
-                    "organization": "org.typelevel",
-                    "name": "log4cats-slf4j_2.13",
-                    "version": "2.6.0",
+                    "organization": "org.http4s",
+                    "name": "http4s-ember-core_2.13",
+                    "version": "0.23.24",
                     "configurations": "default",
                     "artifacts": [
                         {
-                            "name": "log4cats-slf4j_2.13",
-                            "path": "/home/enkit/.cache/coursier/v1/https/repo1.maven.org/maven2/org/typelevel/log4cats-slf4j_2.13/2.6.0/log4cats-slf4j_2.13-2.6.0.jar"
+                            "name": "http4s-ember-core_2.13",
+                            "path": "/home/enkit/.cache/coursier/v1/https/repo1.maven.org/maven2/org/http4s/http4s-ember-core_2.13/0.23.24/http4s-ember-core_2.13-0.23.24.jar"
                         },
                         {
-                            "name": "log4cats-slf4j_2.13",
+                            "name": "http4s-ember-core_2.13",
                             "classifier": "sources",
-                            "path": "/home/enkit/.cache/coursier/v1/https/repo1.maven.org/maven2/org/typelevel/log4cats-slf4j_2.13/2.6.0/log4cats-slf4j_2.13-2.6.0-sources.jar"
+                            "path": "/home/enkit/.cache/coursier/v1/https/repo1.maven.org/maven2/org/http4s/http4s-ember-core_2.13/0.23.24/http4s-ember-core_2.13-0.23.24-sources.jar"
                         }
                     ]
                 },
@@ -559,6 +665,40 @@
                             "name": "circe-jawn_2.13",
                             "classifier": "sources",
                             "path": "/home/enkit/.cache/coursier/v1/https/repo1.maven.org/maven2/io/circe/circe-jawn_2.13/0.14.6/circe-jawn_2.13-0.14.6-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "com.lihaoyi",
+                    "name": "sourcecode_2.13",
+                    "version": "0.3.0",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "sourcecode_2.13",
+                            "path": "/home/enkit/.cache/coursier/v1/https/repo1.maven.org/maven2/com/lihaoyi/sourcecode_2.13/0.3.0/sourcecode_2.13-0.3.0.jar"
+                        },
+                        {
+                            "name": "sourcecode_2.13",
+                            "classifier": "sources",
+                            "path": "/home/enkit/.cache/coursier/v1/https/repo1.maven.org/maven2/com/lihaoyi/sourcecode_2.13/0.3.0/sourcecode_2.13-0.3.0-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "com.lihaoyi",
+                    "name": "geny_2.13",
+                    "version": "1.0.0",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "geny_2.13",
+                            "path": "/home/enkit/.cache/coursier/v1/https/repo1.maven.org/maven2/com/lihaoyi/geny_2.13/1.0.0/geny_2.13-1.0.0.jar"
+                        },
+                        {
+                            "name": "geny_2.13",
+                            "classifier": "sources",
+                            "path": "/home/enkit/.cache/coursier/v1/https/repo1.maven.org/maven2/com/lihaoyi/geny_2.13/1.0.0/geny_2.13-1.0.0-sources.jar"
                         }
                     ]
                 },
@@ -667,17 +807,17 @@
                 {
                     "organization": "org.slf4j",
                     "name": "slf4j-api",
-                    "version": "1.7.36",
+                    "version": "2.0.7",
                     "configurations": "default",
                     "artifacts": [
                         {
                             "name": "slf4j-api",
-                            "path": "/home/enkit/.cache/coursier/v1/https/repo1.maven.org/maven2/org/slf4j/slf4j-api/1.7.36/slf4j-api-1.7.36.jar"
+                            "path": "/home/enkit/.cache/coursier/v1/https/repo1.maven.org/maven2/org/slf4j/slf4j-api/2.0.7/slf4j-api-2.0.7.jar"
                         },
                         {
                             "name": "slf4j-api",
                             "classifier": "sources",
-                            "path": "/home/enkit/.cache/coursier/v1/https/repo1.maven.org/maven2/org/slf4j/slf4j-api/1.7.36/slf4j-api-1.7.36-sources.jar"
+                            "path": "/home/enkit/.cache/coursier/v1/https/repo1.maven.org/maven2/org/slf4j/slf4j-api/2.0.7/slf4j-api-2.0.7-sources.jar"
                         }
                     ]
                 },
@@ -746,6 +886,23 @@
                             "name": "pureconfig-generic_2.13",
                             "classifier": "sources",
                             "path": "/home/enkit/.cache/coursier/v1/https/repo1.maven.org/maven2/com/github/pureconfig/pureconfig-generic_2.13/0.17.4/pureconfig-generic_2.13-0.17.4-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "ch.qos.logback",
+                    "name": "logback-core",
+                    "version": "1.4.11",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "logback-core",
+                            "path": "/home/enkit/.cache/coursier/v1/https/repo1.maven.org/maven2/ch/qos/logback/logback-core/1.4.11/logback-core-1.4.11.jar"
+                        },
+                        {
+                            "name": "logback-core",
+                            "classifier": "sources",
+                            "path": "/home/enkit/.cache/coursier/v1/https/repo1.maven.org/maven2/ch/qos/logback/logback-core/1.4.11/logback-core-1.4.11-sources.jar"
                         }
                     ]
                 },

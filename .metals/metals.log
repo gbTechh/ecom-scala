@@ -1893,3 +1893,1334 @@ ADVERTENCIA: Unmatched cancel notification for request id 1339
 2025.06.17 14:57:54 INFO  empty definition using pc, found symbol in pc:  (full report at: "/home/enkit/Proyectos2025/ucsp/scala/ecom/.metals/.reports/metals-full/2025-06-14/r_empty-definition_(ecom-build)_22-56-10-553.md")
 jun. 17, 2025 2:59:04 P. M. org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
 INFORMACIÓN: Unsupported notification method: $/setTrace
+jun. 18, 2025 2:22:28 P. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+ADVERTENCIA: Unmatched cancel notification for request id 1359
+jun. 18, 2025 2:22:28 P. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+ADVERTENCIA: Unmatched cancel notification for request id 1360
+2025.06.18 14:25:56 INFO  compiling root (1 scala source)
+2025.06.18 14:25:58 INFO  time: compiled root in 1.86s
+2025.06.18 14:26:30 INFO  running '/usr/bin/sbt -Dbloop.export-jar-classifiers=sources bloopInstall'
+2025.06.18 14:26:31 INFO  [info] welcome to sbt 1.9.1 (Arch Linux Java 17.0.15)
+2025.06.18 14:26:33 INFO  [info] loading settings for project ecom-build-build from metals.sbt ...
+2025.06.18 14:26:33 INFO  [info] loading project definition from /home/enkit/Proyectos2025/ucsp/scala/ecom/project/project
+2025.06.18 14:26:34 INFO  [info] loading settings for project ecom-build from metals.sbt ...
+2025.06.18 14:26:34 INFO  [info] loading project definition from /home/enkit/Proyectos2025/ucsp/scala/ecom/project
+2025.06.18 14:26:35 INFO  [success] Generated .bloop/ecom-build.json
+2025.06.18 14:26:35 INFO  [success] Total time: 2 s, completed 18 jun. 2025 14:26:35
+2025.06.18 14:26:37 INFO  [info] loading settings for project root from build.sbt ...
+2025.06.18 14:26:37 INFO  [info] set current project to ecommerce (in build file:/home/enkit/Proyectos2025/ucsp/scala/ecom/)
+2025.06.18 14:26:43 INFO  [success] Generated .bloop/root.json
+2025.06.18 14:26:43 INFO  [success] Generated .bloop/root-test.json
+2025.06.18 14:26:43 INFO  [success] Total time: 5 s, completed 18 jun. 2025 14:26:43
+2025.06.18 14:26:43 INFO  time: ran 'sbt bloopInstall' in 13s
+2025.06.18 14:26:43 INFO  Disconnecting from Bloop session...
+2025.06.18 14:26:43 INFO  Shut down connection with build server.
+2025.06.18 14:26:43 INFO  Shut down connection with build server.
+2025.06.18 14:26:43 INFO  Attempting to connect to the build server...
+2025.06.18 14:26:43 INFO  Found a Bloop server running
+2025.06.18 14:26:43 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/enkit/Proyectos2025/ucsp/scala/ecom/.metals/bsp.trace.json or /home/enkit/.cache/metals/bsp.trace.json
+2025.06.18 14:26:45 INFO  Attempting to connect to the build server...
+2025.06.18 14:26:45 INFO  Found a Bloop server running
+2025.06.18 14:26:46 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/enkit/Proyectos2025/ucsp/scala/ecom/project/.metals/bsp.trace.json or /home/enkit/.cache/metals/bsp.trace.json
+2025.06.18 14:26:46 INFO  time: Connected to build server in 2.56s
+2025.06.18 14:26:46 INFO  Connected to Build server: Bloop v2.0.10
+2025.06.18 14:26:48 WARN  Could not find java sources in /usr/lib/jvm/src.zip, /usr/lib/jvm/lib/src.zip, /usr/lib/jvm/java-17-openjdk/src.zip, /usr/lib/jvm/java-17-openjdk/lib/src.zip. Java symbols will not be available.
+2025.06.18 14:26:48 INFO  time: indexed workspace in 3.78s
+2025.06.18 14:26:50 INFO  compiling root (14 scala sources)
+2025.06.18 14:26:50 INFO  compiling root (15 scala sources)
+2025.06.18 14:26:58 INFO  time: compiled root in 7.67s
+2025.06.18 14:26:58 INFO  compiling root-test (1 scala source)
+2025.06.18 14:26:58 INFO  time: compiled root-test in 0.4s
+2025.06.18 14:26:58 INFO  skipping build import with status 'Installed'
+2025.06.18 14:27:19 INFO  compiling root (1 scala source)
+2025.06.18 14:27:22 INFO  time: compiled root in 2.59s
+2025.06.18 14:27:24 INFO  compiling root (1 scala source)
+2025.06.18 14:27:24 INFO  time: compiled root in 0.17s
+2025.06.18 14:27:38 INFO  compiling root (1 scala source)
+2025.06.18 14:27:38 INFO  time: compiled root in 0.15s
+2025.06.18 14:27:47 INFO  Created report: Optional[file:///home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/http/controllers/CategoryController.scala]
+2025.06.18 14:27:47 INFO  empty definition using pc, found symbol in pc:  (full report at: "/home/enkit/Proyectos2025/ucsp/scala/ecom/.metals/.reports/metals-full/2025-06-18/r_empty-definition_(root)_14-27-47-687.md")
+2025.06.18 14:27:47 INFO  empty definition using pc, found symbol in pc:  (full report at: "/home/enkit/Proyectos2025/ucsp/scala/ecom/.metals/.reports/metals-full/2025-06-18/r_empty-definition_(root)_14-27-47-687.md")
+2025.06.18 14:27:52 WARN  Could not find 'CategoryView' using presentation compiler nor semanticdb. Trying to guess the definition using available information from local class context. 
+2025.06.18 14:27:52 INFO  empty definition using pc, found symbol in pc:  (full report at: "/home/enkit/Proyectos2025/ucsp/scala/ecom/.metals/.reports/metals-full/2025-06-18/r_empty-definition_(root)_14-27-47-687.md")
+jun. 18, 2025 2:27:54 P. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+ADVERTENCIA: Unmatched cancel notification for request id 1669
+jun. 18, 2025 2:27:54 P. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+ADVERTENCIA: Unmatched cancel notification for request id 1666
+2025.06.18 14:28:02 INFO  Created report: Optional[file:///home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/http/views/CategoryView.scala]
+2025.06.18 14:28:02 INFO  empty definition using pc, found symbol in pc:  (full report at: "/home/enkit/Proyectos2025/ucsp/scala/ecom/.metals/.reports/metals-full/2025-06-18/r_empty-definition_(root)_14-28-02-453.md")
+2025.06.18 14:28:02 INFO  empty definition using pc, found symbol in pc:  (full report at: "/home/enkit/Proyectos2025/ucsp/scala/ecom/.metals/.reports/metals-full/2025-06-18/r_empty-definition_(root)_14-28-02-453.md")
+2025.06.18 14:28:05 INFO  Created report: Optional[file:///home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/http/views/CategoryView.scala]
+2025.06.18 14:28:05 INFO  empty definition using pc, found symbol in pc:  (full report at: "/home/enkit/Proyectos2025/ucsp/scala/ecom/.metals/.reports/metals-full/2025-06-18/r_empty-definition_(root)_14-28-05-086.md")
+2025.06.18 14:28:11 INFO  compiling root (2 scala sources)
+2025.06.18 14:28:11 INFO  time: compiled root in 0.2s
+2025.06.18 14:28:27 INFO  compiling root (2 scala sources)
+2025.06.18 14:28:27 INFO  time: compiled root in 0.23s
+2025.06.18 14:29:07 INFO  compiling root (3 scala sources)
+2025.06.18 14:29:07 INFO  time: compiled root in 0.31s
+2025.06.18 14:30:04 INFO  empty definition using pc, found symbol in pc:  (full report at: "/home/enkit/Proyectos2025/ucsp/scala/ecom/.metals/.reports/metals-full/2025-06-14/r_empty-definition_(root)_23-40-59-225.md")
+2025.06.18 14:30:04 INFO  empty definition using pc, found symbol in pc:  (full report at: "/home/enkit/Proyectos2025/ucsp/scala/ecom/.metals/.reports/metals-full/2025-06-14/r_empty-definition_(root)_23-40-59-225.md")
+2025.06.18 14:30:04 INFO  empty definition using pc, found symbol in pc:  (full report at: "/home/enkit/Proyectos2025/ucsp/scala/ecom/.metals/.reports/metals-full/2025-06-14/r_empty-definition_(root)_23-40-59-225.md")
+2025.06.18 14:30:04 INFO  Created report: Optional[file:///home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/main/Main.scala]
+2025.06.18 14:30:04 INFO  empty definition using pc, found symbol in pc:  (full report at: "/home/enkit/Proyectos2025/ucsp/scala/ecom/.metals/.reports/metals-full/2025-06-18/r_empty-definition_(root)_14-30-05-018.md")
+2025.06.18 14:30:08 INFO  compiling root (4 scala sources)
+2025.06.18 14:30:08 INFO  time: compiled root in 0.48s
+2025.06.18 14:30:20 INFO  compiling root (4 scala sources)
+2025.06.18 14:30:20 INFO  time: compiled root in 0.4s
+Exception in thread "pool-10-thread-1" java.lang.InterruptedException
+	at scala.meta.internal.metals.FutureCancelToken.checkCanceled(FutureCancelToken.scala:29)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$onCompilerJobQueue$1(CompilerAccess.scala:207)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:152)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+2025.06.18 14:31:48 INFO  empty definition using pc, found symbol in pc:  (full report at: "/home/enkit/Proyectos2025/ucsp/scala/ecom/.metals/.reports/metals-full/2025-06-14/r_empty-definition_(ecom-build)_22-56-10-553.md")
+2025.06.18 14:31:48 INFO  skipping build import with status 'Installed'
+2025.06.18 14:32:00 INFO  compiling root (4 scala sources)
+2025.06.18 14:32:00 INFO  time: compiled root in 0.64s
+2025.06.18 14:36:09 INFO  Shut down connection with build server.
+2025.06.18 14:36:09 INFO  Shut down connection with build server.
+2025.06.18 14:36:24 INFO  Started: Metals version 1.6.0 in folders '/home/enkit/Proyectos2025/ucsp/scala/ecom' for client Code - OSS 1.100.3.[0m
+2025.06.18 14:36:24 INFO  no build target found for /home/enkit/Proyectos2025/ucsp/scala/ecom/build.sbt. Using presentation compiler with project's scala-library version: 3.3.6[0m
+2025.06.18 14:36:25 INFO  Attempting to connect to the build server...[0m
+2025.06.18 14:36:25 INFO  Found a Bloop server running[0m
+2025.06.18 14:36:25 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/enkit/Proyectos2025/ucsp/scala/ecom/.metals/bsp.trace.json or /home/enkit/.cache/metals/bsp.trace.json[0m
+2025.06.18 14:36:25 INFO  Attempting to connect to the build server...[0m
+2025.06.18 14:36:25 INFO  Found a Bloop server running[0m
+2025.06.18 14:36:25 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/enkit/Proyectos2025/ucsp/scala/ecom/project/.metals/bsp.trace.json or /home/enkit/.cache/metals/bsp.trace.json[0m
+2025.06.18 14:36:25 INFO  time: Connected to build server in 0.53s[0m
+2025.06.18 14:36:25 INFO  Connected to Build server: Bloop v2.0.10[0m
+2025.06.18 14:36:26 WARN  2.13.12 is no longer supported in the current Metals versions, using the last known supported version 1.4.2[0m
+2025.06.18 14:36:31 WARN  Could not find java sources in /usr/lib/jvm/src.zip, /usr/lib/jvm/lib/src.zip, /usr/lib/jvm/java-17-openjdk/src.zip, /usr/lib/jvm/java-17-openjdk/lib/src.zip. Java symbols will not be available.[0m
+2025.06.18 14:36:36 INFO  time: indexed workspace in 10s[0m
+Exception in thread "pool-6-thread-1" java.lang.InterruptedException
+	at scala.meta.internal.metals.FutureCancelToken.checkCanceled(FutureCancelToken.scala:29)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$onCompilerJobQueue$1(CompilerAccess.scala:207)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:152)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+2025.06.18 14:36:37 INFO  Created report: Optional[file:///home/enkit/Proyectos2025/ucsp/scala/ecom/build.sbt][0m
+2025.06.18 14:36:37 INFO  empty definition using pc, found symbol in pc:  (full report at: "/home/enkit/Proyectos2025/ucsp/scala/ecom/.metals/.reports/metals-full/2025-06-18/r_empty-definition_(ecom-build)_14-36-37-316.md")[0m
+2025.06.18 14:36:39 INFO  running '/usr/bin/sbt -Dbloop.export-jar-classifiers=sources bloopInstall'[0m
+2025.06.18 14:36:42 INFO  [info] welcome to sbt 1.9.1 (Arch Linux Java 17.0.15)[0m
+2025.06.18 14:36:44 INFO  [info] loading settings for project ecom-build-build from metals.sbt ...[0m
+2025.06.18 14:36:44 INFO  [info] loading project definition from /home/enkit/Proyectos2025/ucsp/scala/ecom/project/project[0m
+2025.06.18 14:36:46 INFO  [info] loading settings for project ecom-build from metals.sbt ...[0m
+2025.06.18 14:36:46 INFO  [info] loading project definition from /home/enkit/Proyectos2025/ucsp/scala/ecom/project[0m
+2025.06.18 14:36:48 INFO  [success] Generated .bloop/ecom-build.json[0m
+2025.06.18 14:36:48 INFO  [success] Total time: 3 s, completed 18 jun. 2025 14:36:49[0m
+2025.06.18 14:36:52 INFO  [info] loading settings for project root from build.sbt ...[0m
+2025.06.18 14:36:52 INFO  [info] set current project to ecommerce (in build file:/home/enkit/Proyectos2025/ucsp/scala/ecom/)[0m
+2025.06.18 14:36:56 INFO  [warn] [0m
+2025.06.18 14:36:56 INFO  [warn] 	Note: Unresolved dependencies path:[0m
+2025.06.18 14:36:56 INFO  [error] Couldn't run bloopGenerate. The issue could be caused by failing to compile the project.[0m
+2025.06.18 14:36:56 INFO  [warn] Removed stale /home/enkit/Proyectos2025/ucsp/scala/ecom/.bloop/root-test.json[0m
+2025.06.18 14:36:56 INFO  [warn] Removed stale /home/enkit/Proyectos2025/ucsp/scala/ecom/.bloop/root.json[0m
+2025.06.18 14:36:56 INFO  [error] sbt.librarymanagement.ResolveException: Error downloading org.http4s:http4s-twirl_2.13:0.23.24[0m
+2025.06.18 14:36:56 INFO  [error]   Not found[0m
+2025.06.18 14:36:56 INFO  [error]   Not found[0m
+2025.06.18 14:36:56 INFO  [error]   not found: /home/enkit/.ivy2/localorg.http4s/http4s-twirl_2.13/0.23.24/ivys/ivy.xml[0m
+2025.06.18 14:36:56 INFO  [error]   not found: https://repo1.maven.org/maven2/org/http4s/http4s-twirl_2.13/0.23.24/http4s-twirl_2.13-0.23.24.pom[0m
+2025.06.18 14:36:56 INFO  [error] 	at lmcoursier.CoursierDependencyResolution.unresolvedWarningOrThrow(CoursierDependencyResolution.scala:344)[0m
+2025.06.18 14:36:56 INFO  [error] 	at lmcoursier.CoursierDependencyResolution.$anonfun$update$38(CoursierDependencyResolution.scala:313)[0m
+2025.06.18 14:36:56 INFO  [error] 	at scala.util.Either$LeftProjection.map(Either.scala:573)[0m
+2025.06.18 14:36:56 INFO  [error] 	at lmcoursier.CoursierDependencyResolution.update(CoursierDependencyResolution.scala:313)[0m
+2025.06.18 14:36:56 INFO  [error] 	at sbt.librarymanagement.DependencyResolution.update(DependencyResolution.scala:60)[0m
+2025.06.18 14:36:56 INFO  [error] 	at sbt.internal.LibraryManagement$.resolve$1(LibraryManagement.scala:60)[0m
+2025.06.18 14:36:56 INFO  [error] 	at sbt.internal.LibraryManagement$.$anonfun$cachedUpdate$12(LibraryManagement.scala:134)[0m
+2025.06.18 14:36:56 INFO  [error] 	at sbt.util.Tracked$.$anonfun$lastOutput$1(Tracked.scala:74)[0m
+2025.06.18 14:36:56 INFO  [error] 	at sbt.internal.LibraryManagement$.$anonfun$cachedUpdate$20(LibraryManagement.scala:147)[0m
+2025.06.18 14:36:56 INFO  [error] 	at scala.util.control.Exception$Catch.apply(Exception.scala:228)[0m
+2025.06.18 14:36:56 INFO  [error] 	at sbt.internal.LibraryManagement$.$anonfun$cachedUpdate$11(LibraryManagement.scala:147)[0m
+2025.06.18 14:36:56 INFO  [error] 	at sbt.internal.LibraryManagement$.$anonfun$cachedUpdate$11$adapted(LibraryManagement.scala:128)[0m
+2025.06.18 14:36:56 INFO  [error] 	at sbt.util.Tracked$.$anonfun$inputChangedW$1(Tracked.scala:220)[0m
+2025.06.18 14:36:56 INFO  [error] 	at sbt.internal.LibraryManagement$.cachedUpdate(LibraryManagement.scala:161)[0m
+2025.06.18 14:36:56 INFO  [error] 	at sbt.Classpaths$.$anonfun$updateTask0$1(Defaults.scala:3799)[0m
+2025.06.18 14:36:56 INFO  [error] 	at scala.Function1.$anonfun$compose$1(Function1.scala:49)[0m
+2025.06.18 14:36:56 INFO  [error] 	at sbt.internal.util.$tilde$greater.$anonfun$$u2219$1(TypeFunctions.scala:63)[0m
+2025.06.18 14:36:56 INFO  [error] 	at sbt.std.Transform$$anon$4.work(Transform.scala:69)[0m
+2025.06.18 14:36:56 INFO  [error] 	at sbt.Execute.$anonfun$submit$2(Execute.scala:283)[0m
+2025.06.18 14:36:56 INFO  [error] 	at sbt.internal.util.ErrorHandling$.wideConvert(ErrorHandling.scala:24)[0m
+2025.06.18 14:36:56 INFO  [error] 	at sbt.Execute.work(Execute.scala:292)[0m
+2025.06.18 14:36:56 INFO  [error] 	at sbt.Execute.$anonfun$submit$1(Execute.scala:283)[0m
+2025.06.18 14:36:56 INFO  [error] 	at sbt.ConcurrentRestrictions$$anon$4.$anonfun$submitValid$1(ConcurrentRestrictions.scala:265)[0m
+2025.06.18 14:36:56 INFO  [error] 	at sbt.CompletionService$$anon$2.call(CompletionService.scala:65)[0m
+2025.06.18 14:36:56 INFO  [error] 	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)[0m
+2025.06.18 14:36:56 INFO  [error] 	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)[0m
+2025.06.18 14:36:56 INFO  [error] 	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)[0m
+2025.06.18 14:36:56 INFO  [error] 	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)[0m
+2025.06.18 14:36:56 INFO  [error] 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)[0m
+2025.06.18 14:36:56 INFO  [error] 	at java.base/java.lang.Thread.run(Thread.java:840)[0m
+2025.06.18 14:36:56 INFO  [error] (update) sbt.librarymanagement.ResolveException: Error downloading org.http4s:http4s-twirl_2.13:0.23.24[0m
+2025.06.18 14:36:56 INFO  [error]   Not found[0m
+2025.06.18 14:36:56 INFO  [error]   Not found[0m
+2025.06.18 14:36:56 INFO  [error]   not found: /home/enkit/.ivy2/localorg.http4s/http4s-twirl_2.13/0.23.24/ivys/ivy.xml[0m
+2025.06.18 14:36:56 INFO  [error]   not found: https://repo1.maven.org/maven2/org/http4s/http4s-twirl_2.13/0.23.24/http4s-twirl_2.13-0.23.24.pom[0m
+2025.06.18 14:36:56 INFO  [error] Total time: 3 s, completed 18 jun. 2025 14:36:56[0m
+2025.06.18 14:36:57 INFO  time: ran 'sbt bloopInstall' in 18s[0m
+2025.06.18 14:36:57 ERROR sbt command failed: /usr/bin/sbt -Dbloop.export-jar-classifiers=sources bloopInstall[0m
+2025.06.18 14:36:57 INFO  Disconnecting from Bloop session...[0m
+2025.06.18 14:36:57 INFO  Shut down connection with build server.[0m
+2025.06.18 14:36:57 INFO  Shut down connection with build server.[0m
+2025.06.18 14:36:57 INFO  Attempting to connect to the build server...[0m
+2025.06.18 14:36:57 INFO  Found a Bloop server running[0m
+2025.06.18 14:36:57 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/enkit/Proyectos2025/ucsp/scala/ecom/.metals/bsp.trace.json or /home/enkit/.cache/metals/bsp.trace.json[0m
+2025.06.18 14:36:57 INFO  Attempting to connect to the build server...[0m
+2025.06.18 14:36:57 INFO  Found a Bloop server running[0m
+2025.06.18 14:36:57 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/enkit/Proyectos2025/ucsp/scala/ecom/project/.metals/bsp.trace.json or /home/enkit/.cache/metals/bsp.trace.json[0m
+2025.06.18 14:36:57 INFO  time: Connected to build server in 0.22s[0m
+2025.06.18 14:36:57 INFO  Connected to Build server: Bloop v2.0.10[0m
+2025.06.18 14:36:57 INFO  Empty build targets. Expected at least one build target identifier. (full report at: "/home/enkit/Proyectos2025/ucsp/scala/ecom/.metals/.reports/bloop/2025-06-14/r_Empty build targets...._22-55-49-457.md")[0m
+2025.06.18 14:36:57 INFO  Empty build targets. Expected at least one build target identifier. (full report at: "/home/enkit/Proyectos2025/ucsp/scala/ecom/.metals/.reports/bloop/2025-06-14/r_Empty build targets...._22-55-49-457.md")[0m
+2025.06.18 14:36:57 INFO  Empty build targets. Expected at least one build target identifier. (full report at: "/home/enkit/Proyectos2025/ucsp/scala/ecom/.metals/.reports/bloop/2025-06-14/r_Empty build targets...._22-55-49-457.md")[0m
+2025.06.18 14:36:57 INFO  Empty build targets. Expected at least one build target identifier. (full report at: "/home/enkit/Proyectos2025/ucsp/scala/ecom/.metals/.reports/bloop/2025-06-14/r_Empty build targets...._22-55-49-457.md")[0m
+2025.06.18 14:36:57 INFO  Empty build targets. Expected at least one build target identifier. (full report at: "/home/enkit/Proyectos2025/ucsp/scala/ecom/.metals/.reports/bloop/2025-06-14/r_Empty build targets...._22-55-49-457.md")[0m
+2025.06.18 14:36:58 WARN  Could not find java sources in /usr/lib/jvm/src.zip, /usr/lib/jvm/lib/src.zip, /usr/lib/jvm/java-17-openjdk/src.zip, /usr/lib/jvm/java-17-openjdk/lib/src.zip. Java symbols will not be available.[0m
+2025.06.18 14:36:58 INFO  time: indexed workspace in 1.21s[0m
+2025.06.18 14:38:45 INFO  no build target found for /home/enkit/Proyectos2025/ucsp/scala/ecom/project/project/metals.sbt. Using presentation compiler with project's scala-library version: 2.12.18[0m
+2025.06.18 14:38:45 INFO  no build target found for /home/enkit/Proyectos2025/ucsp/scala/ecom/project/project/metals.sbt. Using presentation compiler with project's scala-library version: 2.12.18[0m
+2025.06.18 14:38:45 WARN  no build target for: /home/enkit/Proyectos2025/ucsp/scala/ecom/project/project/metals.sbt[0m
+2025.06.18 14:38:45 INFO  no build target found for /home/enkit/Proyectos2025/ucsp/scala/ecom/project/project/metals.sbt. Using presentation compiler with project's scala-library version: 2.12.18[0m
+2025.06.18 14:38:45 INFO  no build target found for /home/enkit/Proyectos2025/ucsp/scala/ecom/project/project/metals.sbt. Using presentation compiler with project's scala-library version: 2.12.18[0m
+2025.06.18 14:38:48 INFO  no build target found for /home/enkit/Proyectos2025/ucsp/scala/ecom/project/project/metals.sbt. Using presentation compiler with project's scala-library version: 2.12.18[0m
+2025.06.18 14:38:48 INFO  no build target found for /home/enkit/Proyectos2025/ucsp/scala/ecom/project/project/metals.sbt. Using presentation compiler with project's scala-library version: 2.12.18[0m
+2025.06.18 14:38:49 INFO  no build target found for /home/enkit/Proyectos2025/ucsp/scala/ecom/project/project/metals.sbt. Using presentation compiler with project's scala-library version: 2.12.18[0m
+2025.06.18 14:38:49 INFO  no build target found for /home/enkit/Proyectos2025/ucsp/scala/ecom/project/project/metals.sbt. Using presentation compiler with project's scala-library version: 2.12.18[0m
+2025.06.18 14:38:49 INFO  no build target found for /home/enkit/Proyectos2025/ucsp/scala/ecom/project/project/metals.sbt. Using presentation compiler with project's scala-library version: 2.12.18[0m
+2025.06.18 14:38:49 INFO  no build target found for /home/enkit/Proyectos2025/ucsp/scala/ecom/project/project/metals.sbt. Using presentation compiler with project's scala-library version: 2.12.18[0m
+2025.06.18 14:38:49 INFO  no build target found for /home/enkit/Proyectos2025/ucsp/scala/ecom/project/project/metals.sbt. Using presentation compiler with project's scala-library version: 2.12.18[0m
+2025.06.18 14:38:50 WARN  no build target for: /home/enkit/Proyectos2025/ucsp/scala/ecom/project/project/metals.sbt[0m
+2025.06.18 14:38:50 INFO  no build target found for /home/enkit/Proyectos2025/ucsp/scala/ecom/project/project/metals.sbt. Using presentation compiler with project's scala-library version: 2.12.18[0m
+2025.06.18 14:38:50 INFO  no build target found for /home/enkit/Proyectos2025/ucsp/scala/ecom/project/project/metals.sbt. Using presentation compiler with project's scala-library version: 2.12.18[0m
+2025.06.18 14:38:52 INFO  running '/usr/bin/sbt -Dbloop.export-jar-classifiers=sources bloopInstall'[0m
+2025.06.18 14:38:52 INFO  no build target found for /home/enkit/Proyectos2025/ucsp/scala/ecom/project/project/metals.sbt. Using presentation compiler with project's scala-library version: 2.12.18[0m
+2025.06.18 14:38:52 INFO  no build target found for /home/enkit/Proyectos2025/ucsp/scala/ecom/project/project/metals.sbt. Using presentation compiler with project's scala-library version: 2.12.18[0m
+2025.06.18 14:38:52 INFO  no build target found for /home/enkit/Proyectos2025/ucsp/scala/ecom/project/project/metals.sbt. Using presentation compiler with project's scala-library version: 2.12.18[0m
+2025.06.18 14:38:53 INFO  [info] welcome to sbt 1.9.1 (Arch Linux Java 17.0.15)[0m
+2025.06.18 14:38:53 INFO  [info] loading settings for project ecom-build-build from metals.sbt ...[0m
+2025.06.18 14:38:53 INFO  [info] loading project definition from /home/enkit/Proyectos2025/ucsp/scala/ecom/project/project[0m
+2025.06.18 14:38:54 INFO  [info] loading settings for project ecom-build from metals.sbt ...[0m
+2025.06.18 14:38:54 INFO  [info] loading project definition from /home/enkit/Proyectos2025/ucsp/scala/ecom/project[0m
+2025.06.18 14:38:56 INFO  [success] Generated .bloop/ecom-build.json[0m
+2025.06.18 14:38:56 INFO  [success] Total time: 1 s, completed 18 jun. 2025 14:38:56[0m
+2025.06.18 14:38:56 INFO  [info] loading settings for project root from build.sbt ...[0m
+2025.06.18 14:38:56 INFO  [info] set current project to ecommerce (in build file:/home/enkit/Proyectos2025/ucsp/scala/ecom/)[0m
+2025.06.18 14:39:02 INFO  [warn] [0m
+2025.06.18 14:39:02 INFO  [warn] 	Note: Unresolved dependencies path:[0m
+2025.06.18 14:39:02 INFO  [error] Couldn't run bloopGenerate. The issue could be caused by failing to compile the project.[0m
+2025.06.18 14:39:02 INFO  [error] sbt.librarymanagement.ResolveException: Error downloading org.http4s:http4s-twirl_2.13:0.23.24[0m
+2025.06.18 14:39:02 INFO  [error]   Not found[0m
+2025.06.18 14:39:02 INFO  [error]   Not found[0m
+2025.06.18 14:39:02 INFO  [error]   not found: /home/enkit/.ivy2/localorg.http4s/http4s-twirl_2.13/0.23.24/ivys/ivy.xml[0m
+2025.06.18 14:39:02 INFO  [error]   not found: https://repo1.maven.org/maven2/org/http4s/http4s-twirl_2.13/0.23.24/http4s-twirl_2.13-0.23.24.pom[0m
+2025.06.18 14:39:02 INFO  [error] 	at lmcoursier.CoursierDependencyResolution.unresolvedWarningOrThrow(CoursierDependencyResolution.scala:344)[0m
+2025.06.18 14:39:02 INFO  [error] 	at lmcoursier.CoursierDependencyResolution.$anonfun$update$38(CoursierDependencyResolution.scala:313)[0m
+2025.06.18 14:39:02 INFO  [error] 	at scala.util.Either$LeftProjection.map(Either.scala:573)[0m
+2025.06.18 14:39:02 INFO  [error] 	at lmcoursier.CoursierDependencyResolution.update(CoursierDependencyResolution.scala:313)[0m
+2025.06.18 14:39:02 INFO  [error] 	at sbt.librarymanagement.DependencyResolution.update(DependencyResolution.scala:60)[0m
+2025.06.18 14:39:02 INFO  [error] 	at sbt.internal.LibraryManagement$.resolve$1(LibraryManagement.scala:60)[0m
+2025.06.18 14:39:02 INFO  [error] 	at sbt.internal.LibraryManagement$.$anonfun$cachedUpdate$12(LibraryManagement.scala:134)[0m
+2025.06.18 14:39:02 INFO  [error] 	at sbt.util.Tracked$.$anonfun$lastOutput$1(Tracked.scala:74)[0m
+2025.06.18 14:39:02 INFO  [error] 	at sbt.internal.LibraryManagement$.$anonfun$cachedUpdate$20(LibraryManagement.scala:147)[0m
+2025.06.18 14:39:02 INFO  [error] 	at scala.util.control.Exception$Catch.apply(Exception.scala:228)[0m
+2025.06.18 14:39:02 INFO  [error] 	at sbt.internal.LibraryManagement$.$anonfun$cachedUpdate$11(LibraryManagement.scala:147)[0m
+2025.06.18 14:39:02 INFO  [error] 	at sbt.internal.LibraryManagement$.$anonfun$cachedUpdate$11$adapted(LibraryManagement.scala:128)[0m
+2025.06.18 14:39:02 INFO  [error] 	at sbt.util.Tracked$.$anonfun$inputChangedW$1(Tracked.scala:220)[0m
+2025.06.18 14:39:02 INFO  [error] 	at sbt.internal.LibraryManagement$.cachedUpdate(LibraryManagement.scala:161)[0m
+2025.06.18 14:39:02 INFO  [error] 	at sbt.Classpaths$.$anonfun$updateTask0$1(Defaults.scala:3799)[0m
+2025.06.18 14:39:02 INFO  [error] 	at scala.Function1.$anonfun$compose$1(Function1.scala:49)[0m
+2025.06.18 14:39:02 INFO  [error] 	at sbt.internal.util.$tilde$greater.$anonfun$$u2219$1(TypeFunctions.scala:63)[0m
+2025.06.18 14:39:02 INFO  [error] 	at sbt.std.Transform$$anon$4.work(Transform.scala:69)[0m
+2025.06.18 14:39:02 INFO  [error] 	at sbt.Execute.$anonfun$submit$2(Execute.scala:283)[0m
+2025.06.18 14:39:02 INFO  [error] 	at sbt.internal.util.ErrorHandling$.wideConvert(ErrorHandling.scala:24)[0m
+2025.06.18 14:39:02 INFO  [error] 	at sbt.Execute.work(Execute.scala:292)[0m
+2025.06.18 14:39:02 INFO  [error] 	at sbt.Execute.$anonfun$submit$1(Execute.scala:283)[0m
+2025.06.18 14:39:02 INFO  [error] 	at sbt.ConcurrentRestrictions$$anon$4.$anonfun$submitValid$1(ConcurrentRestrictions.scala:265)[0m
+2025.06.18 14:39:02 INFO  [error] 	at sbt.CompletionService$$anon$2.call(CompletionService.scala:65)[0m
+2025.06.18 14:39:02 INFO  [error] 	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)[0m
+2025.06.18 14:39:02 INFO  [error] 	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)[0m
+2025.06.18 14:39:02 INFO  [error] 	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)[0m
+2025.06.18 14:39:02 INFO  [error] 	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)[0m
+2025.06.18 14:39:02 INFO  [error] 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)[0m
+2025.06.18 14:39:02 INFO  [error] 	at java.base/java.lang.Thread.run(Thread.java:840)[0m
+2025.06.18 14:39:02 INFO  [error] (update) sbt.librarymanagement.ResolveException: Error downloading org.http4s:http4s-twirl_2.13:0.23.24[0m
+2025.06.18 14:39:02 INFO  [error]   Not found[0m
+2025.06.18 14:39:02 INFO  [error]   Not found[0m
+2025.06.18 14:39:02 INFO  [error]   not found: /home/enkit/.ivy2/localorg.http4s/http4s-twirl_2.13/0.23.24/ivys/ivy.xml[0m
+2025.06.18 14:39:02 INFO  [error]   not found: https://repo1.maven.org/maven2/org/http4s/http4s-twirl_2.13/0.23.24/http4s-twirl_2.13-0.23.24.pom[0m
+2025.06.18 14:39:02 INFO  [error] Total time: 6 s, completed 18 jun. 2025 14:39:02[0m
+2025.06.18 14:39:02 INFO  time: ran 'sbt bloopInstall' in 10s[0m
+2025.06.18 14:39:02 ERROR sbt command failed: /usr/bin/sbt -Dbloop.export-jar-classifiers=sources bloopInstall[0m
+2025.06.18 14:39:02 INFO  Disconnecting from Bloop session...[0m
+2025.06.18 14:39:02 INFO  Shut down connection with build server.[0m
+2025.06.18 14:39:02 INFO  Shut down connection with build server.[0m
+2025.06.18 14:39:02 INFO  Attempting to connect to the build server...[0m
+2025.06.18 14:39:02 INFO  Found a Bloop server running[0m
+2025.06.18 14:39:03 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/enkit/Proyectos2025/ucsp/scala/ecom/.metals/bsp.trace.json or /home/enkit/.cache/metals/bsp.trace.json[0m
+2025.06.18 14:39:03 INFO  Attempting to connect to the build server...[0m
+2025.06.18 14:39:03 INFO  Found a Bloop server running[0m
+2025.06.18 14:39:03 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/enkit/Proyectos2025/ucsp/scala/ecom/project/.metals/bsp.trace.json or /home/enkit/.cache/metals/bsp.trace.json[0m
+2025.06.18 14:39:03 INFO  time: Connected to build server in 0.21s[0m
+2025.06.18 14:39:03 INFO  Connected to Build server: Bloop v2.0.10[0m
+2025.06.18 14:39:02 INFO  Empty build targets. Expected at least one build target identifier. (full report at: "/home/enkit/Proyectos2025/ucsp/scala/ecom/.metals/.reports/bloop/2025-06-14/r_Empty build targets...._22-55-49-457.md")[0m
+2025.06.18 14:39:02 INFO  Empty build targets. Expected at least one build target identifier. (full report at: "/home/enkit/Proyectos2025/ucsp/scala/ecom/.metals/.reports/bloop/2025-06-14/r_Empty build targets...._22-55-49-457.md")[0m
+2025.06.18 14:39:02 INFO  Empty build targets. Expected at least one build target identifier. (full report at: "/home/enkit/Proyectos2025/ucsp/scala/ecom/.metals/.reports/bloop/2025-06-14/r_Empty build targets...._22-55-49-457.md")[0m
+2025.06.18 14:39:02 INFO  Empty build targets. Expected at least one build target identifier. (full report at: "/home/enkit/Proyectos2025/ucsp/scala/ecom/.metals/.reports/bloop/2025-06-14/r_Empty build targets...._22-55-49-457.md")[0m
+2025.06.18 14:39:02 INFO  Empty build targets. Expected at least one build target identifier. (full report at: "/home/enkit/Proyectos2025/ucsp/scala/ecom/.metals/.reports/bloop/2025-06-14/r_Empty build targets...._22-55-49-457.md")[0m
+2025.06.18 14:39:03 INFO  no build target found for /home/enkit/Proyectos2025/ucsp/scala/ecom/project/project/metals.sbt. Using presentation compiler with project's scala-library version: 2.12.18[0m
+2025.06.18 14:39:04 WARN  Could not find java sources in /usr/lib/jvm/src.zip, /usr/lib/jvm/lib/src.zip, /usr/lib/jvm/java-17-openjdk/src.zip, /usr/lib/jvm/java-17-openjdk/lib/src.zip. Java symbols will not be available.[0m
+2025.06.18 14:39:04 INFO  time: indexed workspace in 1.66s[0m
+2025.06.18 14:39:04 WARN  no build target for: /home/enkit/Proyectos2025/ucsp/scala/ecom/project/project/metals.sbt[0m
+2025.06.18 14:39:04 INFO  no build target found for /home/enkit/Proyectos2025/ucsp/scala/ecom/project/project/metals.sbt. Using presentation compiler with project's scala-library version: 2.12.18[0m
+2025.06.18 14:40:09 INFO  no build target found for /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/http/Server.scala. Using presentation compiler with project's scala-library version: 2.12.18[0m
+2025.06.18 14:40:09 WARN  no build target for: /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/http/Server.scala[0m
+2025.06.18 14:40:09 INFO  no build target found for /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/http/Server.scala. Using presentation compiler with project's scala-library version: 2.12.18[0m
+2025.06.18 14:40:09 INFO  no build target found for /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/http/Server.scala. Using presentation compiler with project's scala-library version: 2.12.18[0m
+2025.06.18 14:40:09 INFO  no build target found for /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/http/Server.scala. Using presentation compiler with project's scala-library version: 2.12.18[0m
+2025.06.18 14:40:09 INFO  no build target found for /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/http/Server.scala. Using presentation compiler with project's scala-library version: 2.12.18[0m
+2025.06.18 14:40:09 INFO  no build target found for /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/http/Server.scala. Using presentation compiler with project's scala-library version: 2.12.18[0m
+2025.06.18 14:40:14 INFO  no build target found for /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/http/Server.scala. Using presentation compiler with project's scala-library version: 2.12.18[0m
+2025.06.18 14:40:14 INFO  no build target found for /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/http/Server.scala. Using presentation compiler with project's scala-library version: 2.12.18[0m
+2025.06.18 14:40:14 INFO  no build target found for /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/http/Server.scala. Using presentation compiler with project's scala-library version: 2.12.18[0m
+2025.06.18 14:40:15 INFO  no build target found for /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/http/Server.scala. Using presentation compiler with project's scala-library version: 2.12.18[0m
+2025.06.18 14:40:17 ERROR scalafmt: /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/http/Server.scala:27: error: [dialect scala213] <- expected but = found
+      productRepo = new ProductRepository(dbConfig.transactor)
+                  ^[0m
+2025.06.18 14:40:17 WARN  no build target for: /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/http/Server.scala[0m
+2025.06.18 14:40:17 INFO  no build target found for /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/http/Server.scala. Using presentation compiler with project's scala-library version: 2.12.18[0m
+2025.06.18 14:40:27 INFO  no build target found for /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/http/Server.scala. Using presentation compiler with project's scala-library version: 2.12.18[0m
+2025.06.18 14:40:27 WARN  no build target for: /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/http/Server.scala[0m
+2025.06.18 14:40:27 INFO  no build target found for /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/http/Server.scala. Using presentation compiler with project's scala-library version: 2.12.18[0m
+2025.06.18 14:40:27 INFO  no build target found for /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/http/Server.scala. Using presentation compiler with project's scala-library version: 2.12.18[0m
+2025.06.18 14:41:18 INFO  no build target found for /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/http/controllers/HomeController.scala. Using presentation compiler with project's scala-library version: 2.12.18[0m
+2025.06.18 14:41:18 INFO  no build target found for /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/http/controllers/HomeController.scala. Using presentation compiler with project's scala-library version: 2.12.18[0m
+2025.06.18 14:41:18 WARN  no build target for: /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/http/controllers/HomeController.scala[0m
+2025.06.18 14:41:18 INFO  no build target found for /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/http/Server.scala. Using presentation compiler with project's scala-library version: 2.12.18[0m
+2025.06.18 14:41:18 WARN  no build target for: /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/http/controllers/HomeController.scala[0m
+2025.06.18 14:41:18 INFO  no build target found for /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/http/controllers/HomeController.scala. Using presentation compiler with project's scala-library version: 2.12.18[0m
+2025.06.18 14:41:19 INFO  no build target found for /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/http/controllers/HomeController.scala. Using presentation compiler with project's scala-library version: 2.12.18[0m
+2025.06.18 14:41:19 INFO  no build target found for /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/http/controllers/HomeController.scala. Using presentation compiler with project's scala-library version: 2.12.18[0m
+2025.06.18 14:41:20 INFO  no build target found for /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/http/controllers/HomeController.scala. Using presentation compiler with project's scala-library version: 2.12.18[0m
+2025.06.18 14:41:20 INFO  no build target found for /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/http/controllers/HomeController.scala. Using presentation compiler with project's scala-library version: 2.12.18[0m
+2025.06.18 14:41:19 ERROR scalafmt: /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/http/controllers/HomeController.scala:28: error: [dialect scala213] <- expected but = found
+        html = about()
+             ^[0m
+2025.06.18 14:41:20 WARN  no build target for: /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/http/controllers/HomeController.scala[0m
+2025.06.18 14:41:20 INFO  no build target found for /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/http/controllers/HomeController.scala. Using presentation compiler with project's scala-library version: 2.12.18[0m
+2025.06.18 14:42:01 INFO  no build target found for /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/main/Main.scala. Using presentation compiler with project's scala-library version: 2.12.18[0m
+2025.06.18 14:42:01 INFO  no build target found for /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/main/Main.scala. Using presentation compiler with project's scala-library version: 2.12.18[0m
+2025.06.18 14:42:01 WARN  no build target for: /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/main/Main.scala[0m
+2025.06.18 14:42:01 INFO  no build target found for /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/main/Main.scala. Using presentation compiler with project's scala-library version: 2.12.18[0m
+2025.06.18 14:42:01 INFO  no build target found for /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/main/Main.scala. Using presentation compiler with project's scala-library version: 2.12.18[0m
+2025.06.18 14:42:01 INFO  no build target found for /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/main/Main.scala. Using presentation compiler with project's scala-library version: 2.12.18[0m
+2025.06.18 14:42:04 INFO  no build target found for /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/main/Main.scala. Using presentation compiler with project's scala-library version: 2.12.18[0m
+2025.06.18 14:42:07 INFO  no build target found for /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/config/EnvLoader.scala. Using presentation compiler with project's scala-library version: 2.12.18[0m
+2025.06.18 14:42:07 WARN  no build target for: /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/config/EnvLoader.scala[0m
+2025.06.18 14:42:07 INFO  no build target found for /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/config/EnvLoader.scala. Using presentation compiler with project's scala-library version: 2.12.18[0m
+2025.06.18 14:42:07 INFO  no build target found for /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/config/EnvLoader.scala. Using presentation compiler with project's scala-library version: 2.12.18[0m
+2025.06.18 14:42:07 INFO  no build target found for /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/config/EnvLoader.scala. Using presentation compiler with project's scala-library version: 2.12.18[0m
+2025.06.18 14:42:15 INFO  no build target found for /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/config/EnvLoader.scala. Using presentation compiler with project's scala-library version: 2.12.18[0m
+2025.06.18 14:42:15 INFO  no build target found for /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/config/EnvLoader.scala. Using presentation compiler with project's scala-library version: 2.12.18[0m
+2025.06.18 14:42:17 INFO  no build target found for /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/config/EnvLoader.scala. Using presentation compiler with project's scala-library version: 2.12.18[0m
+2025.06.18 14:42:17 INFO  no build target found for /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/config/EnvLoader.scala. Using presentation compiler with project's scala-library version: 2.12.18[0m
+2025.06.18 14:42:17 INFO  no build target found for /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/config/EnvLoader.scala. Using presentation compiler with project's scala-library version: 2.12.18[0m
+2025.06.18 14:42:17 INFO  no build target found for /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/config/EnvLoader.scala. Using presentation compiler with project's scala-library version: 2.12.18[0m
+2025.06.18 14:42:18 INFO  no build target found for /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/config/EnvLoader.scala. Using presentation compiler with project's scala-library version: 2.12.18[0m
+2025.06.18 14:42:18 INFO  no build target found for /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/config/EnvLoader.scala. Using presentation compiler with project's scala-library version: 2.12.18[0m
+2025.06.18 14:42:29 INFO  no build target found for /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/model/Product.scala. Using presentation compiler with project's scala-library version: 2.12.18[0m
+2025.06.18 14:42:29 WARN  no build target for: /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/model/Product.scala[0m
+2025.06.18 14:42:29 INFO  no build target found for /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/model/Product.scala. Using presentation compiler with project's scala-library version: 2.12.18[0m
+2025.06.18 14:42:29 INFO  no build target found for /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/model/Product.scala. Using presentation compiler with project's scala-library version: 2.12.18[0m
+2025.06.18 14:42:29 INFO  no build target found for /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/model/Product.scala. Using presentation compiler with project's scala-library version: 2.12.18[0m
+2025.06.18 14:42:29 INFO  no build target found for /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/model/Product.scala. Using presentation compiler with project's scala-library version: 2.12.18[0m
+2025.06.18 14:42:31 INFO  no build target found for /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/http/Server.scala. Using presentation compiler with project's scala-library version: 2.12.18[0m
+2025.06.18 14:42:31 WARN  no build target for: /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/http/Server.scala[0m
+2025.06.18 14:42:31 INFO  no build target found for /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/http/Server.scala. Using presentation compiler with project's scala-library version: 2.12.18[0m
+2025.06.18 14:42:31 INFO  no build target found for /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/http/Server.scala. Using presentation compiler with project's scala-library version: 2.12.18[0m
+2025.06.18 14:42:49 INFO  no build target found for /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/http/controllers/ProductController.scala. Using presentation compiler with project's scala-library version: 2.12.18[0m
+2025.06.18 14:42:49 INFO  no build target found for /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/http/controllers/ProductController.scala. Using presentation compiler with project's scala-library version: 2.12.18[0m
+2025.06.18 14:42:49 WARN  no build target for: /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/http/controllers/ProductController.scala[0m
+2025.06.18 14:42:49 WARN  no build target for: /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/http/controllers/ProductController.scala[0m
+2025.06.18 14:42:49 INFO  no build target found for /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/http/controllers/ProductController.scala. Using presentation compiler with project's scala-library version: 2.12.18[0m
+2025.06.18 14:42:50 INFO  no build target found for /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/http/controllers/ProductController.scala. Using presentation compiler with project's scala-library version: 2.12.18[0m
+2025.06.18 14:42:50 INFO  no build target found for /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/http/controllers/ProductController.scala. Using presentation compiler with project's scala-library version: 2.12.18[0m
+2025.06.18 14:42:50 INFO  no build target found for /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/http/controllers/ProductController.scala. Using presentation compiler with project's scala-library version: 2.12.18[0m
+2025.06.18 14:42:50 INFO  no build target found for /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/http/controllers/ProductController.scala. Using presentation compiler with project's scala-library version: 2.12.18[0m
+2025.06.18 14:42:51 INFO  no build target found for /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/http/controllers/ProductController.scala. Using presentation compiler with project's scala-library version: 2.12.18[0m
+2025.06.18 14:42:51 INFO  no build target found for /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/http/controllers/ProductController.scala. Using presentation compiler with project's scala-library version: 2.12.18[0m
+2025.06.18 14:42:51 WARN  no build target for: /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/http/controllers/ProductController.scala[0m
+2025.06.18 14:42:51 INFO  no build target found for /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/http/controllers/ProductController.scala. Using presentation compiler with project's scala-library version: 2.12.18[0m
+2025.06.18 14:43:26 INFO  no build target found for /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/http/controllers/ProductController.scala. Using presentation compiler with project's scala-library version: 2.12.18[0m
+2025.06.18 14:43:38 INFO  skipping build import with status 'Installed'[0m
+2025.06.18 14:43:41 ERROR scalafmt: /home/enkit/Proyectos2025/ucsp/scala/ecom/build.sbt:51: error: [dialect scala213] ) expected but string constant found
+      "org.typelevel" %% "cats-effect-testing-scalatest" % "1.5.0" % Test
+      ^[0m
+2025.06.18 14:43:44 INFO  running '/usr/bin/sbt -Dbloop.export-jar-classifiers=sources bloopInstall'[0m
+2025.06.18 14:43:45 INFO  [info] welcome to sbt 1.9.1 (Arch Linux Java 17.0.15)[0m
+2025.06.18 14:43:45 INFO  [info] loading settings for project ecom-build-build from metals.sbt ...[0m
+2025.06.18 14:43:45 INFO  [info] loading project definition from /home/enkit/Proyectos2025/ucsp/scala/ecom/project/project[0m
+2025.06.18 14:43:46 INFO  [info] loading settings for project ecom-build from metals.sbt ...[0m
+2025.06.18 14:43:46 INFO  [info] loading project definition from /home/enkit/Proyectos2025/ucsp/scala/ecom/project[0m
+2025.06.18 14:43:48 INFO  [success] Generated .bloop/ecom-build.json[0m
+2025.06.18 14:43:48 INFO  [success] Total time: 1 s, completed 18 jun. 2025 14:43:48[0m
+2025.06.18 14:43:48 INFO  [info] loading settings for project root from build.sbt ...[0m
+2025.06.18 14:43:48 INFO  [info] set current project to ecommerce (in build file:/home/enkit/Proyectos2025/ucsp/scala/ecom/)[0m
+2025.06.18 14:43:54 INFO  [warn] [0m
+2025.06.18 14:43:54 INFO  [warn] 	Note: Unresolved dependencies path:[0m
+2025.06.18 14:43:54 INFO  [error] Couldn't run bloopGenerate. The issue could be caused by failing to compile the project.[0m
+2025.06.18 14:43:54 INFO  [error] sbt.librarymanagement.ResolveException: Error downloading org.http4s:http4s-twirl_2.13:0.23.24[0m
+2025.06.18 14:43:54 INFO  [error]   Not found[0m
+2025.06.18 14:43:54 INFO  [error]   Not found[0m
+2025.06.18 14:43:54 INFO  [error]   not found: /home/enkit/.ivy2/localorg.http4s/http4s-twirl_2.13/0.23.24/ivys/ivy.xml[0m
+2025.06.18 14:43:54 INFO  [error]   not found: https://repo1.maven.org/maven2/org/http4s/http4s-twirl_2.13/0.23.24/http4s-twirl_2.13-0.23.24.pom[0m
+2025.06.18 14:43:54 INFO  [error] 	at lmcoursier.CoursierDependencyResolution.unresolvedWarningOrThrow(CoursierDependencyResolution.scala:344)[0m
+2025.06.18 14:43:54 INFO  [error] 	at lmcoursier.CoursierDependencyResolution.$anonfun$update$38(CoursierDependencyResolution.scala:313)[0m
+2025.06.18 14:43:54 INFO  [error] 	at scala.util.Either$LeftProjection.map(Either.scala:573)[0m
+2025.06.18 14:43:54 INFO  [error] 	at lmcoursier.CoursierDependencyResolution.update(CoursierDependencyResolution.scala:313)[0m
+2025.06.18 14:43:54 INFO  [error] 	at sbt.librarymanagement.DependencyResolution.update(DependencyResolution.scala:60)[0m
+2025.06.18 14:43:54 INFO  [error] 	at sbt.internal.LibraryManagement$.resolve$1(LibraryManagement.scala:60)[0m
+2025.06.18 14:43:54 INFO  [error] 	at sbt.internal.LibraryManagement$.$anonfun$cachedUpdate$12(LibraryManagement.scala:134)[0m
+2025.06.18 14:43:54 INFO  [error] 	at sbt.util.Tracked$.$anonfun$lastOutput$1(Tracked.scala:74)[0m
+2025.06.18 14:43:54 INFO  [error] 	at sbt.internal.LibraryManagement$.$anonfun$cachedUpdate$20(LibraryManagement.scala:147)[0m
+2025.06.18 14:43:54 INFO  [error] 	at scala.util.control.Exception$Catch.apply(Exception.scala:228)[0m
+2025.06.18 14:43:54 INFO  [error] 	at sbt.internal.LibraryManagement$.$anonfun$cachedUpdate$11(LibraryManagement.scala:147)[0m
+2025.06.18 14:43:54 INFO  [error] 	at sbt.internal.LibraryManagement$.$anonfun$cachedUpdate$11$adapted(LibraryManagement.scala:128)[0m
+2025.06.18 14:43:54 INFO  [error] 	at sbt.util.Tracked$.$anonfun$inputChangedW$1(Tracked.scala:220)[0m
+2025.06.18 14:43:54 INFO  [error] 	at sbt.internal.LibraryManagement$.cachedUpdate(LibraryManagement.scala:161)[0m
+2025.06.18 14:43:54 INFO  [error] 	at sbt.Classpaths$.$anonfun$updateTask0$1(Defaults.scala:3799)[0m
+2025.06.18 14:43:54 INFO  [error] 	at scala.Function1.$anonfun$compose$1(Function1.scala:49)[0m
+2025.06.18 14:43:54 INFO  [error] 	at sbt.internal.util.$tilde$greater.$anonfun$$u2219$1(TypeFunctions.scala:63)[0m
+2025.06.18 14:43:54 INFO  [error] 	at sbt.std.Transform$$anon$4.work(Transform.scala:69)[0m
+2025.06.18 14:43:54 INFO  [error] 	at sbt.Execute.$anonfun$submit$2(Execute.scala:283)[0m
+2025.06.18 14:43:54 INFO  [error] 	at sbt.internal.util.ErrorHandling$.wideConvert(ErrorHandling.scala:24)[0m
+2025.06.18 14:43:54 INFO  [error] 	at sbt.Execute.work(Execute.scala:292)[0m
+2025.06.18 14:43:54 INFO  [error] 	at sbt.Execute.$anonfun$submit$1(Execute.scala:283)[0m
+2025.06.18 14:43:54 INFO  [error] 	at sbt.ConcurrentRestrictions$$anon$4.$anonfun$submitValid$1(ConcurrentRestrictions.scala:265)[0m
+2025.06.18 14:43:54 INFO  [error] 	at sbt.CompletionService$$anon$2.call(CompletionService.scala:65)[0m
+2025.06.18 14:43:54 INFO  [error] 	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)[0m
+2025.06.18 14:43:54 INFO  [error] 	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)[0m
+2025.06.18 14:43:54 INFO  [error] 	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)[0m
+2025.06.18 14:43:54 INFO  [error] 	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)[0m
+2025.06.18 14:43:54 INFO  [error] 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)[0m
+2025.06.18 14:43:54 INFO  [error] 	at java.base/java.lang.Thread.run(Thread.java:840)[0m
+2025.06.18 14:43:54 INFO  [error] (update) sbt.librarymanagement.ResolveException: Error downloading org.http4s:http4s-twirl_2.13:0.23.24[0m
+2025.06.18 14:43:54 INFO  [error]   Not found[0m
+2025.06.18 14:43:54 INFO  [error]   Not found[0m
+2025.06.18 14:43:54 INFO  [error]   not found: /home/enkit/.ivy2/localorg.http4s/http4s-twirl_2.13/0.23.24/ivys/ivy.xml[0m
+2025.06.18 14:43:54 INFO  [error]   not found: https://repo1.maven.org/maven2/org/http4s/http4s-twirl_2.13/0.23.24/http4s-twirl_2.13-0.23.24.pom[0m
+2025.06.18 14:43:54 INFO  [error] Total time: 6 s, completed 18 jun. 2025 14:43:54[0m
+2025.06.18 14:43:54 INFO  time: ran 'sbt bloopInstall' in 10s[0m
+2025.06.18 14:43:54 ERROR sbt command failed: /usr/bin/sbt -Dbloop.export-jar-classifiers=sources bloopInstall[0m
+2025.06.18 14:43:54 INFO  Disconnecting from Bloop session...[0m
+2025.06.18 14:43:54 INFO  Shut down connection with build server.[0m
+2025.06.18 14:43:54 INFO  Shut down connection with build server.[0m
+2025.06.18 14:43:54 INFO  Attempting to connect to the build server...[0m
+2025.06.18 14:43:54 INFO  Found a Bloop server running[0m
+2025.06.18 14:43:55 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/enkit/Proyectos2025/ucsp/scala/ecom/.metals/bsp.trace.json or /home/enkit/.cache/metals/bsp.trace.json[0m
+2025.06.18 14:43:54 INFO  Attempting to connect to the build server...[0m
+2025.06.18 14:43:54 INFO  Found a Bloop server running[0m
+2025.06.18 14:43:55 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/enkit/Proyectos2025/ucsp/scala/ecom/project/.metals/bsp.trace.json or /home/enkit/.cache/metals/bsp.trace.json[0m
+2025.06.18 14:43:55 INFO  time: Connected to build server in 0.21s[0m
+2025.06.18 14:43:55 INFO  Connected to Build server: Bloop v2.0.10[0m
+2025.06.18 14:43:54 INFO  Empty build targets. Expected at least one build target identifier. (full report at: "/home/enkit/Proyectos2025/ucsp/scala/ecom/.metals/.reports/bloop/2025-06-14/r_Empty build targets...._22-55-49-457.md")[0m
+2025.06.18 14:43:54 INFO  Empty build targets. Expected at least one build target identifier. (full report at: "/home/enkit/Proyectos2025/ucsp/scala/ecom/.metals/.reports/bloop/2025-06-14/r_Empty build targets...._22-55-49-457.md")[0m
+2025.06.18 14:43:54 INFO  Empty build targets. Expected at least one build target identifier. (full report at: "/home/enkit/Proyectos2025/ucsp/scala/ecom/.metals/.reports/bloop/2025-06-14/r_Empty build targets...._22-55-49-457.md")[0m
+2025.06.18 14:43:54 INFO  Empty build targets. Expected at least one build target identifier. (full report at: "/home/enkit/Proyectos2025/ucsp/scala/ecom/.metals/.reports/bloop/2025-06-14/r_Empty build targets...._22-55-49-457.md")[0m
+2025.06.18 14:43:54 INFO  Empty build targets. Expected at least one build target identifier. (full report at: "/home/enkit/Proyectos2025/ucsp/scala/ecom/.metals/.reports/bloop/2025-06-14/r_Empty build targets...._22-55-49-457.md")[0m
+2025.06.18 14:43:56 WARN  Could not find java sources in /usr/lib/jvm/src.zip, /usr/lib/jvm/lib/src.zip, /usr/lib/jvm/java-17-openjdk/src.zip, /usr/lib/jvm/java-17-openjdk/lib/src.zip. Java symbols will not be available.[0m
+2025.06.18 14:43:56 INFO  time: indexed workspace in 1.59s[0m
+2025.06.18 14:43:56 WARN  no build target for: /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/config/EnvLoader.scala[0m
+2025.06.18 14:43:56 WARN  no build target for: /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/model/Product.scala[0m
+2025.06.18 14:43:56 WARN  no build target for: /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/main/Main.scala[0m
+2025.06.18 14:43:56 WARN  no build target for: /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/http/controllers/ProductController.scala[0m
+2025.06.18 14:43:56 WARN  no build target for: /home/enkit/Proyectos2025/ucsp/scala/ecom/project/project/metals.sbt[0m
+2025.06.18 14:43:56 WARN  no build target for: /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/http/controllers/HomeController.scala[0m
+2025.06.18 14:43:56 WARN  no build target for: /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/http/Server.scala[0m
+2025.06.18 14:43:56 INFO  skipping build import with status 'Installed'[0m
+2025.06.18 14:48:35 INFO  running '/usr/bin/sbt -Dbloop.export-jar-classifiers=sources bloopInstall'[0m
+2025.06.18 14:48:36 INFO  [info] welcome to sbt 1.9.1 (Arch Linux Java 17.0.15)[0m
+2025.06.18 14:48:36 INFO  [info] loading settings for project ecom-build-build from metals.sbt ...[0m
+2025.06.18 14:48:37 INFO  [info] loading project definition from /home/enkit/Proyectos2025/ucsp/scala/ecom/project/project[0m
+2025.06.18 14:48:37 INFO  [info] loading settings for project ecom-build from metals.sbt ...[0m
+2025.06.18 14:48:37 INFO  [info] loading project definition from /home/enkit/Proyectos2025/ucsp/scala/ecom/project[0m
+2025.06.18 14:48:40 INFO  [success] Generated .bloop/ecom-build.json[0m
+2025.06.18 14:48:40 INFO  [success] Total time: 1 s, completed 18 jun. 2025 14:48:40[0m
+2025.06.18 14:48:42 ERROR /home/enkit/Proyectos2025/ucsp/scala/ecom/build.sbt:5: error: not found: value SbtTwirl[0m
+2025.06.18 14:48:42 ERROR enablePlugins(SbtTwirl)[0m
+2025.06.18 14:48:42 ERROR               ^[0m
+2025.06.18 14:48:42 INFO  [error] Type error in expression[0m
+2025.06.18 14:48:42 INFO  [warn] Project loading failed: (r)etry, (q)uit, (l)ast, or (i)gnore? (default: r)[0m
+2025.06.18 14:48:42 INFO  time: ran 'sbt bloopInstall' in 6.73s[0m
+2025.06.18 14:48:42 ERROR sbt command failed: /usr/bin/sbt -Dbloop.export-jar-classifiers=sources bloopInstall[0m
+2025.06.18 14:48:42 INFO  Disconnecting from Bloop session...[0m
+2025.06.18 14:48:42 INFO  Shut down connection with build server.[0m
+2025.06.18 14:48:42 INFO  Shut down connection with build server.[0m
+2025.06.18 14:48:42 INFO  Attempting to connect to the build server...[0m
+2025.06.18 14:48:42 INFO  Found a Bloop server running[0m
+2025.06.18 14:48:42 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/enkit/Proyectos2025/ucsp/scala/ecom/.metals/bsp.trace.json or /home/enkit/.cache/metals/bsp.trace.json[0m
+2025.06.18 14:48:42 INFO  Attempting to connect to the build server...[0m
+2025.06.18 14:48:42 INFO  Found a Bloop server running[0m
+2025.06.18 14:48:42 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/enkit/Proyectos2025/ucsp/scala/ecom/project/.metals/bsp.trace.json or /home/enkit/.cache/metals/bsp.trace.json[0m
+2025.06.18 14:48:42 INFO  time: Connected to build server in 0.21s[0m
+2025.06.18 14:48:42 INFO  Connected to Build server: Bloop v2.0.10[0m
+2025.06.18 14:48:42 INFO  Empty build targets. Expected at least one build target identifier. (full report at: "/home/enkit/Proyectos2025/ucsp/scala/ecom/.metals/.reports/bloop/2025-06-14/r_Empty build targets...._22-55-49-457.md")[0m
+2025.06.18 14:48:42 INFO  Empty build targets. Expected at least one build target identifier. (full report at: "/home/enkit/Proyectos2025/ucsp/scala/ecom/.metals/.reports/bloop/2025-06-14/r_Empty build targets...._22-55-49-457.md")[0m
+2025.06.18 14:48:42 INFO  Empty build targets. Expected at least one build target identifier. (full report at: "/home/enkit/Proyectos2025/ucsp/scala/ecom/.metals/.reports/bloop/2025-06-14/r_Empty build targets...._22-55-49-457.md")[0m
+2025.06.18 14:48:42 INFO  Empty build targets. Expected at least one build target identifier. (full report at: "/home/enkit/Proyectos2025/ucsp/scala/ecom/.metals/.reports/bloop/2025-06-14/r_Empty build targets...._22-55-49-457.md")[0m
+2025.06.18 14:48:42 INFO  Empty build targets. Expected at least one build target identifier. (full report at: "/home/enkit/Proyectos2025/ucsp/scala/ecom/.metals/.reports/bloop/2025-06-14/r_Empty build targets...._22-55-49-457.md")[0m
+2025.06.18 14:48:44 WARN  Could not find java sources in /usr/lib/jvm/src.zip, /usr/lib/jvm/lib/src.zip, /usr/lib/jvm/java-17-openjdk/src.zip, /usr/lib/jvm/java-17-openjdk/lib/src.zip. Java symbols will not be available.[0m
+2025.06.18 14:48:44 INFO  time: indexed workspace in 1.42s[0m
+2025.06.18 14:48:44 WARN  no build target for: /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/http/Server.scala[0m
+2025.06.18 14:48:44 WARN  no build target for: /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/config/EnvLoader.scala[0m
+2025.06.18 14:48:44 WARN  no build target for: /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/http/controllers/ProductController.scala[0m
+2025.06.18 14:48:44 WARN  no build target for: /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/main/Main.scala[0m
+2025.06.18 14:48:44 WARN  no build target for: /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/model/Product.scala[0m
+2025.06.18 14:48:44 WARN  no build target for: /home/enkit/Proyectos2025/ucsp/scala/ecom/project/project/metals.sbt[0m
+2025.06.18 14:48:44 WARN  no build target for: /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/http/controllers/HomeController.scala[0m
+2025.06.18 14:49:15 WARN  no build target for: /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/http/controllers/HomeController.scala[0m
+2025.06.18 14:49:15 INFO  no build target found for /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/http/controllers/HomeController.scala. Using presentation compiler with project's scala-library version: 2.12.18[0m
+2025.06.18 14:49:15 INFO  no build target found for /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/http/controllers/HomeController.scala. Using presentation compiler with project's scala-library version: 2.12.18[0m
+2025.06.18 14:49:15 INFO  no build target found for /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/http/controllers/HomeController.scala. Using presentation compiler with project's scala-library version: 2.12.18[0m
+2025.06.18 14:49:15 INFO  no build target found for /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/http/controllers/HomeController.scala. Using presentation compiler with project's scala-library version: 2.12.18[0m
+2025.06.18 14:49:15 INFO  no build target found for /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/http/controllers/HomeController.scala. Using presentation compiler with project's scala-library version: 2.12.18[0m
+2025.06.18 14:49:15 INFO  no build target found for /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/http/controllers/HomeController.scala. Using presentation compiler with project's scala-library version: 2.12.18[0m
+2025.06.18 14:49:16 INFO  no build target found for /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/http/controllers/HomeController.scala. Using presentation compiler with project's scala-library version: 2.12.18[0m
+2025.06.18 14:49:16 INFO  no build target found for /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/http/controllers/HomeController.scala. Using presentation compiler with project's scala-library version: 2.12.18[0m
+2025.06.18 14:49:17 ERROR scalafmt: /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/http/controllers/HomeController.scala:27: error: [dialect scala213] <- expected but = found
+        html = about()
+             ^[0m
+2025.06.18 14:49:17 WARN  no build target for: /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/http/controllers/HomeController.scala[0m
+2025.06.18 14:49:17 INFO  no build target found for /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/http/controllers/HomeController.scala. Using presentation compiler with project's scala-library version: 2.12.18[0m
+2025.06.18 14:49:32 INFO  no build target found for /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/http/Server.scala. Using presentation compiler with project's scala-library version: 2.12.18[0m
+2025.06.18 14:49:32 WARN  no build target for: /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/http/Server.scala[0m
+2025.06.18 14:49:32 INFO  no build target found for /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/http/Server.scala. Using presentation compiler with project's scala-library version: 2.12.18[0m
+2025.06.18 14:49:32 INFO  no build target found for /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/http/Server.scala. Using presentation compiler with project's scala-library version: 2.12.18[0m
+2025.06.18 14:49:32 INFO  no build target found for /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/http/Server.scala. Using presentation compiler with project's scala-library version: 2.12.18[0m
+2025.06.18 14:49:32 INFO  no build target found for /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/http/Server.scala. Using presentation compiler with project's scala-library version: 2.12.18[0m
+2025.06.18 14:49:33 INFO  no build target found for /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/http/Server.scala. Using presentation compiler with project's scala-library version: 2.12.18[0m
+2025.06.18 14:49:33 INFO  no build target found for /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/http/Server.scala. Using presentation compiler with project's scala-library version: 2.12.18[0m
+2025.06.18 14:49:33 INFO  no build target found for /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/http/Server.scala. Using presentation compiler with project's scala-library version: 2.12.18[0m
+2025.06.18 14:49:34 INFO  no build target found for /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/http/Server.scala. Using presentation compiler with project's scala-library version: 2.12.18[0m
+2025.06.18 14:49:34 INFO  no build target found for /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/http/Server.scala. Using presentation compiler with project's scala-library version: 2.12.18[0m
+2025.06.18 14:49:34 ERROR scalafmt: /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/http/Server.scala:28: error: [dialect scala213] <- expected but = found
+        productRepo = new ProductRepository(xa)
+                    ^[0m
+2025.06.18 14:49:34 WARN  no build target for: /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/http/Server.scala[0m
+2025.06.18 14:49:34 INFO  no build target found for /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/http/Server.scala. Using presentation compiler with project's scala-library version: 2.12.18[0m
+2025.06.18 14:49:38 INFO  no build target found for /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/main/Main.scala. Using presentation compiler with project's scala-library version: 2.12.18[0m
+2025.06.18 14:49:38 WARN  no build target for: /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/main/Main.scala[0m
+2025.06.18 14:49:38 INFO  no build target found for /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/main/Main.scala. Using presentation compiler with project's scala-library version: 2.12.18[0m
+2025.06.18 14:49:38 INFO  no build target found for /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/main/Main.scala. Using presentation compiler with project's scala-library version: 2.12.18[0m
+2025.06.18 14:49:38 INFO  no build target found for /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/main/Main.scala. Using presentation compiler with project's scala-library version: 2.12.18[0m
+2025.06.18 14:49:38 INFO  no build target found for /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/main/Main.scala. Using presentation compiler with project's scala-library version: 2.12.18[0m
+2025.06.18 14:49:38 INFO  no build target found for /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/main/Main.scala. Using presentation compiler with project's scala-library version: 2.12.18[0m
+2025.06.18 14:52:25 INFO  no build target found for /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/main/Main.scala. Using presentation compiler with project's scala-library version: 2.12.18[0m
+2025.06.18 14:52:25 INFO  no build target found for /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/main/Main.scala. Using presentation compiler with project's scala-library version: 2.12.18[0m
+2025.06.18 14:52:25 INFO  no build target found for /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/main/Main.scala. Using presentation compiler with project's scala-library version: 2.12.18[0m
+jun. 18, 2025 2:52:25 P. M. scala.meta.internal.pc.CompletionProvider expected$1
+ADVERTENCIA: offset 444, count -1, length 1154
+2025.06.18 14:52:25 INFO  no build target found for /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/main/Main.scala. Using presentation compiler with project's scala-library version: 2.12.18[0m
+2025.06.18 14:52:25 INFO  no build target found for /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/main/Main.scala. Using presentation compiler with project's scala-library version: 2.12.18[0m
+2025.06.18 14:52:25 INFO  no build target found for /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/main/Main.scala. Using presentation compiler with project's scala-library version: 2.12.18[0m
+2025.06.18 14:52:26 INFO  no build target found for /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/main/Main.scala. Using presentation compiler with project's scala-library version: 2.12.18[0m
+2025.06.18 14:52:26 INFO  no build target found for /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/main/Main.scala. Using presentation compiler with project's scala-library version: 2.12.18[0m
+2025.06.18 14:52:27 INFO  no build target found for /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/main/Main.scala. Using presentation compiler with project's scala-library version: 2.12.18[0m
+2025.06.18 14:52:27 INFO  no build target found for /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/main/Main.scala. Using presentation compiler with project's scala-library version: 2.12.18[0m
+2025.06.18 14:52:26 INFO  no build target found for /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/main/Main.scala. Using presentation compiler with project's scala-library version: 2.12.18[0m
+2025.06.18 14:53:06 INFO  no build target found for /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/service/CategoryService.scala. Using presentation compiler with project's scala-library version: 2.12.18[0m
+2025.06.18 14:53:06 WARN  no build target for: /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/service/CategoryService.scala[0m
+2025.06.18 14:53:06 INFO  no build target found for /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/service/CategoryService.scala. Using presentation compiler with project's scala-library version: 2.12.18[0m
+2025.06.18 14:53:06 INFO  no build target found for /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/service/CategoryService.scala. Using presentation compiler with project's scala-library version: 2.12.18[0m
+2025.06.18 14:53:06 INFO  no build target found for /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/service/CategoryService.scala. Using presentation compiler with project's scala-library version: 2.12.18[0m
+2025.06.18 14:53:07 INFO  no build target found for /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/service/CategoryService.scala. Using presentation compiler with project's scala-library version: 2.12.18[0m
+2025.06.18 14:53:06 INFO  no build target found for /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/service/CategoryService.scala. Using presentation compiler with project's scala-library version: 2.12.18[0m
+2025.06.18 14:55:43 INFO  running '/usr/bin/sbt -Dbloop.export-jar-classifiers=sources bloopInstall'[0m
+2025.06.18 14:55:44 INFO  [info] welcome to sbt 1.9.1 (Arch Linux Java 17.0.15)[0m
+2025.06.18 14:55:44 INFO  [info] loading settings for project ecom-build-build from metals.sbt ...[0m
+2025.06.18 14:55:44 INFO  [info] loading project definition from /home/enkit/Proyectos2025/ucsp/scala/ecom/project/project[0m
+2025.06.18 14:55:46 INFO  [info] loading settings for project ecom-build from metals.sbt ...[0m
+2025.06.18 14:55:46 INFO  [info] loading project definition from /home/enkit/Proyectos2025/ucsp/scala/ecom/project[0m
+2025.06.18 14:55:47 INFO  [success] Generated .bloop/ecom-build.json[0m
+2025.06.18 14:55:47 INFO  [success] Total time: 1 s, completed 18 jun. 2025 14:55:47[0m
+2025.06.18 14:55:49 INFO  [info] loading settings for project root from build.sbt ...[0m
+2025.06.18 14:55:49 INFO  [info] set current project to ecommerce (in build file:/home/enkit/Proyectos2025/ucsp/scala/ecom/)[0m
+2025.06.18 14:55:58 INFO  [success] Generated .bloop/root.json[0m
+2025.06.18 14:55:58 INFO  [success] Generated .bloop/root-test.json[0m
+2025.06.18 14:55:58 INFO  [success] Total time: 9 s, completed 18 jun. 2025 14:55:58[0m
+2025.06.18 14:55:58 INFO  time: ran 'sbt bloopInstall' in 15s[0m
+2025.06.18 14:55:58 INFO  Disconnecting from Bloop session...[0m
+2025.06.18 14:55:58 INFO  Shut down connection with build server.[0m
+2025.06.18 14:55:58 INFO  Shut down connection with build server.[0m
+2025.06.18 14:55:58 INFO  Attempting to connect to the build server...[0m
+2025.06.18 14:55:58 INFO  Found a Bloop server running[0m
+2025.06.18 14:55:58 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/enkit/Proyectos2025/ucsp/scala/ecom/.metals/bsp.trace.json or /home/enkit/.cache/metals/bsp.trace.json[0m
+2025.06.18 14:55:59 INFO  Attempting to connect to the build server...[0m
+2025.06.18 14:55:59 INFO  Found a Bloop server running[0m
+2025.06.18 14:55:59 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/enkit/Proyectos2025/ucsp/scala/ecom/project/.metals/bsp.trace.json or /home/enkit/.cache/metals/bsp.trace.json[0m
+2025.06.18 14:55:59 INFO  time: Connected to build server in 1.23s[0m
+2025.06.18 14:55:59 INFO  Connected to Build server: Bloop v2.0.10[0m
+2025.06.18 14:56:01 WARN  Could not find java sources in /usr/lib/jvm/src.zip, /usr/lib/jvm/lib/src.zip, /usr/lib/jvm/java-17-openjdk/src.zip, /usr/lib/jvm/java-17-openjdk/lib/src.zip. Java symbols will not be available.[0m
+2025.06.18 14:56:01 INFO  time: indexed workspace in 2.52s[0m
+2025.06.18 14:56:02 WARN  no build target for: /home/enkit/Proyectos2025/ucsp/scala/ecom/project/project/metals.sbt[0m
+2025.06.18 14:56:03 INFO  compiling root (18 scala sources)[0m
+2025.06.18 14:56:03 INFO  time: compiled root in 0.29s[0m
+2025.06.18 14:56:05 WARN  Could not load snapshot text for /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/main/Main.scala[0m
+2025.06.18 14:56:08 WARN  Could not load snapshot text for /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/main/Main.scala[0m
+2025.06.18 14:56:18 WARN  Could not load snapshot text for /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/main/Main.scala[0m
+2025.06.18 14:56:20 WARN  Could not load snapshot text for /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/main/Main.scala[0m
+2025.06.18 14:56:20 WARN  Could not load snapshot text for /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/main/Main.scala[0m
+2025.06.18 14:56:22 WARN  Could not load snapshot text for /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/main/Main.scala[0m
+2025.06.18 14:56:22 WARN  Could not load snapshot text for /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/main/Main.scala[0m
+2025.06.18 14:56:22 WARN  Could not load snapshot text for /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/main/Main.scala[0m
+2025.06.18 14:56:22 WARN  Could not load snapshot text for /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/main/Main.scala[0m
+2025.06.18 14:56:22 WARN  Could not load snapshot text for /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/main/Main.scala[0m
+2025.06.18 14:56:22 WARN  Could not find 'IO' using presentation compiler nor semanticdb. Trying to guess the definition using available information from local class context. [0m
+2025.06.18 14:56:22 INFO  empty definition using pc, found symbol in pc:  (full report at: "/home/enkit/Proyectos2025/ucsp/scala/ecom/.metals/.reports/metals-full/2025-06-14/r_empty-definition_(root)_23-40-59-225.md")[0m
+2025.06.18 14:56:23 WARN  Could not load snapshot text for /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/main/Main.scala[0m
+2025.06.18 14:56:23 INFO  empty definition using pc, found symbol in pc:  (full report at: "/home/enkit/Proyectos2025/ucsp/scala/ecom/.metals/.reports/metals-full/2025-06-14/r_empty-definition_(root)_23-40-59-225.md")[0m
+2025.06.18 14:56:26 WARN  Could not load snapshot text for /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/main/Main.scala[0m
+2025.06.18 14:56:26 WARN  Could not load snapshot text for /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/main/Main.scala[0m
+2025.06.18 14:56:26 INFO  empty definition using pc, found symbol in pc:  (full report at: "/home/enkit/Proyectos2025/ucsp/scala/ecom/.metals/.reports/metals-full/2025-06-14/r_empty-definition_(root)_23-40-59-225.md")[0m
+2025.06.18 14:56:26 WARN  Could not load snapshot text for /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/main/Main.scala[0m
+2025.06.18 14:56:26 WARN  Could not load snapshot text for /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/main/Main.scala[0m
+2025.06.18 14:56:26 WARN  Could not load snapshot text for /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/main/Main.scala[0m
+2025.06.18 14:56:26 INFO  empty definition using pc, found symbol in pc:  (full report at: "/home/enkit/Proyectos2025/ucsp/scala/ecom/.metals/.reports/metals-full/2025-06-14/r_empty-definition_(root)_23-40-59-225.md")[0m
+2025.06.18 14:56:26 WARN  Could not load snapshot text for /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/main/Main.scala[0m
+2025.06.18 14:56:26 WARN  Could not load snapshot text for /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/main/Main.scala[0m
+2025.06.18 14:56:26 WARN  Could not load snapshot text for /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/main/Main.scala[0m
+2025.06.18 14:56:26 WARN  Could not load snapshot text for /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/main/Main.scala[0m
+2025.06.18 14:56:26 WARN  Could not load snapshot text for /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/main/Main.scala[0m
+2025.06.18 14:56:26 INFO  empty definition using pc, found symbol in pc:  (full report at: "/home/enkit/Proyectos2025/ucsp/scala/ecom/.metals/.reports/metals-full/2025-06-14/r_empty-definition_(root)_23-40-59-225.md")[0m
+Exception in thread "pool-20-thread-1" java.lang.InterruptedException
+	at scala.meta.internal.metals.FutureCancelToken.checkCanceled(FutureCancelToken.scala:29)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$onCompilerJobQueue$1(CompilerAccess.scala:243)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:152)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+2025.06.18 14:56:26 WARN  Could not load snapshot text for /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/main/Main.scala[0m
+2025.06.18 14:56:26 WARN  Could not load snapshot text for /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/main/Main.scala[0m
+2025.06.18 14:56:26 INFO  empty definition using pc, found symbol in pc:  (full report at: "/home/enkit/Proyectos2025/ucsp/scala/ecom/.metals/.reports/metals-full/2025-06-14/r_empty-definition_(root)_23-40-59-225.md")[0m
+2025.06.18 14:56:26 WARN  Could not load snapshot text for /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/main/Main.scala[0m
+2025.06.18 14:56:26 WARN  Could not load snapshot text for /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/main/Main.scala[0m
+2025.06.18 14:56:26 INFO  empty definition using pc, found symbol in pc:  (full report at: "/home/enkit/Proyectos2025/ucsp/scala/ecom/.metals/.reports/metals-full/2025-06-14/r_empty-definition_(root)_23-40-59-225.md")[0m
+2025.06.18 14:56:26 WARN  Could not load snapshot text for /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/main/Main.scala[0m
+2025.06.18 14:56:26 WARN  Could not load snapshot text for /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/main/Main.scala[0m
+2025.06.18 14:56:26 WARN  Could not load snapshot text for /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/main/Main.scala[0m
+2025.06.18 14:56:26 INFO  empty definition using pc, found symbol in pc:  (full report at: "/home/enkit/Proyectos2025/ucsp/scala/ecom/.metals/.reports/metals-full/2025-06-14/r_empty-definition_(root)_23-40-59-225.md")[0m
+2025.06.18 14:56:26 WARN  Could not load snapshot text for /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/main/Main.scala[0m
+2025.06.18 14:56:26 WARN  Could not load snapshot text for /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/main/Main.scala[0m
+2025.06.18 14:56:26 INFO  empty definition using pc, found symbol in pc:  (full report at: "/home/enkit/Proyectos2025/ucsp/scala/ecom/.metals/.reports/metals-full/2025-06-14/r_empty-definition_(root)_23-40-59-225.md")[0m
+2025.06.18 14:56:27 WARN  Could not load snapshot text for /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/main/Main.scala[0m
+2025.06.18 14:56:27 WARN  Could not load snapshot text for /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/main/Main.scala[0m
+2025.06.18 14:56:27 WARN  Could not load snapshot text for /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/main/Main.scala[0m
+2025.06.18 14:56:27 WARN  Could not load snapshot text for /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/main/Main.scala[0m
+2025.06.18 14:56:27 INFO  empty definition using pc, found symbol in pc:  (full report at: "/home/enkit/Proyectos2025/ucsp/scala/ecom/.metals/.reports/metals-full/2025-06-14/r_empty-definition_(root)_23-40-59-225.md")[0m
+2025.06.18 14:56:27 WARN  Could not load snapshot text for /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/main/Main.scala[0m
+2025.06.18 14:56:28 WARN  Could not load snapshot text for /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/main/Main.scala[0m
+2025.06.18 14:56:28 INFO  empty definition using pc, found symbol in pc:  (full report at: "/home/enkit/Proyectos2025/ucsp/scala/ecom/.metals/.reports/metals-full/2025-06-14/r_empty-definition_(root)_23-40-59-225.md")[0m
+2025.06.18 14:56:28 WARN  Could not load snapshot text for /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/main/Main.scala[0m
+2025.06.18 14:56:28 WARN  Could not load snapshot text for /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/main/Main.scala[0m
+2025.06.18 14:56:28 INFO  empty definition using pc, found symbol in pc:  (full report at: "/home/enkit/Proyectos2025/ucsp/scala/ecom/.metals/.reports/metals-full/2025-06-14/r_empty-definition_(root)_23-40-59-225.md")[0m
+2025.06.18 14:56:29 INFO  compiling root (18 scala sources)[0m
+2025.06.18 14:56:29 INFO  time: compiled root in 95ms[0m
+2025.06.18 14:56:29 WARN  Could not load snapshot text for /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/main/Main.scala[0m
+2025.06.18 14:56:37 WARN  Could not load snapshot text for /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/main/Main.scala[0m
+2025.06.18 14:56:48 INFO  compiling root (19 scala sources)[0m
+2025.06.18 14:56:48 INFO  time: compiled root in 0.11s[0m
+2025.06.18 14:56:50 INFO  compiling root (19 scala sources)[0m
+2025.06.18 14:56:50 INFO  time: compiled root in 95ms[0m
+2025.06.18 14:56:52 WARN  Could not load snapshot text for /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/http/Server.scala[0m
+2025.06.18 14:57:02 WARN  Could not load snapshot text for /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/http/controllers/CategoryController.scala[0m
+2025.06.18 14:57:03 WARN  Could not load snapshot text for /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/http/controllers/CategoryController.scala[0m
+2025.06.18 14:57:04 WARN  Could not load snapshot text for /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/http/controllers/CategoryController.scala[0m
+2025.06.18 14:57:04 INFO  compiling root (18 scala sources)[0m
+2025.06.18 14:57:04 WARN  Invalid text document uri received from build server: file:///home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/http/Server.scala[0m
+2025.06.18 14:57:04 INFO  time: compiled root in 94ms[0m
+2025.06.18 14:57:05 WARN  Could not load snapshot text for /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/http/controllers/CategoryController.scala[0m
+2025.06.18 14:57:11 WARN  Could not load snapshot text for /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/http/controllers/CategoryController.scala[0m
+2025.06.18 14:57:43 WARN  Could not load snapshot text for /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/http/views/CategoryView.scala[0m
+2025.06.18 14:57:50 WARN  Could not load snapshot text for /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/http/views/CategoryView.scala[0m
+2025.06.18 14:57:53 WARN  Could not load snapshot text for /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/http/controllers/CategoryController.scala[0m
+2025.06.18 14:58:02 INFO  compiling root (16 scala sources)[0m
+2025.06.18 14:58:02 WARN  Invalid text document uri received from build server: file:///home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/http/controllers/HomeController.scala[0m
+2025.06.18 14:58:02 INFO  time: compiled root in 0.82s[0m
+2025.06.18 14:58:14 INFO  compiling root (15 scala sources)[0m
+2025.06.18 14:58:14 WARN  Invalid text document uri received from build server: file:///home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/http/views/Category.scala[0m
+2025.06.18 14:58:14 INFO  time: compiled root in 0.71s[0m
+2025.06.18 14:58:16 WARN  Could not load snapshot text for /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/main/Main.scala[0m
+2025.06.18 14:58:19 WARN  Could not load snapshot text for /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/main/Main.scala[0m
+2025.06.18 14:58:42 WARN  Could not load snapshot text for /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/main/Main.scala[0m
+2025.06.18 14:58:47 WARN  Could not load snapshot text for /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/main/Main.scala[0m
+2025.06.18 14:58:56 WARN  Could not load snapshot text for /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/main/Main.scala[0m
+2025.06.18 14:58:58 WARN  Could not load snapshot text for /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/main/Main.scala[0m
+2025.06.18 14:58:58 WARN  Could not load snapshot text for /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/main/Main.scala[0m
+2025.06.18 14:58:58 INFO  empty definition using pc, found symbol in pc:  (full report at: "/home/enkit/Proyectos2025/ucsp/scala/ecom/.metals/.reports/metals-full/2025-06-14/r_empty-definition_(root)_23-40-59-225.md")[0m
+2025.06.18 14:59:02 WARN  Could not load snapshot text for /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/main/Main.scala[0m
+2025.06.18 14:59:11 WARN  Could not load snapshot text for /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/main/Main.scala[0m
+2025.06.18 14:59:37 WARN  Could not load snapshot text for /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/http/controllers/CategoryController.scala[0m
+2025.06.18 14:59:38 WARN  Could not load snapshot text for /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/http/controllers/CategoryController.scala[0m
+2025.06.18 14:59:50 WARN  Could not load snapshot text for /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/http/controllers/CategoryController.scala[0m
+2025.06.18 14:59:52 WARN  Could not load snapshot text for /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/http/controllers/CategoryController.scala[0m
+2025.06.18 14:59:52 WARN  Could not load snapshot text for /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/http/controllers/CategoryController.scala[0m
+2025.06.18 14:59:52 WARN  Could not load snapshot text for /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/http/controllers/CategoryController.scala[0m
+2025.06.18 14:59:54 WARN  Could not load snapshot text for /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/http/controllers/CategoryController.scala[0m
+2025.06.18 14:59:54 WARN  Could not load snapshot text for /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/http/controllers/CategoryController.scala[0m
+2025.06.18 14:59:54 INFO  empty definition using pc, found symbol in pc:  (full report at: "/home/enkit/Proyectos2025/ucsp/scala/ecom/.metals/.reports/metals-full/2025-06-18/r_empty-definition_(root)_14-27-47-687.md")[0m
+2025.06.18 15:00:31 WARN  Could not load snapshot text for /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/http/controllers/CategoryController.scala[0m
+2025.06.18 15:00:34 WARN  Could not load snapshot text for /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/http/controllers/CategoryController.scala[0m
+2025.06.18 15:00:45 WARN  Could not load snapshot text for /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/main/Main.scala[0m
+2025.06.18 15:00:46 WARN  Could not load snapshot text for /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/main/Main.scala[0m
+2025.06.18 15:00:47 WARN  Could not load snapshot text for /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/main/Main.scala[0m
+2025.06.18 15:00:46 WARN  Could not load snapshot text for /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/main/Main.scala[0m
+2025.06.18 15:00:47 WARN  Could not load snapshot text for /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/main/Main.scala[0m
+2025.06.18 15:00:47 WARN  Could not load snapshot text for /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/main/Main.scala[0m
+2025.06.18 15:00:47 INFO  empty definition using pc, found symbol in pc:  (full report at: "/home/enkit/Proyectos2025/ucsp/scala/ecom/.metals/.reports/metals-full/2025-06-14/r_empty-definition_(root)_23-40-59-225.md")[0m
+2025.06.18 15:00:47 WARN  Could not load snapshot text for /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/main/Main.scala[0m
+2025.06.18 15:00:47 WARN  Could not load snapshot text for /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/main/Main.scala[0m
+2025.06.18 15:00:47 WARN  Could not load snapshot text for /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/main/Main.scala[0m
+2025.06.18 15:00:47 WARN  Could not find 'Main' using presentation compiler nor semanticdb. Trying to guess the definition using available information from local class context. [0m
+2025.06.18 15:00:47 INFO  empty definition using pc, found symbol in pc:  (full report at: "/home/enkit/Proyectos2025/ucsp/scala/ecom/.metals/.reports/metals-full/2025-06-14/r_empty-definition_(root)_23-40-59-225.md")[0m
+2025.06.18 15:00:47 WARN  Could not load snapshot text for /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/main/Main.scala[0m
+2025.06.18 15:00:48 INFO  compiling root (15 scala sources)[0m
+2025.06.18 15:00:48 INFO  time: compiled root in 0.78s[0m
+2025.06.18 15:00:49 WARN  Could not load snapshot text for /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/main/Main.scala[0m
+Exception in thread "pool-20-thread-2" java.lang.InterruptedException
+	at scala.meta.internal.metals.FutureCancelToken.checkCanceled(FutureCancelToken.scala:29)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$onCompilerJobQueue$1(CompilerAccess.scala:243)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:152)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+2025.06.18 15:01:02 WARN  Could not load snapshot text for /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/main/Main.scala[0m
+2025.06.18 15:01:10 WARN  Could not load snapshot text for /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/main/Main.scala[0m
+2025.06.18 15:01:15 INFO  Created report: Optional[file:///home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/http/server/Server.scala][0m
+2025.06.18 15:01:15 INFO  empty definition using pc, found symbol in pc:  (full report at: "/home/enkit/Proyectos2025/ucsp/scala/ecom/.metals/.reports/metals-full/2025-06-18/r_empty-definition_(root)_15-01-15-047.md")[0m
+2025.06.18 15:01:15 INFO  Created report: Optional[file:///home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/http/server/Server.scala][0m
+2025.06.18 15:01:15 INFO  empty definition using pc, found symbol in pc:  (full report at: "/home/enkit/Proyectos2025/ucsp/scala/ecom/.metals/.reports/metals-full/2025-06-18/r_empty-definition_(root)_15-01-15-179.md")[0m
+2025.06.18 15:01:16 INFO  compiling root (15 scala sources)[0m
+2025.06.18 15:01:16 INFO  time: compiled root in 0.49s[0m
+2025.06.18 15:01:27 INFO  compiling root (15 scala sources)[0m
+2025.06.18 15:01:27 INFO  time: compiled root in 0.47s[0m
+2025.06.18 15:01:37 INFO  Created report: Optional[file:///home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/http/server/Server.scala][0m
+2025.06.18 15:01:37 INFO  empty definition using pc, found symbol in pc:  (full report at: "/home/enkit/Proyectos2025/ucsp/scala/ecom/.metals/.reports/metals-full/2025-06-18/r_empty-definition_(root)_15-01-37-404.md")[0m
+2025.06.18 15:01:37 INFO  Created report: Optional[file:///home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/http/server/Server.scala][0m
+2025.06.18 15:01:37 INFO  empty definition using pc, found symbol in pc:  (full report at: "/home/enkit/Proyectos2025/ucsp/scala/ecom/.metals/.reports/metals-full/2025-06-18/r_empty-definition_(root)_15-01-37-409.md")[0m
+2025.06.18 15:01:37 INFO  compiling root (15 scala sources)[0m
+2025.06.18 15:01:37 INFO  Created report: Optional[file:///home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/http/server/Server.scala][0m
+2025.06.18 15:01:37 INFO  empty definition using pc, found symbol in pc:  (full report at: "/home/enkit/Proyectos2025/ucsp/scala/ecom/.metals/.reports/metals-full/2025-06-18/r_empty-definition_(root)_15-01-37-424.md")[0m
+2025.06.18 15:01:37 INFO  time: compiled root in 0.64s[0m
+2025.06.18 15:02:01 INFO  compiling root (16 scala sources)[0m
+2025.06.18 15:02:02 WARN  Could not load snapshot text for /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/http/views/CategoryView.scala[0m
+2025.06.18 15:02:01 INFO  time: compiled root in 0.69s[0m
+2025.06.18 15:02:02 WARN  Could not load snapshot text for /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/http/views/CategoryView.scala[0m
+2025.06.18 15:02:08 WARN  Could not load snapshot text for /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/http/views/CategoryView.scala[0m
+2025.06.18 15:02:12 WARN  Could not load snapshot text for /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/http/views/CategoryView.scala[0m
+2025.06.18 15:02:13 WARN  Could not load snapshot text for /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/http/controllers/CategoryController.scala[0m
+2025.06.18 15:02:13 WARN  Could not load snapshot text for /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/http/controllers/CategoryController.scala[0m
+2025.06.18 15:02:20 WARN  Could not load snapshot text for /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/http/controllers/CategoryController.scala[0m
+2025.06.18 15:02:30 WARN  Could not load snapshot text for /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/http/controllers/CategoryController.scala[0m
+2025.06.18 15:02:31 WARN  Could not load snapshot text for /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/http/views/CategoryView.scala[0m
+2025.06.18 15:02:33 WARN  Could not load snapshot text for /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/http/views/CategoryView.scala[0m
+2025.06.18 15:02:33 WARN  Could not load snapshot text for /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/http/views/CategoryView.scala[0m
+2025.06.18 15:02:33 INFO  empty definition using pc, found symbol in pc:  (full report at: "/home/enkit/Proyectos2025/ucsp/scala/ecom/.metals/.reports/metals-full/2025-06-18/r_empty-definition_(root)_14-28-05-086.md")[0m
+2025.06.18 15:02:35 WARN  Could not load snapshot text for /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/http/views/CategoryView.scala[0m
+2025.06.18 15:02:48 WARN  Could not load snapshot text for /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/http/views/CategoryView.scala[0m
+2025.06.18 15:02:55 WARN  Could not load snapshot text for /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/http/views/CategoryView.scala[0m
+2025.06.18 15:03:02 WARN  Could not load snapshot text for /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/http/views/CategoryView.scala[0m
+2025.06.18 15:03:13 WARN  Could not load snapshot text for /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/http/views/CategoryView.scala[0m
+2025.06.18 15:03:16 WARN  Could not load snapshot text for /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/http/views/CategoryView.scala[0m
+2025.06.18 15:03:20 WARN  Could not load snapshot text for /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/http/views/CategoryView.scala[0m
+2025.06.18 15:03:23 WARN  Could not load snapshot text for /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/http/views/CategoryView.scala[0m
+2025.06.18 15:03:31 WARN  Could not load snapshot text for /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/http/views/CategoryView.scala[0m
+2025.06.18 15:03:35 WARN  Could not load snapshot text for /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/http/views/CategoryView.scala[0m
+2025.06.18 15:03:42 WARN  Could not load snapshot text for /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/http/views/CategoryView.scala[0m
+2025.06.18 15:03:43 WARN  Could not load snapshot text for /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/http/controllers/CategoryController.scala[0m
+2025.06.18 15:03:44 WARN  Could not load snapshot text for /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/http/controllers/CategoryController.scala[0m
+2025.06.18 15:03:50 WARN  Could not load snapshot text for /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/http/controllers/CategoryController.scala[0m
+2025.06.18 15:04:22 WARN  Could not load snapshot text for /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/http/controllers/CategoryController.scala[0m
+2025.06.18 15:04:23 WARN  Could not load snapshot text for /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/http/views/CategoryView.scala[0m
+2025.06.18 15:04:24 WARN  Could not load snapshot text for /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/http/views/CategoryView.scala[0m
+2025.06.18 15:04:26 WARN  Could not load snapshot text for /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/http/views/CategoryView.scala[0m
+2025.06.18 15:04:26 INFO  compiling root (16 scala sources)[0m
+2025.06.18 15:04:26 WARN  Could not load snapshot text for /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/http/views/CategoryView.scala[0m
+2025.06.18 15:04:26 INFO  time: compiled root in 0.74s[0m
+2025.06.18 15:04:27 WARN  Could not load snapshot text for /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/http/views/CategoryView.scala[0m
+2025.06.18 15:04:45 WARN  Could not load snapshot text for /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/http/views/CategoryView.scala[0m
+2025.06.18 15:04:48 WARN  Could not load snapshot text for /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/http/views/CategoryView.scala[0m
+2025.06.18 15:04:49 WARN  Could not load snapshot text for /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/http/views/CategoryView.scala[0m
+2025.06.18 15:04:49 WARN  Could not load snapshot text for /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/http/views/CategoryView.scala[0m
+2025.06.18 15:04:50 WARN  Could not load snapshot text for /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/http/views/CategoryView.scala[0m
+2025.06.18 15:04:50 WARN  Could not load snapshot text for /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/http/views/CategoryView.scala[0m
+2025.06.18 15:04:51 WARN  Could not load snapshot text for /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/http/views/CategoryView.scala[0m
+2025.06.18 15:04:51 WARN  Could not load snapshot text for /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/http/views/CategoryView.scala[0m
+2025.06.18 15:04:53 WARN  Could not load snapshot text for /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/http/views/CategoryView.scala[0m
+2025.06.18 15:04:54 WARN  Could not load snapshot text for /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/http/views/CategoryView.scala[0m
+2025.06.18 15:04:54 INFO  compiling root (16 scala sources)[0m
+2025.06.18 15:04:54 INFO  time: compiled root in 0.54s[0m
+2025.06.18 15:04:55 WARN  Could not load snapshot text for /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/http/views/CategoryView.scala[0m
+2025.06.18 15:04:58 WARN  Could not load snapshot text for /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/http/views/CategoryView.scala[0m
+2025.06.18 15:05:04 WARN  Could not load snapshot text for /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/http/views/CategoryView.scala[0m
+2025.06.18 15:05:15 WARN  Could not load snapshot text for /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/http/views/CategoryView.scala[0m
+2025.06.18 15:05:28 WARN  Could not load snapshot text for /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/http/views/CategoryView.scala[0m
+2025.06.18 15:05:29 WARN  Could not load snapshot text for /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/http/views/CategoryView.scala[0m
+2025.06.18 15:05:30 INFO  compiling root (16 scala sources)[0m
+2025.06.18 15:05:31 WARN  Could not load snapshot text for /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/http/views/CategoryView.scala[0m
+2025.06.18 15:05:30 INFO  time: compiled root in 0.65s[0m
+2025.06.18 15:05:31 WARN  Could not load snapshot text for /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/http/views/CategoryView.scala[0m
+2025.06.18 15:05:40 WARN  Could not load snapshot text for /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/http/views/CategoryView.scala[0m
+2025.06.18 15:05:41 WARN  Could not load snapshot text for /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/http/controllers/CategoryController.scala[0m
+2025.06.18 15:05:55 WARN  Could not load snapshot text for /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/http/controllers/CategoryController.scala[0m
+2025.06.18 15:05:56 WARN  Could not load snapshot text for /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/http/controllers/CategoryController.scala[0m
+2025.06.18 15:05:57 INFO  compiling root (16 scala sources)[0m
+2025.06.18 15:06:00 INFO  time: compiled root in 3.4s[0m
+2025.06.18 15:14:39 INFO  compiling root (1 scala source)[0m
+2025.06.18 15:14:39 WARN  Invalid text document uri received from build server: file:///home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/http/Server.scala[0m
+2025.06.18 15:14:39 INFO  time: compiled root in 0.48s[0m
+2025.06.18 15:14:49 INFO  compiling root (1 scala source)[0m
+2025.06.18 15:14:49 WARN  Invalid text document uri received from build server: file:///home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/http/Server.scala[0m
+2025.06.18 15:14:49 INFO  time: compiled root in 0.14s[0m
+2025.06.18 15:15:10 INFO  compiling root (2 scala sources)[0m
+2025.06.18 15:15:10 INFO  time: compiled root in 0.13s[0m
+2025.06.18 15:15:12 INFO  compiling root (2 scala sources)[0m
+2025.06.18 15:15:12 INFO  time: compiled root in 0.14s[0m
+2025.06.18 15:15:31 INFO  compiling root (3 scala sources)[0m
+2025.06.18 15:15:31 INFO  time: compiled root in 0.28s[0m
+2025.06.18 15:16:55 INFO  compiling root (4 scala sources)[0m
+2025.06.18 15:16:55 INFO  time: compiled root in 0.39s[0m
+2025.06.18 15:16:56 INFO  compiling root (4 scala sources)[0m
+2025.06.18 15:16:56 INFO  time: compiled root in 0.31s[0m
+2025.06.18 15:17:08 INFO  compiling root (5 scala sources)[0m
+2025.06.18 15:17:08 INFO  time: compiled root in 0.41s[0m
+2025.06.18 15:17:10 INFO  compiling root (5 scala sources)[0m
+2025.06.18 15:17:11 INFO  time: compiled root in 1.43s[0m
+jun. 18, 2025 3:17:34 P. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+ADVERTENCIA: Unmatched cancel notification for request id 1524
+jun. 18, 2025 3:17:34 P. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+ADVERTENCIA: Unmatched cancel notification for request id 1523
+jun. 18, 2025 3:17:37 P. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+ADVERTENCIA: Unmatched cancel notification for request id 1535
+2025.06.18 15:17:42 INFO  compiling root (5 scala sources)[0m
+2025.06.18 15:17:44 INFO  time: compiled root in 1.65s[0m
+2025.06.18 15:18:23 INFO  compiling root (6 scala sources)[0m
+2025.06.18 15:18:25 INFO  time: compiled root in 1.17s[0m
+jun. 18, 2025 3:18:25 P. M. scala.meta.internal.pc.CompilerAccess retryWithCleanCompiler
+INFORMACIÓN: compiler crashed due to an error in the Scala compiler, retrying with new compiler instance.
+jun. 18, 2025 3:18:25 P. M. scala.meta.internal.pc.CompilerAccess handleError
+GRAVE: A severe compiler error occurred, full details of the error can be found in the error report /home/enkit/Proyectos2025/ucsp/scala/ecom/.metals/.reports/metals-full/2025-06-18/r_compiler-error_(root)_15-18-25-503.md
+jun. 18, 2025 3:18:26 P. M. scala.meta.internal.pc.CompilerAccess retryWithCleanCompiler
+INFORMACIÓN: compiler crashed due to an error in the Scala compiler, retrying with new compiler instance.
+jun. 18, 2025 3:18:26 P. M. scala.meta.internal.pc.CompilerAccess handleError
+GRAVE: A severe compiler error occurred, full details of the error can be found in the error report /home/enkit/Proyectos2025/ucsp/scala/ecom/.metals/.reports/metals-full/2025-06-18/r_compiler-error_(root)_15-18-26-435.md
+jun. 18, 2025 3:18:28 P. M. scala.meta.internal.pc.CompilerAccess retryWithCleanCompiler
+INFORMACIÓN: compiler crashed due to an error in the Scala compiler, retrying with new compiler instance.
+jun. 18, 2025 3:18:28 P. M. scala.meta.internal.pc.CompilerAccess handleError
+GRAVE: A severe compiler error occurred, full details of the error can be found in the error report /home/enkit/Proyectos2025/ucsp/scala/ecom/.metals/.reports/metals-full/2025-06-18/r_compiler-error_(root)_15-18-28-341.md
+jun. 18, 2025 3:18:28 P. M. scala.meta.internal.pc.CompilerAccess retryWithCleanCompiler
+INFORMACIÓN: compiler crashed due to an error in the Scala compiler, retrying with new compiler instance.
+jun. 18, 2025 3:18:29 P. M. scala.meta.internal.pc.CompilerAccess handleError
+GRAVE: A severe compiler error occurred, full details of the error can be found in the error report /home/enkit/Proyectos2025/ucsp/scala/ecom/.metals/.reports/metals-full/2025-06-18/r_compiler-error_(root)_15-18-29-008.md
+jun. 18, 2025 3:18:29 P. M. scala.meta.internal.pc.CompilerAccess retryWithCleanCompiler
+INFORMACIÓN: compiler crashed due to an error in the Scala compiler, retrying with new compiler instance.
+jun. 18, 2025 3:18:29 P. M. scala.meta.internal.pc.CompilerAccess handleError
+GRAVE: A severe compiler error occurred, full details of the error can be found in the error report /home/enkit/Proyectos2025/ucsp/scala/ecom/.metals/.reports/metals-full/2025-06-18/r_compiler-error_(root)_15-18-29-237.md
+jun. 18, 2025 3:18:30 P. M. scala.meta.internal.pc.CompilerAccess retryWithCleanCompiler
+INFORMACIÓN: compiler crashed due to an error in the Scala compiler, retrying with new compiler instance.
+jun. 18, 2025 3:18:30 P. M. scala.meta.internal.pc.CompilerAccess handleError
+GRAVE: A severe compiler error occurred, full details of the error can be found in the error report /home/enkit/Proyectos2025/ucsp/scala/ecom/.metals/.reports/metals-full/2025-06-18/r_compiler-error_(root)_15-18-30-137.md
+jun. 18, 2025 3:18:30 P. M. scala.meta.internal.pc.CompilerAccess retryWithCleanCompiler
+INFORMACIÓN: compiler crashed due to an error in the Scala compiler, retrying with new compiler instance.
+jun. 18, 2025 3:18:30 P. M. scala.meta.internal.pc.CompilerAccess handleError
+GRAVE: A severe compiler error occurred, full details of the error can be found in the error report /home/enkit/Proyectos2025/ucsp/scala/ecom/.metals/.reports/metals-full/2025-06-18/r_compiler-error_(root)_15-18-30-416.md
+jun. 18, 2025 3:18:30 P. M. scala.meta.internal.pc.CompilerAccess retryWithCleanCompiler
+INFORMACIÓN: compiler crashed due to an error in the Scala compiler, retrying with new compiler instance.
+jun. 18, 2025 3:18:31 P. M. scala.meta.internal.pc.CompilerAccess retryWithCleanCompiler
+INFORMACIÓN: compiler crashed due to an error in the Scala compiler, retrying with new compiler instance.
+jun. 18, 2025 3:18:31 P. M. scala.meta.internal.pc.CompilerAccess handleError
+GRAVE: A severe compiler error occurred, full details of the error can be found in the error report /home/enkit/Proyectos2025/ucsp/scala/ecom/.metals/.reports/metals-full/2025-06-18/r_compiler-error_(root)_15-18-31-826.md
+jun. 18, 2025 3:18:31 P. M. scala.meta.internal.pc.CompilerAccess retryWithCleanCompiler
+INFORMACIÓN: compiler crashed due to an error in the Scala compiler, retrying with new compiler instance.
+jun. 18, 2025 3:18:32 P. M. scala.meta.internal.pc.CompilerAccess handleError
+GRAVE: A severe compiler error occurred, full details of the error can be found in the error report /home/enkit/Proyectos2025/ucsp/scala/ecom/.metals/.reports/metals-full/2025-06-18/r_compiler-error_(root)_15-18-32-105.md
+jun. 18, 2025 3:18:34 P. M. scala.meta.internal.pc.CompilerAccess retryWithCleanCompiler
+INFORMACIÓN: compiler crashed due to an error in the Scala compiler, retrying with new compiler instance.
+jun. 18, 2025 3:18:34 P. M. scala.meta.internal.pc.CompilerAccess handleError
+GRAVE: A severe compiler error occurred, full details of the error can be found in the error report /home/enkit/Proyectos2025/ucsp/scala/ecom/.metals/.reports/metals-full/2025-06-18/r_compiler-error_(root)_15-18-34-208.md
+jun. 18, 2025 3:18:34 P. M. scala.meta.internal.pc.CompilerAccess retryWithCleanCompiler
+INFORMACIÓN: compiler crashed due to an error in the Scala compiler, retrying with new compiler instance.
+jun. 18, 2025 3:18:34 P. M. scala.meta.internal.pc.CompilerAccess handleError
+GRAVE: A severe compiler error occurred, full details of the error can be found in the error report /home/enkit/Proyectos2025/ucsp/scala/ecom/.metals/.reports/metals-full/2025-06-18/r_compiler-error_(root)_15-18-34-400.md
+jun. 18, 2025 3:18:35 P. M. scala.meta.internal.pc.CompilerAccess retryWithCleanCompiler
+INFORMACIÓN: compiler crashed due to an error in the Scala compiler, retrying with new compiler instance.
+jun. 18, 2025 3:18:35 P. M. scala.meta.internal.pc.CompilerAccess handleError
+GRAVE: A severe compiler error occurred, full details of the error can be found in the error report /home/enkit/Proyectos2025/ucsp/scala/ecom/.metals/.reports/metals-full/2025-06-18/r_compiler-error_(root)_15-18-35-143.md
+jun. 18, 2025 3:18:35 P. M. scala.meta.internal.pc.CompilerAccess retryWithCleanCompiler
+INFORMACIÓN: compiler crashed due to an error in the Scala compiler, retrying with new compiler instance.
+jun. 18, 2025 3:18:35 P. M. scala.meta.internal.pc.CompilerAccess handleError
+GRAVE: A severe compiler error occurred, full details of the error can be found in the error report /home/enkit/Proyectos2025/ucsp/scala/ecom/.metals/.reports/metals-full/2025-06-18/r_compiler-error_(root)_15-18-35-310.md
+jun. 18, 2025 3:18:36 P. M. scala.meta.internal.pc.CompilerAccess retryWithCleanCompiler
+INFORMACIÓN: compiler crashed due to an error in the Scala compiler, retrying with new compiler instance.
+jun. 18, 2025 3:18:36 P. M. scala.meta.internal.pc.CompilerAccess handleError
+GRAVE: A severe compiler error occurred, full details of the error can be found in the error report /home/enkit/Proyectos2025/ucsp/scala/ecom/.metals/.reports/metals-full/2025-06-18/r_compiler-error_(root)_15-18-36-515.md
+jun. 18, 2025 3:18:36 P. M. scala.meta.internal.pc.CompilerAccess retryWithCleanCompiler
+INFORMACIÓN: compiler crashed due to an error in the Scala compiler, retrying with new compiler instance.
+jun. 18, 2025 3:18:36 P. M. scala.meta.internal.pc.CompilerAccess handleError
+GRAVE: A severe compiler error occurred, full details of the error can be found in the error report /home/enkit/Proyectos2025/ucsp/scala/ecom/.metals/.reports/metals-full/2025-06-18/r_compiler-error_(root)_15-18-36-685.md
+2025.06.18 15:18:46 INFO  empty definition using pc, found symbol in pc:  (full report at: "/home/enkit/Proyectos2025/ucsp/scala/ecom/.metals/.reports/metals-full/2025-06-15/r_empty-definition_(root)_19-14-56-828.md")[0m
+2025.06.18 15:19:02 INFO  empty definition using pc, found symbol in pc:  (full report at: "/home/enkit/Proyectos2025/ucsp/scala/ecom/.metals/.reports/metals-full/2025-06-14/r_empty-definition_(root)_23-44-18-845.md")[0m
+2025.06.18 15:19:04 INFO  compiling root (7 scala sources)[0m
+2025.06.18 15:19:05 INFO  time: compiled root in 1.19s[0m
+jun. 18, 2025 3:19:08 P. M. scala.meta.internal.pc.CompilerAccess retryWithCleanCompiler
+INFORMACIÓN: compiler crashed due to an error in the Scala compiler, retrying with new compiler instance.
+jun. 18, 2025 3:19:08 P. M. scala.meta.internal.pc.CompilerAccess handleError
+GRAVE: A severe compiler error occurred, full details of the error can be found in the error report /home/enkit/Proyectos2025/ucsp/scala/ecom/.metals/.reports/metals-full/2025-06-18/r_compiler-error_(root)_15-19-08-137.md
+jun. 18, 2025 3:19:08 P. M. scala.meta.internal.pc.CompilerAccess retryWithCleanCompiler
+INFORMACIÓN: compiler crashed due to an error in the Scala compiler, retrying with new compiler instance.
+jun. 18, 2025 3:19:08 P. M. scala.meta.internal.pc.CompilerAccess handleError
+GRAVE: A severe compiler error occurred, full details of the error can be found in the error report /home/enkit/Proyectos2025/ucsp/scala/ecom/.metals/.reports/metals-full/2025-06-18/r_compiler-error_(root)_15-19-08-372.md
+jun. 18, 2025 3:19:08 P. M. scala.meta.internal.pc.CompilerAccess retryWithCleanCompiler
+INFORMACIÓN: compiler crashed due to an error in the Scala compiler, retrying with new compiler instance.
+jun. 18, 2025 3:19:08 P. M. scala.meta.internal.pc.CompilerAccess handleError
+GRAVE: A severe compiler error occurred, full details of the error can be found in the error report /home/enkit/Proyectos2025/ucsp/scala/ecom/.metals/.reports/metals-full/2025-06-18/r_compiler-error_(root)_15-19-08-522.md
+jun. 18, 2025 3:19:09 P. M. scala.meta.internal.pc.CompilerAccess retryWithCleanCompiler
+INFORMACIÓN: compiler crashed due to an error in the Scala compiler, retrying with new compiler instance.
+jun. 18, 2025 3:19:09 P. M. scala.meta.internal.pc.CompilerAccess handleError
+GRAVE: A severe compiler error occurred, full details of the error can be found in the error report /home/enkit/Proyectos2025/ucsp/scala/ecom/.metals/.reports/metals-full/2025-06-18/r_compiler-error_(root)_15-19-09-355.md
+jun. 18, 2025 3:19:10 P. M. scala.meta.internal.pc.CompilerAccess retryWithCleanCompiler
+INFORMACIÓN: compiler crashed due to an error in the Scala compiler, retrying with new compiler instance.
+jun. 18, 2025 3:19:10 P. M. scala.meta.internal.pc.CompilerAccess handleError
+GRAVE: A severe compiler error occurred, full details of the error can be found in the error report /home/enkit/Proyectos2025/ucsp/scala/ecom/.metals/.reports/metals-full/2025-06-18/r_compiler-error_(root)_15-19-10-378.md
+jun. 18, 2025 3:19:26 P. M. scala.meta.internal.pc.CompilerAccess retryWithCleanCompiler
+INFORMACIÓN: compiler crashed due to an error in the Scala compiler, retrying with new compiler instance.
+jun. 18, 2025 3:19:26 P. M. scala.meta.internal.pc.CompilerAccess handleError
+GRAVE: A severe compiler error occurred, full details of the error can be found in the error report /home/enkit/Proyectos2025/ucsp/scala/ecom/.metals/.reports/metals-full/2025-06-18/r_compiler-error_(root)_15-19-26-957.md
+jun. 18, 2025 3:19:27 P. M. scala.meta.internal.pc.CompilerAccess retryWithCleanCompiler
+INFORMACIÓN: compiler crashed due to an error in the Scala compiler, retrying with new compiler instance.
+jun. 18, 2025 3:19:27 P. M. scala.meta.internal.pc.CompilerAccess handleError
+GRAVE: A severe compiler error occurred, full details of the error can be found in the error report /home/enkit/Proyectos2025/ucsp/scala/ecom/.metals/.reports/metals-full/2025-06-18/r_compiler-error_(root)_15-19-27-254.md
+jun. 18, 2025 3:19:27 P. M. scala.meta.internal.pc.CompilerAccess retryWithCleanCompiler
+INFORMACIÓN: compiler crashed due to an error in the Scala compiler, retrying with new compiler instance.
+jun. 18, 2025 3:19:27 P. M. scala.meta.internal.pc.CompilerAccess handleError
+GRAVE: A severe compiler error occurred, full details of the error can be found in the error report /home/enkit/Proyectos2025/ucsp/scala/ecom/.metals/.reports/metals-full/2025-06-18/r_compiler-error_(root)_15-19-27-404.md
+jun. 18, 2025 3:19:29 P. M. scala.meta.internal.pc.CompilerAccess retryWithCleanCompiler
+INFORMACIÓN: compiler crashed due to an error in the Scala compiler, retrying with new compiler instance.
+jun. 18, 2025 3:19:29 P. M. scala.meta.internal.pc.CompilerAccess handleError
+GRAVE: A severe compiler error occurred, full details of the error can be found in the error report /home/enkit/Proyectos2025/ucsp/scala/ecom/.metals/.reports/metals-full/2025-06-18/r_compiler-error_(root)_15-19-29-531.md
+jun. 18, 2025 3:19:31 P. M. scala.meta.internal.pc.CompilerAccess retryWithCleanCompiler
+INFORMACIÓN: compiler crashed due to an error in the Scala compiler, retrying with new compiler instance.
+jun. 18, 2025 3:19:31 P. M. scala.meta.internal.pc.CompilerAccess handleError
+GRAVE: A severe compiler error occurred, full details of the error can be found in the error report /home/enkit/Proyectos2025/ucsp/scala/ecom/.metals/.reports/metals-full/2025-06-18/r_compiler-error_(root)_15-19-31-251.md
+jun. 18, 2025 3:19:31 P. M. scala.meta.internal.pc.CompilerAccess retryWithCleanCompiler
+INFORMACIÓN: compiler crashed due to an error in the Scala compiler, retrying with new compiler instance.
+jun. 18, 2025 3:19:31 P. M. scala.meta.internal.pc.CompilerAccess handleError
+GRAVE: A severe compiler error occurred, full details of the error can be found in the error report /home/enkit/Proyectos2025/ucsp/scala/ecom/.metals/.reports/metals-full/2025-06-18/r_compiler-error_(root)_15-19-31-452.md
+jun. 18, 2025 3:19:33 P. M. scala.meta.internal.pc.CompilerAccess retryWithCleanCompiler
+INFORMACIÓN: compiler crashed due to an error in the Scala compiler, retrying with new compiler instance.
+jun. 18, 2025 3:19:33 P. M. scala.meta.internal.pc.CompilerAccess handleError
+GRAVE: A severe compiler error occurred, full details of the error can be found in the error report /home/enkit/Proyectos2025/ucsp/scala/ecom/.metals/.reports/metals-full/2025-06-18/r_compiler-error_(root)_15-19-33-188.md
+jun. 18, 2025 3:19:33 P. M. scala.meta.internal.pc.CompilerAccess retryWithCleanCompiler
+INFORMACIÓN: compiler crashed due to an error in the Scala compiler, retrying with new compiler instance.
+jun. 18, 2025 3:19:33 P. M. scala.meta.internal.pc.CompilerAccess handleError
+GRAVE: A severe compiler error occurred, full details of the error can be found in the error report /home/enkit/Proyectos2025/ucsp/scala/ecom/.metals/.reports/metals-full/2025-06-18/r_compiler-error_(root)_15-19-33-330.md
+jun. 18, 2025 3:19:34 P. M. scala.meta.internal.pc.CompilerAccess retryWithCleanCompiler
+INFORMACIÓN: compiler crashed due to an error in the Scala compiler, retrying with new compiler instance.
+jun. 18, 2025 3:19:34 P. M. scala.meta.internal.pc.CompilerAccess handleError
+GRAVE: A severe compiler error occurred, full details of the error can be found in the error report /home/enkit/Proyectos2025/ucsp/scala/ecom/.metals/.reports/metals-full/2025-06-18/r_compiler-error_(root)_15-19-34-429.md
+jun. 18, 2025 3:19:35 P. M. scala.meta.internal.pc.CompilerAccess retryWithCleanCompiler
+INFORMACIÓN: compiler crashed due to an error in the Scala compiler, retrying with new compiler instance.
+jun. 18, 2025 3:19:35 P. M. scala.meta.internal.pc.CompilerAccess handleError
+GRAVE: A severe compiler error occurred, full details of the error can be found in the error report /home/enkit/Proyectos2025/ucsp/scala/ecom/.metals/.reports/metals-full/2025-06-18/r_compiler-error_(root)_15-19-35-133.md
+jun. 18, 2025 3:19:35 P. M. scala.meta.internal.pc.CompilerAccess retryWithCleanCompiler
+INFORMACIÓN: compiler crashed due to an error in the Scala compiler, retrying with new compiler instance.
+jun. 18, 2025 3:19:35 P. M. scala.meta.internal.pc.CompilerAccess handleError
+GRAVE: A severe compiler error occurred, full details of the error can be found in the error report /home/enkit/Proyectos2025/ucsp/scala/ecom/.metals/.reports/metals-full/2025-06-18/r_compiler-error_(root)_15-19-35-579.md
+jun. 18, 2025 3:19:37 P. M. scala.meta.internal.pc.CompilerAccess retryWithCleanCompiler
+INFORMACIÓN: compiler crashed due to an error in the Scala compiler, retrying with new compiler instance.
+jun. 18, 2025 3:19:37 P. M. scala.meta.internal.pc.CompilerAccess handleError
+GRAVE: A severe compiler error occurred, full details of the error can be found in the error report /home/enkit/Proyectos2025/ucsp/scala/ecom/.metals/.reports/metals-full/2025-06-18/r_compiler-error_(root)_15-19-37-253.md
+jun. 18, 2025 3:19:37 P. M. scala.meta.internal.pc.CompilerAccess retryWithCleanCompiler
+INFORMACIÓN: compiler crashed due to an error in the Scala compiler, retrying with new compiler instance.
+jun. 18, 2025 3:19:38 P. M. scala.meta.internal.pc.CompilerAccess handleError
+GRAVE: A severe compiler error occurred, full details of the error can be found in the error report /home/enkit/Proyectos2025/ucsp/scala/ecom/.metals/.reports/metals-full/2025-06-18/r_compiler-error_(root)_15-19-38-036.md
+jun. 18, 2025 3:19:39 P. M. scala.meta.internal.pc.CompilerAccess retryWithCleanCompiler
+INFORMACIÓN: compiler crashed due to an error in the Scala compiler, retrying with new compiler instance.
+jun. 18, 2025 3:19:39 P. M. scala.meta.internal.pc.CompilerAccess retryWithCleanCompiler
+INFORMACIÓN: compiler crashed due to an error in the Scala compiler, retrying with new compiler instance.
+jun. 18, 2025 3:19:39 P. M. scala.meta.internal.pc.CompilerAccess handleError
+GRAVE: A severe compiler error occurred, full details of the error can be found in the error report /home/enkit/Proyectos2025/ucsp/scala/ecom/.metals/.reports/metals-full/2025-06-18/r_compiler-error_(root)_15-19-39-658.md
+jun. 18, 2025 3:19:40 P. M. scala.meta.internal.pc.CompilerAccess retryWithCleanCompiler
+INFORMACIÓN: compiler crashed due to an error in the Scala compiler, retrying with new compiler instance.
+jun. 18, 2025 3:19:40 P. M. scala.meta.internal.pc.CompilerAccess handleError
+GRAVE: A severe compiler error occurred, full details of the error can be found in the error report /home/enkit/Proyectos2025/ucsp/scala/ecom/.metals/.reports/metals-full/2025-06-18/r_compiler-error_(root)_15-19-40-187.md
+2025.06.18 15:19:40 INFO  Created report: Optional[file:///home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/service/CategoryService.scala][0m
+2025.06.18 15:19:40 INFO  empty definition using pc, found symbol in pc:  (full report at: "/home/enkit/Proyectos2025/ucsp/scala/ecom/.metals/.reports/metals-full/2025-06-18/r_empty-definition_(root)_15-19-40-768.md")[0m
+2025.06.18 15:19:40 INFO  compiling root (7 scala sources)[0m
+2025.06.18 15:19:40 INFO  empty definition using pc, found symbol in pc:  (full report at: "/home/enkit/Proyectos2025/ucsp/scala/ecom/.metals/.reports/metals-full/2025-06-18/r_empty-definition_(root)_15-19-40-768.md")[0m
+2025.06.18 15:19:42 INFO  time: compiled root in 1.18s[0m
+2025.06.18 15:21:50 INFO  compiling root (7 scala sources)[0m
+2025.06.18 15:21:51 INFO  time: compiled root in 1.11s[0m
+2025.06.18 15:21:55 INFO  compiling root (7 scala sources)[0m
+2025.06.18 15:21:55 INFO  time: compiled root in 0.87s[0m
+2025.06.18 15:21:57 INFO  compiling root (7 scala sources)[0m
+2025.06.18 15:21:58 INFO  time: compiled root in 1.08s[0m
+2025.06.18 15:22:05 INFO  compiling root (7 scala sources)[0m
+2025.06.18 15:22:05 INFO  time: compiled root in 0.85s[0m
+jun. 18, 2025 3:22:33 P. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint fallbackResponseError
+GRAVE: Internal error: java.lang.IllegalArgumentException: -1 is not a valid offset, allowed [0..443]
+java.util.concurrent.CompletionException: java.lang.IllegalArgumentException: -1 is not a valid offset, allowed [0..443]
+	at java.base/java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:332)
+	at java.base/java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:347)
+	at java.base/java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:708)
+	at java.base/java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:510)
+	at java.base/java.util.concurrent.CompletableFuture.completeExceptionally(CompletableFuture.java:2162)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$future$1(CancelTokens.scala:40)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$future$1$adapted(CancelTokens.scala:38)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:484)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+Caused by: java.lang.IllegalArgumentException: -1 is not a valid offset, allowed [0..443]
+	at scala.meta.internal.inputs.InternalInput.offsetToLine(InternalInput.scala:54)
+	at scala.meta.internal.inputs.InternalInput.offsetToLine$(InternalInput.scala:48)
+	at scala.meta.inputs.Input$VirtualFile.offsetToLine(Input.scala:105)
+	at scala.meta.inputs.Position$Range.startLine$lzycompute(Position.scala:45)
+	at scala.meta.inputs.Position$Range.startLine(Position.scala:45)
+	at scala.meta.internal.mtags.ScalametaCommonEnrichments$XtensionMetaPosition.toLsp(ScalametaCommonEnrichments.scala:80)
+	at scala.meta.internal.parsing.TokenEditDistance$Diff.$anonfun$toRevised$8(TokenEditDistance.scala:311)
+	at scala.Option.flatMap(Option.scala:283)
+	at scala.meta.internal.parsing.TokenEditDistance$Diff.toRevised(TokenEditDistance.scala:242)
+	at scala.meta.internal.parsing.FoldingRangeExtractor.extractFrom(FoldingRangeExtractor.scala:41)
+	at scala.meta.internal.parsing.FoldingRangeExtractor.$anonfun$extractFrom$2(FoldingRangeExtractor.scala:59)
+	at scala.meta.internal.parsing.FoldingRangeExtractor.$anonfun$extractFrom$2$adapted(FoldingRangeExtractor.scala:54)
+	at scala.collection.immutable.List.foreach(List.scala:334)
+	at scala.meta.internal.parsing.FoldingRangeExtractor.extractFrom(FoldingRangeExtractor.scala:54)
+	at scala.meta.internal.parsing.FoldingRangeExtractor.$anonfun$extractFrom$2(FoldingRangeExtractor.scala:59)
+	at scala.meta.internal.parsing.FoldingRangeExtractor.$anonfun$extractFrom$2$adapted(FoldingRangeExtractor.scala:54)
+	at scala.collection.immutable.List.foreach(List.scala:334)
+	at scala.meta.internal.parsing.FoldingRangeExtractor.extractFrom(FoldingRangeExtractor.scala:54)
+	at scala.meta.internal.parsing.FoldingRangeExtractor.$anonfun$extractFrom$2(FoldingRangeExtractor.scala:59)
+	at scala.meta.internal.parsing.FoldingRangeExtractor.$anonfun$extractFrom$2$adapted(FoldingRangeExtractor.scala:54)
+	at scala.collection.immutable.List.foreach(List.scala:334)
+	at scala.meta.internal.parsing.FoldingRangeExtractor.extractFrom(FoldingRangeExtractor.scala:54)
+	at scala.meta.internal.parsing.FoldingRangeExtractor.$anonfun$extractFrom$2(FoldingRangeExtractor.scala:59)
+	at scala.meta.internal.parsing.FoldingRangeExtractor.$anonfun$extractFrom$2$adapted(FoldingRangeExtractor.scala:54)
+	at scala.collection.immutable.List.foreach(List.scala:334)
+	at scala.meta.internal.parsing.FoldingRangeExtractor.extractFrom(FoldingRangeExtractor.scala:54)
+	at scala.meta.internal.parsing.FoldingRangeExtractor.$anonfun$extractFrom$2(FoldingRangeExtractor.scala:59)
+	at scala.meta.internal.parsing.FoldingRangeExtractor.$anonfun$extractFrom$2$adapted(FoldingRangeExtractor.scala:54)
+	at scala.collection.immutable.List.foreach(List.scala:334)
+	at scala.meta.internal.parsing.FoldingRangeExtractor.extractFrom(FoldingRangeExtractor.scala:54)
+	at scala.meta.internal.parsing.FoldingRangeExtractor.$anonfun$extractFrom$2(FoldingRangeExtractor.scala:59)
+	at scala.meta.internal.parsing.FoldingRangeExtractor.$anonfun$extractFrom$2$adapted(FoldingRangeExtractor.scala:54)
+	at scala.collection.immutable.List.foreach(List.scala:334)
+	at scala.meta.internal.parsing.FoldingRangeExtractor.extractFrom(FoldingRangeExtractor.scala:54)
+	at scala.meta.internal.parsing.FoldingRangeExtractor.$anonfun$extractFrom$2(FoldingRangeExtractor.scala:59)
+	at scala.meta.internal.parsing.FoldingRangeExtractor.$anonfun$extractFrom$2$adapted(FoldingRangeExtractor.scala:54)
+	at scala.collection.immutable.List.foreach(List.scala:334)
+	at scala.meta.internal.parsing.FoldingRangeExtractor.extractFrom(FoldingRangeExtractor.scala:54)
+	at scala.meta.internal.parsing.FoldingRangeExtractor.$anonfun$extractFrom$2(FoldingRangeExtractor.scala:59)
+	at scala.meta.internal.parsing.FoldingRangeExtractor.$anonfun$extractFrom$2$adapted(FoldingRangeExtractor.scala:54)
+	at scala.collection.immutable.List.foreach(List.scala:334)
+	at scala.meta.internal.parsing.FoldingRangeExtractor.extractFrom(FoldingRangeExtractor.scala:54)
+	at scala.meta.internal.parsing.FoldingRangeExtractor.$anonfun$extractFrom$2(FoldingRangeExtractor.scala:59)
+	at scala.meta.internal.parsing.FoldingRangeExtractor.$anonfun$extractFrom$2$adapted(FoldingRangeExtractor.scala:54)
+	at scala.collection.immutable.List.foreach(List.scala:334)
+	at scala.meta.internal.parsing.FoldingRangeExtractor.extractFrom(FoldingRangeExtractor.scala:54)
+	at scala.meta.internal.parsing.FoldingRangeExtractor.$anonfun$extractFrom$2(FoldingRangeExtractor.scala:59)
+	at scala.meta.internal.parsing.FoldingRangeExtractor.$anonfun$extractFrom$2$adapted(FoldingRangeExtractor.scala:54)
+	at scala.collection.immutable.List.foreach(List.scala:334)
+	at scala.meta.internal.parsing.FoldingRangeExtractor.extractFrom(FoldingRangeExtractor.scala:54)
+	at scala.meta.internal.parsing.FoldingRangeExtractor.$anonfun$extractFrom$2(FoldingRangeExtractor.scala:59)
+	at scala.meta.internal.parsing.FoldingRangeExtractor.$anonfun$extractFrom$2$adapted(FoldingRangeExtractor.scala:54)
+	at scala.collection.immutable.List.foreach(List.scala:334)
+	at scala.meta.internal.parsing.FoldingRangeExtractor.extractFrom(FoldingRangeExtractor.scala:54)
+	at scala.meta.internal.parsing.FoldingRangeExtractor.$anonfun$extractFrom$2(FoldingRangeExtractor.scala:59)
+	at scala.meta.internal.parsing.FoldingRangeExtractor.$anonfun$extractFrom$2$adapted(FoldingRangeExtractor.scala:54)
+	at scala.collection.immutable.List.foreach(List.scala:334)
+	at scala.meta.internal.parsing.FoldingRangeExtractor.extractFrom(FoldingRangeExtractor.scala:54)
+	at scala.meta.internal.parsing.FoldingRangeExtractor.extract(FoldingRangeExtractor.scala:27)
+	at scala.meta.internal.parsing.FoldingRangeProvider.$anonfun$getRangedForScala$2(FoldingRangeProvider.scala:39)
+	at scala.Option$WithFilter.map(Option.scala:242)
+	at scala.meta.internal.parsing.FoldingRangeProvider.getRangedForScala(FoldingRangeProvider.scala:26)
+	at scala.meta.internal.metals.MetalsLspService.$anonfun$foldingRange$2(MetalsLspService.scala:1205)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	... 3 more
+
+2025.06.18 15:22:46 INFO  Created report: Optional[file:///home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/http/views/CategoryAdminView.scala][0m
+2025.06.18 15:22:46 INFO  empty definition using pc, found symbol in pc:  (full report at: "/home/enkit/Proyectos2025/ucsp/scala/ecom/.metals/.reports/metals-full/2025-06-18/r_empty-definition_(root)_15-22-46-340.md")[0m
+2025.06.18 15:22:46 ERROR scalafmt: /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/http/views/CategoryAdminView.scala:53: error: [dialect scala213] } expected but ) found
+    ).render
+    ^[0m
+2025.06.18 15:22:46 INFO  compiling root (7 scala sources)[0m
+2025.06.18 15:22:46 INFO  time: compiled root in 0.11s[0m
+2025.06.18 15:22:54 INFO  compiling root (7 scala sources)[0m
+2025.06.18 15:22:54 INFO  time: compiled root in 0.5s[0m
+2025.06.18 15:23:26 INFO  Created report: Optional[file:///home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/http/controllers/CategoryAdminController.scala][0m
+2025.06.18 15:23:26 INFO  empty definition using pc, found symbol in pc:  (full report at: "/home/enkit/Proyectos2025/ucsp/scala/ecom/.metals/.reports/metals-full/2025-06-18/r_empty-definition_(root)_15-23-26-769.md")[0m
+2025.06.18 15:23:27 INFO  Created report: Optional[file:///home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/http/controllers/CategoryAdminController.scala][0m
+2025.06.18 15:23:27 INFO  empty definition using pc, found symbol in pc:  (full report at: "/home/enkit/Proyectos2025/ucsp/scala/ecom/.metals/.reports/metals-full/2025-06-18/r_empty-definition_(root)_15-23-27-003.md")[0m
+2025.06.18 15:23:28 INFO  compiling root (7 scala sources)[0m
+2025.06.18 15:23:28 INFO  time: compiled root in 0.48s[0m
+2025.06.18 15:24:08 INFO  Created report: Optional[file:///home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/http/views/CategoryAdminView.scala][0m
+2025.06.18 15:24:08 INFO  empty definition using pc, found symbol in pc:  (full report at: "/home/enkit/Proyectos2025/ucsp/scala/ecom/.metals/.reports/metals-full/2025-06-18/r_empty-definition_(root)_15-24-08-146.md")[0m
+2025.06.18 15:24:08 INFO  compiling root (7 scala sources)[0m
+2025.06.18 15:24:08 INFO  Created report: Optional[file:///home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/http/views/CategoryAdminView.scala][0m
+2025.06.18 15:24:08 INFO  empty definition using pc, found symbol in pc:  (full report at: "/home/enkit/Proyectos2025/ucsp/scala/ecom/.metals/.reports/metals-full/2025-06-18/r_empty-definition_(root)_15-24-08-344.md")[0m
+2025.06.18 15:24:08 INFO  Created report: Optional[file:///home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/http/views/CategoryAdminView.scala][0m
+2025.06.18 15:24:08 INFO  empty definition using pc, found symbol in pc:  (full report at: "/home/enkit/Proyectos2025/ucsp/scala/ecom/.metals/.reports/metals-full/2025-06-18/r_empty-definition_(root)_15-24-08-369.md")[0m
+2025.06.18 15:24:08 INFO  time: compiled root in 0.49s[0m
+2025.06.18 15:26:33 INFO  empty definition using pc, found symbol in pc:  (full report at: "/home/enkit/Proyectos2025/ucsp/scala/ecom/.metals/.reports/metals-full/2025-06-14/r_empty-definition_(root)_23-44-18-845.md")[0m
+2025.06.18 15:26:33 INFO  empty definition using pc, found symbol in pc:  (full report at: "/home/enkit/Proyectos2025/ucsp/scala/ecom/.metals/.reports/metals-full/2025-06-14/r_empty-definition_(root)_23-44-18-845.md")[0m
+2025.06.18 15:26:37 INFO  compiling root (7 scala sources)[0m
+2025.06.18 15:26:37 INFO  time: compiled root in 0.51s[0m
+2025.06.18 15:26:43 INFO  compiling root (7 scala sources)[0m
+2025.06.18 15:26:43 INFO  time: compiled root in 0.5s[0m
+2025.06.18 15:26:51 INFO  compiling root (7 scala sources)[0m
+2025.06.18 15:26:51 INFO  time: compiled root in 0.41s[0m
+jun. 18, 2025 3:27:00 P. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+ADVERTENCIA: Unmatched cancel notification for request id 2757
+2025.06.18 15:27:02 INFO  compiling root (7 scala sources)[0m
+2025.06.18 15:27:02 INFO  time: compiled root in 0.48s[0m
+2025.06.18 15:27:22 INFO  compiling root (7 scala sources)[0m
+2025.06.18 15:27:22 INFO  time: compiled root in 0.38s[0m
+2025.06.18 15:27:35 INFO  compiling root (7 scala sources)[0m
+2025.06.18 15:27:35 INFO  time: compiled root in 0.38s[0m
+2025.06.18 15:28:31 INFO  compiling root (7 scala sources)[0m
+2025.06.18 15:28:31 INFO  time: compiled root in 0.53s[0m
+2025.06.18 15:28:38 INFO  compiling root (7 scala sources)[0m
+2025.06.18 15:28:39 INFO  time: compiled root in 1.6s[0m
+2025.06.18 15:31:32 INFO  empty definition using pc, found symbol in pc:  (full report at: "/home/enkit/Proyectos2025/ucsp/scala/ecom/.metals/.reports/metals-full/2025-06-14/r_empty-definition_(root)_23-40-59-225.md")[0m
+2025.06.18 15:31:32 INFO  empty definition using pc, found symbol in pc:  (full report at: "/home/enkit/Proyectos2025/ucsp/scala/ecom/.metals/.reports/metals-full/2025-06-14/r_empty-definition_(root)_23-40-59-225.md")[0m
+2025.06.18 15:31:41 INFO  compiling root (1 scala source)[0m
+2025.06.18 15:31:41 WARN  Invalid text document uri received from build server: file:///home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/http/Server.scala[0m
+2025.06.18 15:31:41 INFO  time: compiled root in 0.82s[0m
+2025.06.18 15:33:33 INFO  compiling root (1 scala source)[0m
+2025.06.18 15:33:33 WARN  Invalid text document uri received from build server: file:///home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/http/Server.scala[0m
+2025.06.18 15:33:33 INFO  time: compiled root in 0.29s[0m
+2025.06.18 15:33:42 INFO  time: compiled root in 4ms[0m
+2025.06.18 15:35:43 INFO  compiling root (1 scala source)[0m
+2025.06.18 15:35:43 WARN  Invalid text document uri received from build server: file:///home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/http/Server.scala[0m
+2025.06.18 15:35:43 INFO  time: compiled root in 0.45s[0m
+2025.06.18 15:35:49 INFO  compiling root (1 scala source)[0m
+2025.06.18 15:35:49 WARN  Invalid text document uri received from build server: file:///home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/http/Server.scala[0m
+2025.06.18 15:35:49 INFO  time: compiled root in 0.13s[0m
+2025.06.18 15:35:56 INFO  compiling root (1 scala source)[0m
+2025.06.18 15:35:56 WARN  Invalid text document uri received from build server: file:///home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/http/views/HomeController.scala[0m
+2025.06.18 15:35:56 INFO  time: compiled root in 0.13s[0m
+2025.06.18 15:35:56 INFO  compiling root (1 scala source)[0m
+2025.06.18 15:35:56 INFO  time: compiled root in 0.12s[0m
+2025.06.18 15:36:13 INFO  compiling root (2 scala sources)[0m
+2025.06.18 15:36:13 INFO  time: compiled root in 0.12s[0m
+2025.06.18 15:36:15 INFO  compiling root (2 scala sources)[0m
+2025.06.18 15:36:15 INFO  time: compiled root in 0.35s[0m
+2025.06.18 15:36:41 INFO  Created report: Optional.empty[0m
+2025.06.18 15:36:41 INFO  scala.meta.internal.mtags.IndexingExceptions$InvalidSymbolException: . (full report at: "/home/enkit/Proyectos2025/ucsp/scala/ecom/.metals/.reports/metals/2025-06-18/r_invalid-symbol_15-36-41-153.md")[0m
+2025.06.18 15:36:41 ERROR searching for `.` failed
+java.lang.RuntimeException: invalid symbol format
+.
+^
+	at scala.sys.package$.error(package.scala:27)
+	at scala.meta.internal.semanticdb.Scala$DescriptorParser.fail(Scala.scala:162)
+	at scala.meta.internal.semanticdb.Scala$DescriptorParser.readChar(Scala.scala:174)
+	at scala.meta.internal.semanticdb.Scala$DescriptorParser.parseValue(Scala.scala:190)
+	at scala.meta.internal.semanticdb.Scala$DescriptorParser.parseDescriptor(Scala.scala:209)
+	at scala.meta.internal.semanticdb.Scala$DescriptorParser.entryPoint(Scala.scala:230)
+	at scala.meta.internal.semanticdb.Scala$DescriptorParser$.apply(Scala.scala:238)
+	at scala.meta.internal.semanticdb.Scala$ScalaSymbolOps$.owner$extension(Scala.scala:78)
+	at scala.meta.internal.mtags.Symbol.toplevel(Symbol.scala:50)
+	at scala.meta.internal.mtags.SymbolIndexBucket.query0(SymbolIndexBucket.scala:212)
+	at scala.meta.internal.mtags.SymbolIndexBucket.query(SymbolIndexBucket.scala:189)
+	at scala.meta.internal.mtags.OnDemandSymbolIndex.$anonfun$findSymbolDefinition$1(OnDemandSymbolIndex.scala:142)
+	at scala.collection.immutable.List.flatMap(List.scala:294)
+	at scala.meta.internal.mtags.OnDemandSymbolIndex.findSymbolDefinition(OnDemandSymbolIndex.scala:142)
+	at scala.meta.internal.mtags.OnDemandSymbolIndex.definition(OnDemandSymbolIndex.scala:48)
+	at scala.meta.internal.metals.FallbackDefinitionProvider.findInIndex$1(FallbackDefinitionProvider.scala:131)
+	at scala.meta.internal.metals.FallbackDefinitionProvider.$anonfun$search$15(FallbackDefinitionProvider.scala:140)
+	at scala.collection.immutable.List.flatMap(List.scala:294)
+	at scala.meta.internal.metals.FallbackDefinitionProvider.$anonfun$search$3(FallbackDefinitionProvider.scala:140)
+	at scala.Option.map(Option.scala:242)
+	at scala.meta.internal.metals.FallbackDefinitionProvider.$anonfun$search$2(FallbackDefinitionProvider.scala:47)
+	at scala.Option.flatMap(Option.scala:283)
+	at scala.meta.internal.metals.FallbackDefinitionProvider.$anonfun$search$1(FallbackDefinitionProvider.scala:44)
+	at scala.Option.flatMap(Option.scala:283)
+	at scala.meta.internal.metals.FallbackDefinitionProvider.search(FallbackDefinitionProvider.scala:43)
+	at scala.meta.internal.metals.DefinitionProvider.fromFallback$1(DefinitionProvider.scala:126)
+	at scala.meta.internal.metals.DefinitionProvider.$anonfun$definition$13(DefinitionProvider.scala:143)
+	at scala.meta.internal.metals.DefinitionProvider.$anonfun$definition$15(DefinitionProvider.scala:150)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:470)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.lang.Thread.run(Thread.java:840)
+[0m
+2025.06.18 15:36:41 INFO  Created report: Optional.empty[0m
+2025.06.18 15:36:41 INFO  scala.meta.internal.mtags.IndexingExceptions$InvalidSymbolException: # (full report at: "/home/enkit/Proyectos2025/ucsp/scala/ecom/.metals/.reports/metals/2025-06-18/r_invalid-symbol_15-36-41-164.md")[0m
+2025.06.18 15:36:41 ERROR searching for `#` failed
+java.lang.RuntimeException: invalid symbol format
+#
+^
+	at scala.sys.package$.error(package.scala:27)
+	at scala.meta.internal.semanticdb.Scala$DescriptorParser.fail(Scala.scala:162)
+	at scala.meta.internal.semanticdb.Scala$DescriptorParser.readChar(Scala.scala:174)
+	at scala.meta.internal.semanticdb.Scala$DescriptorParser.parseValue(Scala.scala:190)
+	at scala.meta.internal.semanticdb.Scala$DescriptorParser.parseDescriptor(Scala.scala:212)
+	at scala.meta.internal.semanticdb.Scala$DescriptorParser.entryPoint(Scala.scala:230)
+	at scala.meta.internal.semanticdb.Scala$DescriptorParser$.apply(Scala.scala:238)
+	at scala.meta.internal.semanticdb.Scala$ScalaSymbolOps$.owner$extension(Scala.scala:78)
+	at scala.meta.internal.mtags.Symbol.toplevel(Symbol.scala:50)
+	at scala.meta.internal.mtags.SymbolIndexBucket.query0(SymbolIndexBucket.scala:212)
+	at scala.meta.internal.mtags.SymbolIndexBucket.query(SymbolIndexBucket.scala:189)
+	at scala.meta.internal.mtags.OnDemandSymbolIndex.$anonfun$findSymbolDefinition$1(OnDemandSymbolIndex.scala:142)
+	at scala.collection.immutable.List.flatMap(List.scala:294)
+	at scala.meta.internal.mtags.OnDemandSymbolIndex.findSymbolDefinition(OnDemandSymbolIndex.scala:142)
+	at scala.meta.internal.mtags.OnDemandSymbolIndex.definition(OnDemandSymbolIndex.scala:48)
+	at scala.meta.internal.metals.FallbackDefinitionProvider.findInIndex$1(FallbackDefinitionProvider.scala:131)
+	at scala.meta.internal.metals.FallbackDefinitionProvider.$anonfun$search$15(FallbackDefinitionProvider.scala:140)
+	at scala.collection.immutable.List.flatMap(List.scala:294)
+	at scala.meta.internal.metals.FallbackDefinitionProvider.$anonfun$search$3(FallbackDefinitionProvider.scala:140)
+	at scala.Option.map(Option.scala:242)
+	at scala.meta.internal.metals.FallbackDefinitionProvider.$anonfun$search$2(FallbackDefinitionProvider.scala:47)
+	at scala.Option.flatMap(Option.scala:283)
+	at scala.meta.internal.metals.FallbackDefinitionProvider.$anonfun$search$1(FallbackDefinitionProvider.scala:44)
+	at scala.Option.flatMap(Option.scala:283)
+	at scala.meta.internal.metals.FallbackDefinitionProvider.search(FallbackDefinitionProvider.scala:43)
+	at scala.meta.internal.metals.DefinitionProvider.fromFallback$1(DefinitionProvider.scala:126)
+	at scala.meta.internal.metals.DefinitionProvider.$anonfun$definition$13(DefinitionProvider.scala:143)
+	at scala.meta.internal.metals.DefinitionProvider.$anonfun$definition$15(DefinitionProvider.scala:150)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:470)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.lang.Thread.run(Thread.java:840)
+[0m
+2025.06.18 15:36:41 INFO  Created report: Optional.empty[0m
+2025.06.18 15:36:41 INFO  scala.meta.internal.mtags.IndexingExceptions$InvalidSymbolException: (). (full report at: "/home/enkit/Proyectos2025/ucsp/scala/ecom/.metals/.reports/metals/2025-06-18/r_invalid-symbol_15-36-41-165.md")[0m
+2025.06.18 15:36:41 ERROR searching for `().` failed
+java.lang.RuntimeException: invalid symbol format
+().
+^
+	at scala.sys.package$.error(package.scala:27)
+	at scala.meta.internal.semanticdb.Scala$DescriptorParser.fail(Scala.scala:162)
+	at scala.meta.internal.semanticdb.Scala$DescriptorParser.readChar(Scala.scala:174)
+	at scala.meta.internal.semanticdb.Scala$DescriptorParser.parseValue(Scala.scala:190)
+	at scala.meta.internal.semanticdb.Scala$DescriptorParser.parseDescriptor(Scala.scala:207)
+	at scala.meta.internal.semanticdb.Scala$DescriptorParser.entryPoint(Scala.scala:230)
+	at scala.meta.internal.semanticdb.Scala$DescriptorParser$.apply(Scala.scala:238)
+	at scala.meta.internal.semanticdb.Scala$ScalaSymbolOps$.owner$extension(Scala.scala:78)
+	at scala.meta.internal.mtags.Symbol.toplevel(Symbol.scala:50)
+	at scala.meta.internal.mtags.SymbolIndexBucket.query0(SymbolIndexBucket.scala:212)
+	at scala.meta.internal.mtags.SymbolIndexBucket.query(SymbolIndexBucket.scala:189)
+	at scala.meta.internal.mtags.OnDemandSymbolIndex.$anonfun$findSymbolDefinition$1(OnDemandSymbolIndex.scala:142)
+	at scala.collection.immutable.List.flatMap(List.scala:294)
+	at scala.meta.internal.mtags.OnDemandSymbolIndex.findSymbolDefinition(OnDemandSymbolIndex.scala:142)
+	at scala.meta.internal.mtags.OnDemandSymbolIndex.definition(OnDemandSymbolIndex.scala:48)
+	at scala.meta.internal.metals.FallbackDefinitionProvider.findInIndex$1(FallbackDefinitionProvider.scala:131)
+	at scala.meta.internal.metals.FallbackDefinitionProvider.$anonfun$search$15(FallbackDefinitionProvider.scala:140)
+	at scala.collection.immutable.List.flatMap(List.scala:294)
+	at scala.meta.internal.metals.FallbackDefinitionProvider.$anonfun$search$3(FallbackDefinitionProvider.scala:140)
+	at scala.Option.map(Option.scala:242)
+	at scala.meta.internal.metals.FallbackDefinitionProvider.$anonfun$search$2(FallbackDefinitionProvider.scala:47)
+	at scala.Option.flatMap(Option.scala:283)
+	at scala.meta.internal.metals.FallbackDefinitionProvider.$anonfun$search$1(FallbackDefinitionProvider.scala:44)
+	at scala.Option.flatMap(Option.scala:283)
+	at scala.meta.internal.metals.FallbackDefinitionProvider.search(FallbackDefinitionProvider.scala:43)
+	at scala.meta.internal.metals.DefinitionProvider.fromFallback$1(DefinitionProvider.scala:126)
+	at scala.meta.internal.metals.DefinitionProvider.$anonfun$definition$13(DefinitionProvider.scala:143)
+	at scala.meta.internal.metals.DefinitionProvider.$anonfun$definition$15(DefinitionProvider.scala:150)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:470)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.lang.Thread.run(Thread.java:840)
+[0m
+2025.06.18 15:36:41 INFO  Created report: Optional[file:///home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/http/server/Server.scala][0m
+2025.06.18 15:36:41 INFO  empty definition using pc, found symbol in pc:  (full report at: "/home/enkit/Proyectos2025/ucsp/scala/ecom/.metals/.reports/metals-full/2025-06-18/r_empty-definition_(root)_15-36-41-185.md")[0m
+2025.06.18 15:36:41 WARN  Could not find 'withContentType' using presentation compiler nor semanticdb. Trying to guess the definition using available information from local class context. [0m
+2025.06.18 15:36:41 INFO  Created report: Optional[file:///home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/http/server/Server.scala][0m
+2025.06.18 15:36:41 INFO  empty definition using pc, found symbol in pc:  (full report at: "/home/enkit/Proyectos2025/ucsp/scala/ecom/.metals/.reports/metals-full/2025-06-18/r_empty-definition_(root)_15-36-41-186.md")[0m
+2025.06.18 15:36:41 INFO  compiling root (3 scala sources)[0m
+2025.06.18 15:36:41 INFO  time: compiled root in 0.41s[0m
+2025.06.18 15:36:46 INFO  compiling root (3 scala sources)[0m
+2025.06.18 15:36:46 INFO  time: compiled root in 0.24s[0m
+2025.06.18 15:37:04 INFO  Created report: Optional[file:///home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/http/controllers/CategoryAdminController.scala][0m
+2025.06.18 15:37:04 INFO  empty definition using pc, found symbol in pc:  (full report at: "/home/enkit/Proyectos2025/ucsp/scala/ecom/.metals/.reports/metals-full/2025-06-18/r_empty-definition_(root)_15-37-04-881.md")[0m
+2025.06.18 15:37:04 INFO  Created report: Optional[file:///home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/http/controllers/CategoryAdminController.scala][0m
+2025.06.18 15:37:04 INFO  empty definition using pc, found symbol in pc:  (full report at: "/home/enkit/Proyectos2025/ucsp/scala/ecom/.metals/.reports/metals-full/2025-06-18/r_empty-definition_(root)_15-37-04-906.md")[0m
+2025.06.18 15:37:25 INFO  compiling root (3 scala sources)[0m
+2025.06.18 15:37:25 INFO  time: compiled root in 0.34s[0m
+2025.06.18 15:37:32 INFO  compiling root (3 scala sources)[0m
+2025.06.18 15:37:32 INFO  time: compiled root in 0.28s[0m
+2025.06.18 15:37:39 INFO  compiling root (3 scala sources)[0m
+2025.06.18 15:37:39 INFO  time: compiled root in 0.26s[0m
+2025.06.18 15:37:41 INFO  compiling root (3 scala sources)[0m
+2025.06.18 15:37:41 INFO  time: compiled root in 0.27s[0m
+2025.06.18 15:37:44 INFO  compiling root (3 scala sources)[0m
+2025.06.18 15:37:44 INFO  time: compiled root in 0.85s[0m
+jun. 18, 2025 3:46:51 P. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+ADVERTENCIA: Unmatched cancel notification for request id 3901
+jun. 18, 2025 3:46:51 P. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+ADVERTENCIA: Unmatched cancel notification for request id 3903
+2025.06.18 15:47:10 INFO  compiling root (1 scala source)[0m
+2025.06.18 15:47:11 WARN  Invalid text document uri received from build server: file:///home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/http/Server.scala[0m
+2025.06.18 15:47:11 WARN  Invalid text document uri received from build server: file:///home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/http/views/HomeController.scala[0m
+2025.06.18 15:47:11 INFO  time: compiled root in 1.32s[0m
+2025.06.18 15:50:35 INFO  compiling root (1 scala source)[0m
+2025.06.18 15:50:35 WARN  Could not load snapshot text for /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/http/controllers/CategoryAdminController.scala[0m
+2025.06.18 15:50:35 WARN  Invalid text document uri received from build server: file:///home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/http/Server.scala[0m
+2025.06.18 15:50:35 WARN  Invalid text document uri received from build server: file:///home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/http/views/HomeController.scala[0m
+2025.06.18 15:50:35 INFO  time: compiled root in 0.23s[0m
+2025.06.18 15:50:36 WARN  Could not load snapshot text for /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/http/controllers/CategoryAdminController.scala[0m
+2025.06.18 15:51:37 WARN  Could not load snapshot text for /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/http/controllers/CategoryAdminController.scala[0m
+2025.06.18 15:51:39 WARN  Could not load snapshot text for /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/http/controllers/CategoryAdminController.scala[0m
+2025.06.18 15:51:40 WARN  Could not load snapshot text for /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/http/controllers/CategoryAdminController.scala[0m
+2025.06.18 15:51:41 WARN  Could not load snapshot text for /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/http/controllers/CategoryAdminController.scala[0m
+2025.06.18 15:51:41 WARN  Could not load snapshot text for /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/http/controllers/CategoryAdminController.scala[0m
+2025.06.18 15:51:41 WARN  Could not load snapshot text for /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/http/controllers/CategoryAdminController.scala[0m
+2025.06.18 15:51:41 WARN  Could not load snapshot text for /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/http/controllers/CategoryAdminController.scala[0m
+2025.06.18 15:51:41 WARN  Could not load snapshot text for /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/http/controllers/CategoryAdminController.scala[0m
+2025.06.18 15:51:41 WARN  Could not load snapshot text for /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/http/controllers/CategoryAdminController.scala[0m
+2025.06.18 15:51:41 WARN  Could not load snapshot text for /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/http/controllers/CategoryAdminController.scala[0m
+2025.06.18 15:51:41 INFO  empty definition using pc, found symbol in pc:  (full report at: "/home/enkit/Proyectos2025/ucsp/scala/ecom/.metals/.reports/metals-full/2025-06-18/r_empty-definition_(root)_15-37-04-881.md")[0m
+2025.06.18 15:51:41 ERROR scalafmt: /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/http/controllers/CategoryAdminController.scala:70: error: [dialect scala213] ; expected but yield found
+      } yield res
+        ^[0m
+2025.06.18 15:51:41 INFO  compiling root (1 scala source)[0m
+2025.06.18 15:51:41 INFO  time: compiled root in 0.11s[0m
+2025.06.18 15:51:41 WARN  Could not load snapshot text for /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/http/controllers/CategoryAdminController.scala[0m
+2025.06.18 15:51:45 WARN  Could not load snapshot text for /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/http/controllers/CategoryAdminController.scala[0m
+2025.06.18 15:51:46 INFO  compiling root (1 scala source)[0m
+2025.06.18 15:51:46 INFO  time: compiled root in 0.19s[0m
+2025.06.18 15:51:46 WARN  Could not load snapshot text for /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/http/controllers/CategoryAdminController.scala[0m
+2025.06.18 15:51:55 WARN  Could not load snapshot text for /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/http/controllers/CategoryAdminController.scala[0m
+2025.06.18 15:52:02 WARN  Could not load snapshot text for /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/http/controllers/CategoryAdminController.scala[0m
+jun. 18, 2025 3:52:02 P. M. scala.meta.internal.pc.CompilerAccess retryWithCleanCompiler
+INFORMACIÓN: compiler crashed due to an error in the Scala compiler, retrying with new compiler instance.
+jun. 18, 2025 3:52:02 P. M. scala.meta.internal.pc.CompilerAccess handleError
+GRAVE: A severe compiler error occurred, full details of the error can be found in the error report /home/enkit/Proyectos2025/ucsp/scala/ecom/.metals/.reports/metals-full/2025-06-18/r_compiler-error_(root)_15-52-02-977.md
+2025.06.18 15:52:03 INFO  compiling root (1 scala source)[0m
+2025.06.18 15:52:03 INFO  time: compiled root in 0.17s[0m
+2025.06.18 15:52:03 WARN  Could not load snapshot text for /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/http/controllers/CategoryAdminController.scala[0m
+2025.06.18 15:52:03 WARN  Could not load snapshot text for /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/http/controllers/CategoryAdminController.scala[0m
+2025.06.18 15:52:09 WARN  Could not load snapshot text for /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/http/controllers/CategoryAdminController.scala[0m
+2025.06.18 15:52:09 WARN  Could not load snapshot text for /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/http/controllers/CategoryAdminController.scala[0m
+2025.06.18 15:52:11 INFO  compiling root (1 scala source)[0m
+2025.06.18 15:52:11 INFO  time: compiled root in 0.15s[0m
+2025.06.18 15:52:11 WARN  Could not load snapshot text for /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/http/controllers/CategoryAdminController.scala[0m
+2025.06.18 15:52:12 WARN  Could not load snapshot text for /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/http/controllers/CategoryAdminController.scala[0m
+2025.06.18 15:52:13 WARN  Could not load snapshot text for /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/http/controllers/CategoryAdminController.scala[0m
+2025.06.18 15:52:14 INFO  compiling root (1 scala source)[0m
+2025.06.18 15:52:14 INFO  time: compiled root in 0.22s[0m
+2025.06.18 15:52:15 WARN  Could not load snapshot text for /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/http/controllers/CategoryAdminController.scala[0m
+2025.06.18 15:52:17 WARN  Could not load snapshot text for /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/http/controllers/CategoryAdminController.scala[0m
+2025.06.18 15:52:18 WARN  Could not load snapshot text for /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/http/controllers/CategoryAdminController.scala[0m
+2025.06.18 15:52:18 INFO  compiling root (1 scala source)[0m
+2025.06.18 15:52:18 INFO  time: compiled root in 0.15s[0m
+2025.06.18 15:52:19 WARN  Could not load snapshot text for /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/http/controllers/CategoryAdminController.scala[0m
+2025.06.18 15:52:26 WARN  Could not load snapshot text for /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/http/controllers/CategoryAdminController.scala[0m
+2025.06.18 15:52:41 WARN  Could not load snapshot text for /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/http/controllers/CategoryAdminController.scala[0m
+2025.06.18 15:53:03 WARN  Could not load snapshot text for /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/http/controllers/CategoryAdminController.scala[0m
+2025.06.18 15:53:10 WARN  Could not load snapshot text for /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/http/controllers/CategoryAdminController.scala[0m
+2025.06.18 15:53:27 WARN  Could not load snapshot text for /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/http/controllers/CategoryAdminController.scala[0m
+2025.06.18 15:53:34 WARN  Could not load snapshot text for /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/http/controllers/CategoryAdminController.scala[0m
+2025.06.18 15:54:19 WARN  Could not load snapshot text for /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/http/controllers/CategoryAdminController.scala[0m
+2025.06.18 15:54:22 WARN  Could not load snapshot text for /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/http/controllers/CategoryAdminController.scala[0m
+2025.06.18 15:54:23 INFO  compiling root (1 scala source)[0m
+2025.06.18 15:54:24 INFO  time: compiled root in 1.31s[0m

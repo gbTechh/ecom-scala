@@ -8,6 +8,7 @@ import model.Category
 import model.Category._ // Importa las instancias implícitas
 
 trait CategoryRepository {
+  def findAll(): IO[List[Category]]
   def findById(id: Int): IO[Option[Category]]
   def findBySlug(slug: String): IO[Option[Category]]
   def create(category: Category): IO[Unit]
@@ -17,6 +18,13 @@ trait CategoryRepository {
 
 object CategoryRepository {
   def apply(xa: Transactor[IO]): CategoryRepository = new CategoryRepository {
+
+    def findAll(): IO[List[Category]] =
+      sql"""
+        SELECT id, name, slug, description, status, created_at, updated_at, deleted_at
+        FROM categories
+        WHERE deleted_at IS NULL
+      """.query[Category].to[List].transact(xa)
 
     def findById(id: Int): IO[Option[Category]] = {
       sql"""
