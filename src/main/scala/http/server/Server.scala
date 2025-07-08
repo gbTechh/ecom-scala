@@ -12,6 +12,8 @@ import service._
 import http.controllers._
 import org.http4s.MediaType
 import database._
+import http.controllers.admin.OrderAdminController
+import http.controllers.admin.AdminController
 
 object Server {
   def stream: IO[Unit] = {
@@ -30,7 +32,7 @@ object Server {
         val orderService = OrderService(orderRepo, orderItemRepo)
 
         // Controladores Admin
-        val categoryAdminCtrl = new CategoryAdminController(catService)
+        val categoryAdminCtrl = new admin.CategoryAdminController(catService)
         val productAdminCtrl =
           new ProductAdminController(productService, catService)
         val orderAdminCtrl = new OrderAdminController(orderService)
@@ -40,12 +42,15 @@ object Server {
         val productCtrl = new ProductController(productService)
         val homeCtrl = new HomeController()
 
+        val adminCtrl = new AdminController()
+
         // Configuración de rutas
         val routes: HttpRoutes[IO] = Router(
           "/" -> homeCtrl.routes,
           "/categories" -> categoryCtrl.routes,
           "/products" -> productCtrl.routes,
           "/admin" -> Router(
+            "" -> adminCtrl.routes, // Nueva ruta para el dashboard
             "/categories" -> categoryAdminCtrl.routes,
             "/products" -> productAdminCtrl.routes,
             "/orders" -> orderAdminCtrl.routes

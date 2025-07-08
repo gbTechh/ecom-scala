@@ -4282,3 +4282,549 @@ java.nio.file.FileAlreadyExistsException: The file /home/enkit/Proyectos2025/ucs
 2025.07.07 20:54:01 INFO  time: compiled root in 0.79s[0m
 2025.07.07 20:54:13 INFO  compiling root (11 scala sources)[0m
 2025.07.07 20:54:13 INFO  time: compiled root in 0.82s[0m
+2025.07.07 20:58:13 INFO  compiling root (11 scala sources)[0m
+2025.07.07 20:58:14 INFO  time: compiled root in 1.08s[0m
+2025.07.07 21:01:08 INFO  compiling root (12 scala sources)[0m
+2025.07.07 21:01:10 INFO  time: compiled root in 1.31s[0m
+2025.07.07 21:01:11 WARN  Could not find 'OrderStatus' using presentation compiler nor semanticdb. Trying to guess the definition using available information from local class context. [0m
+2025.07.07 21:01:11 INFO  empty definition using pc, found symbol in pc:  (full report at: "/home/enkit/Proyectos2025/ucsp/scala/ecom/.metals/.reports/metals-full/2025-07-07/r_empty-definition_(root)_16-56-36-601.md")[0m
+2025.07.07 21:01:12 INFO  compiling root (11 scala sources)[0m
+2025.07.07 21:01:12 INFO  time: compiled root in 0.96s[0m
+2025.07.07 21:01:34 INFO  compiling root (11 scala sources)[0m
+2025.07.07 21:01:34 INFO  time: compiled root in 0.85s[0m
+2025.07.07 21:01:49 INFO  compiling root (12 scala sources)[0m
+2025.07.07 21:01:49 INFO  time: compiled root in 0.81s[0m
+2025.07.07 21:02:02 ERROR scalafmt: /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/http/views/admin/OrderAdminView.scala:7: error: [dialect scala213] identifier expected but import found
+import java.sql.Timestamp
+^[0m
+2025.07.07 21:02:02 INFO  compiling root (12 scala sources)[0m
+2025.07.07 21:02:02 INFO  time: compiled root in 88ms[0m
+2025.07.07 21:02:10 INFO  empty definition using pc, found symbol in pc:  (full report at: "/home/enkit/Proyectos2025/ucsp/scala/ecom/.metals/.reports/metals-full/2025-07-07/r_empty-definition_(root)_16-56-36-601.md")[0m
+2025.07.07 21:02:10 INFO  empty definition using pc, found symbol in pc:  (full report at: "/home/enkit/Proyectos2025/ucsp/scala/ecom/.metals/.reports/metals-full/2025-07-07/r_empty-definition_(root)_16-56-36-601.md")[0m
+2025.07.07 21:02:12 INFO  Created report: Optional[file:///home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/http/views/admin/OrderAdminView.scala][0m
+2025.07.07 21:02:12 INFO  empty definition using pc, found symbol in pc:  (full report at: "/home/enkit/Proyectos2025/ucsp/scala/ecom/.metals/.reports/metals-full/2025-07-07/r_empty-definition_(root)_21-02-12-902.md")[0m
+2025.07.07 21:02:12 INFO  Created report: Optional[file:///home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/http/views/admin/OrderAdminView.scala][0m
+2025.07.07 21:02:12 INFO  empty definition using pc, found symbol in pc:  (full report at: "/home/enkit/Proyectos2025/ucsp/scala/ecom/.metals/.reports/metals-full/2025-07-07/r_empty-definition_(root)_21-02-13-018.md")[0m
+2025.07.07 21:02:13 INFO  Created report: Optional[file:///home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/http/views/admin/OrderAdminView.scala][0m
+2025.07.07 21:02:13 INFO  empty definition using pc, found symbol in pc:  (full report at: "/home/enkit/Proyectos2025/ucsp/scala/ecom/.metals/.reports/metals-full/2025-07-07/r_empty-definition_(root)_21-02-13-027.md")[0m
+2025.07.07 21:02:13 INFO  Created report: Optional[file:///home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/http/views/admin/OrderAdminView.scala][0m
+2025.07.07 21:02:13 INFO  empty definition using pc, found symbol in pc:  (full report at: "/home/enkit/Proyectos2025/ucsp/scala/ecom/.metals/.reports/metals-full/2025-07-07/r_empty-definition_(root)_21-02-13-508.md")[0m
+2025.07.07 21:02:13 INFO  Created report: Optional[file:///home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/http/views/admin/OrderAdminView.scala][0m
+2025.07.07 21:02:13 INFO  empty definition using pc, found symbol in pc:  (full report at: "/home/enkit/Proyectos2025/ucsp/scala/ecom/.metals/.reports/metals-full/2025-07-07/r_empty-definition_(root)_21-02-14-225.md")[0m
+2025.07.07 21:02:14 INFO  Created report: Optional[file:///home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/http/views/admin/OrderAdminView.scala][0m
+2025.07.07 21:02:14 INFO  empty definition using pc, found symbol in pc:  (full report at: "/home/enkit/Proyectos2025/ucsp/scala/ecom/.metals/.reports/metals-full/2025-07-07/r_empty-definition_(root)_21-02-14-573.md")[0m
+2025.07.07 21:02:15 INFO  Created report: Optional[file:///home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/http/views/admin/OrderAdminView.scala][0m
+2025.07.07 21:02:15 INFO  empty definition using pc, found symbol in pc:  (full report at: "/home/enkit/Proyectos2025/ucsp/scala/ecom/.metals/.reports/metals-full/2025-07-07/r_empty-definition_(root)_21-02-15-364.md")[0m
+2025.07.07 21:02:15 INFO  Created report: Optional[file:///home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/http/views/admin/OrderAdminView.scala][0m
+2025.07.07 21:02:15 INFO  empty definition using pc, found symbol in pc:  (full report at: "/home/enkit/Proyectos2025/ucsp/scala/ecom/.metals/.reports/metals-full/2025-07-07/r_empty-definition_(root)_21-02-15-988.md")[0m
+2025.07.07 21:02:20 INFO  compiling root (12 scala sources)[0m
+2025.07.07 21:02:20 INFO  time: compiled root in 0.93s[0m
+2025.07.07 21:02:23 INFO  compiling root (12 scala sources)[0m
+2025.07.07 21:02:23 INFO  time: compiled root in 0.91s[0m
+2025.07.07 21:02:24 INFO  Created report: Optional[file:///home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/http/views/admin/OrderAdminView.scala][0m
+2025.07.07 21:02:24 INFO  empty definition using pc, found symbol in pc:  (full report at: "/home/enkit/Proyectos2025/ucsp/scala/ecom/.metals/.reports/metals-full/2025-07-07/r_empty-definition_(root)_21-02-24-907.md")[0m
+2025.07.07 21:02:26 INFO  Created report: Optional[file:///home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/http/views/admin/OrderAdminView.scala][0m
+2025.07.07 21:02:26 INFO  empty definition using pc, found symbol in pc:  (full report at: "/home/enkit/Proyectos2025/ucsp/scala/ecom/.metals/.reports/metals-full/2025-07-07/r_empty-definition_(root)_21-02-26-020.md")[0m
+2025.07.07 21:02:29 INFO  compiling root (12 scala sources)[0m
+2025.07.07 21:02:29 INFO  time: compiled root in 0.78s[0m
+2025.07.07 21:02:54 INFO  compiling root (12 scala sources)[0m
+2025.07.07 21:02:54 INFO  empty definition using pc, found symbol in pc:  (full report at: "/home/enkit/Proyectos2025/ucsp/scala/ecom/.metals/.reports/metals-full/2025-06-18/r_empty-definition_(root)_15-36-41-186.md")[0m
+2025.07.07 21:02:54 INFO  time: compiled root in 0.89s[0m
+2025.07.07 21:06:30 INFO  compiling root (13 scala sources)[0m
+2025.07.07 21:06:31 INFO  time: compiled root in 1.05s[0m
+2025.07.07 21:06:53 INFO  compiling root (14 scala sources)[0m
+2025.07.07 21:06:53 INFO  time: compiled root in 0.9s[0m
+2025.07.07 21:06:55 INFO  compiling root (14 scala sources)[0m
+2025.07.07 21:06:56 INFO  time: compiled root in 1.1s[0m
+2025.07.07 21:07:16 INFO  Created report: Optional[file:///home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/http/views/HomeView.scala][0m
+2025.07.07 21:07:16 INFO  empty definition using pc, found symbol in pc:  (full report at: "/home/enkit/Proyectos2025/ucsp/scala/ecom/.metals/.reports/metals-full/2025-07-07/r_empty-definition_(root)_21-07-16-681.md")[0m
+2025.07.07 21:07:16 INFO  compiling root (15 scala sources)[0m
+2025.07.07 21:07:18 INFO  time: compiled root in 1.15s[0m
+2025.07.07 21:07:29 INFO  compiling root (15 scala sources)[0m
+2025.07.07 21:07:29 INFO  time: compiled root in 0.93s[0m
+2025.07.07 21:07:33 INFO  compiling root (15 scala sources)[0m
+2025.07.07 21:07:33 INFO  time: compiled root in 0.96s[0m
+2025.07.07 21:07:48 INFO  compiling root (16 scala sources)[0m
+2025.07.07 21:07:50 ERROR scalafmt: /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/http/views/ProductView.scala:88: error: [dialect scala213] ) expected but end of file found
+  def listByCategory(products: L
+                                ^[0m
+2025.07.07 21:07:50 INFO  time: compiled root in 2.22s[0m
+2025.07.07 21:07:50 INFO  compiling root (16 scala sources)[0m
+2025.07.07 21:07:50 INFO  time: compiled root in 66ms[0m
+2025.07.07 21:07:51 INFO  Created report: Optional[file:///home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/http/views/ProductView.scala][0m
+2025.07.07 21:07:51 INFO  empty definition using pc, found symbol in pc: scala/Any#toString(). (full report at: "/home/enkit/Proyectos2025/ucsp/scala/ecom/.metals/.reports/metals-full/2025-07-07/r_empty-definition_(root)_21-07-51-454.md")[0m
+2025.07.07 21:07:57 INFO  empty definition using pc, found symbol in pc: scala/Any#toString(). (full report at: "/home/enkit/Proyectos2025/ucsp/scala/ecom/.metals/.reports/metals-full/2025-07-07/r_empty-definition_(root)_21-07-51-454.md")[0m
+2025.07.07 21:07:57 INFO  compiling root (16 scala sources)[0m
+2025.07.07 21:08:02 INFO  time: compiled root in 4.69s[0m
+2025.07.07 21:08:23 INFO  Created report: Optional[file:///home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/service/ProductService.scala][0m
+2025.07.07 21:08:23 INFO  empty definition using pc, found symbol in pc:  (full report at: "/home/enkit/Proyectos2025/ucsp/scala/ecom/.metals/.reports/metals-full/2025-07-07/r_empty-definition_(root)_21-08-23-257.md")[0m
+2025.07.07 21:08:30 INFO  compiling root (16 scala sources)[0m
+2025.07.07 21:08:33 INFO  time: compiled root in 3.32s[0m
+2025.07.07 21:08:37 INFO  Created report: Optional[file:///home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/service/ProductService.scala][0m
+2025.07.07 21:08:37 INFO  empty definition using pc, found symbol in pc:  (full report at: "/home/enkit/Proyectos2025/ucsp/scala/ecom/.metals/.reports/metals-full/2025-07-07/r_empty-definition_(root)_21-08-37-745.md")[0m
+2025.07.07 21:08:54 INFO  compiling root (16 scala sources)[0m
+2025.07.07 21:08:57 INFO  time: compiled root in 2.66s[0m
+2025.07.07 21:12:05 INFO  empty definition using pc, found symbol in pc:  (full report at: "/home/enkit/Proyectos2025/ucsp/scala/ecom/.metals/.reports/metals-full/2025-07-07/r_empty-definition_(root)_20-08-20-445.md")[0m
+2025.07.07 21:12:05 INFO  empty definition using pc, found symbol in pc:  (full report at: "/home/enkit/Proyectos2025/ucsp/scala/ecom/.metals/.reports/metals-full/2025-07-07/r_empty-definition_(root)_20-08-20-445.md")[0m
+2025.07.07 21:12:05 INFO  empty definition using pc, found symbol in pc:  (full report at: "/home/enkit/Proyectos2025/ucsp/scala/ecom/.metals/.reports/metals-full/2025-07-07/r_empty-definition_(root)_20-08-20-445.md")[0m
+2025.07.07 21:12:06 INFO  compiling root (16 scala sources)[0m
+2025.07.07 21:12:10 INFO  time: compiled root in 3.37s[0m
+2025.07.07 21:12:10 INFO  compiling root (16 scala sources)[0m
+2025.07.07 21:12:12 INFO  time: compiled root in 2.81s[0m
+2025.07.07 21:12:13 WARN  Could not find 'String' using presentation compiler nor semanticdb. Trying to guess the definition using available information from local class context. [0m
+2025.07.07 21:12:13 INFO  empty definition using pc, found symbol in pc:  (full report at: "/home/enkit/Proyectos2025/ucsp/scala/ecom/.metals/.reports/metals-full/2025-07-07/r_empty-definition_(root)_20-08-20-445.md")[0m
+2025.07.07 21:12:25 INFO  compiling root (16 scala sources)[0m
+2025.07.07 21:12:27 INFO  time: compiled root in 2.62s[0m
+2025.07.07 21:12:38 INFO  compiling root (16 scala sources)[0m
+2025.07.07 21:12:41 INFO  time: compiled root in 2.54s[0m
+2025.07.07 21:12:43 INFO  Created report: Optional[file:///home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/service/ProductService.scala][0m
+2025.07.07 21:12:43 INFO  empty definition using pc, found symbol in pc:  (full report at: "/home/enkit/Proyectos2025/ucsp/scala/ecom/.metals/.reports/metals-full/2025-07-07/r_empty-definition_(root)_21-12-43-088.md")[0m
+2025.07.07 21:12:43 INFO  Created report: Optional[file:///home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/service/ProductService.scala][0m
+2025.07.07 21:12:43 INFO  empty definition using pc, found symbol in pc:  (full report at: "/home/enkit/Proyectos2025/ucsp/scala/ecom/.metals/.reports/metals-full/2025-07-07/r_empty-definition_(root)_21-12-43-176.md")[0m
+2025.07.07 21:12:48 INFO  Created report: Optional[file:///home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/service/ProductService.scala][0m
+2025.07.07 21:12:48 INFO  empty definition using pc, found symbol in pc:  (full report at: "/home/enkit/Proyectos2025/ucsp/scala/ecom/.metals/.reports/metals-full/2025-07-07/r_empty-definition_(root)_21-12-48-211.md")[0m
+Exception in thread "pool-7-thread-5" java.lang.InterruptedException
+	at scala.meta.internal.metals.FutureCancelToken.checkCanceled(FutureCancelToken.scala:29)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$onCompilerJobQueue$1(CompilerAccess.scala:243)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:152)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+2025.07.07 21:12:50 INFO  compiling root (16 scala sources)[0m
+2025.07.07 21:12:52 INFO  time: compiled root in 2.51s[0m
+2025.07.07 21:13:01 INFO  compiling root (16 scala sources)[0m
+2025.07.07 21:13:04 INFO  time: compiled root in 2.58s[0m
+2025.07.07 21:13:04 INFO  compiling root (16 scala sources)[0m
+2025.07.07 21:13:08 INFO  time: compiled root in 4.38s[0m
+2025.07.07 21:14:16 INFO  compiling root (16 scala sources)[0m
+2025.07.07 21:14:20 INFO  time: compiled root in 3.3s[0m
+2025.07.07 21:14:20 INFO  compiling root (16 scala sources)[0m
+2025.07.07 21:14:23 INFO  time: compiled root in 2.53s[0m
+2025.07.07 21:14:23 INFO  Created report: Optional[file:///home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/http/views/HomeView.scala][0m
+2025.07.07 21:14:23 INFO  empty definition using pc, found symbol in pc:  (full report at: "/home/enkit/Proyectos2025/ucsp/scala/ecom/.metals/.reports/metals-full/2025-07-07/r_empty-definition_(root)_21-14-23-835.md")[0m
+2025.07.07 21:14:36 INFO  compiling root (16 scala sources)[0m
+2025.07.07 21:14:41 INFO  time: compiled root in 4.41s[0m
+2025.07.07 21:17:13 INFO  compiling root (1 scala source)[0m
+2025.07.07 21:17:13 WARN  Invalid text document uri received from build server: file:///home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/http/Server.scala[0m
+2025.07.07 21:17:13 WARN  Invalid text document uri received from build server: file:///home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/http/views/HomeController.scala[0m
+2025.07.07 21:17:13 INFO  time: compiled root in 0.21s[0m
+2025.07.07 21:17:41 INFO  Created report: Optional[file:///home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/http/views/CategoryView.scala][0m
+2025.07.07 21:17:41 INFO  empty definition using pc, found symbol in pc:  (full report at: "/home/enkit/Proyectos2025/ucsp/scala/ecom/.metals/.reports/metals-full/2025-07-07/r_empty-definition_(root)_21-17-41-873.md")[0m
+2025.07.07 21:17:42 INFO  compiling root (2 scala sources)[0m
+2025.07.07 21:17:42 INFO  time: compiled root in 0.27s[0m
+2025.07.07 21:19:15 INFO  compiling root (2 scala sources)[0m
+2025.07.07 21:19:15 INFO  time: compiled root in 0.52s[0m
+2025.07.07 21:19:17 INFO  time: code lens generation in 1.14s[0m
+2025.07.07 21:19:35 INFO  Created report: Optional[file:///home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/service/CategoryService.scala][0m
+2025.07.07 21:19:35 INFO  empty definition using pc, found symbol in pc:  (full report at: "/home/enkit/Proyectos2025/ucsp/scala/ecom/.metals/.reports/metals-full/2025-07-07/r_empty-definition_(root)_21-19-35-732.md")[0m
+2025.07.07 21:19:55 INFO  Created report: Optional[file:///home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/service/ProductService.scala][0m
+2025.07.07 21:19:55 INFO  empty definition using pc, found symbol in pc:  (full report at: "/home/enkit/Proyectos2025/ucsp/scala/ecom/.metals/.reports/metals-full/2025-07-07/r_empty-definition_(root)_21-19-55-942.md")[0m
+2025.07.07 21:20:03 INFO  compiling root (3 scala sources)[0m
+2025.07.07 21:20:04 INFO  time: compiled root in 1.62s[0m
+2025.07.07 21:20:04 INFO  compiling root (3 scala sources)[0m
+2025.07.07 21:20:04 INFO  time: compiled root in 0.6s[0m
+2025.07.07 21:20:12 INFO  compiling root (3 scala sources)[0m
+2025.07.07 21:20:14 INFO  time: compiled root in 1.99s[0m
+2025.07.07 21:20:14 INFO  compiling root (1 scala source)[0m
+2025.07.07 21:20:14 INFO  time: compiled root in 0.64s[0m
+2025.07.07 21:26:21 INFO  compiling root (2 scala sources)[0m
+2025.07.07 21:26:21 WARN  Invalid text document uri received from build server: file:///home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/http/Server.scala[0m
+2025.07.07 21:26:21 WARN  Invalid text document uri received from build server: file:///home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/http/views/HomeController.scala[0m
+2025.07.07 21:26:23 INFO  time: compiled root in 1.05s[0m
+2025.07.07 21:29:48 INFO  compiling root (1 scala source)[0m
+2025.07.07 21:29:50 WARN  Invalid text document uri received from build server: file:///home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/http/Server.scala[0m
+2025.07.07 21:29:50 WARN  Invalid text document uri received from build server: file:///home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/http/views/HomeController.scala[0m
+2025.07.07 21:29:50 INFO  time: compiled root in 1.86s[0m
+2025.07.07 21:32:10 INFO  compiling root (2 scala sources)[0m
+2025.07.07 21:32:10 INFO  time: compiled root in 0.84s[0m
+2025.07.07 21:32:10 INFO  compiling root (2 scala sources)[0m
+2025.07.07 21:32:11 INFO  time: compiled root in 0.51s[0m
+Exception in thread "pool-7-thread-6" java.lang.InterruptedException
+	at scala.meta.internal.metals.FutureCancelToken.checkCanceled(FutureCancelToken.scala:29)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$onCompilerJobQueue$1(CompilerAccess.scala:243)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:152)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+Exception in thread "pool-7-thread-7" java.lang.InterruptedException
+	at scala.meta.internal.metals.FutureCancelToken.checkCanceled(FutureCancelToken.scala:29)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$onCompilerJobQueue$1(CompilerAccess.scala:243)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:152)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+2025.07.07 21:32:12 INFO  Created report: Optional[file:///home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/http/controllers/AdminController.scala][0m
+2025.07.07 21:32:12 INFO  empty definition using pc, found symbol in pc:  (full report at: "/home/enkit/Proyectos2025/ucsp/scala/ecom/.metals/.reports/metals-full/2025-07-07/r_empty-definition_(root)_21-32-12-866.md")[0m
+2025.07.07 21:32:13 INFO  compiling root (2 scala sources)[0m
+2025.07.07 21:32:14 INFO  time: compiled root in 1.03s[0m
+2025.07.07 21:32:27 INFO  compiling root (1 scala source)[0m
+2025.07.07 21:32:27 WARN  Could not load snapshot text for /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/http/server/Server.scala[0m
+2025.07.07 21:32:27 WARN  Invalid text document uri received from build server: file:///home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/http/Server.scala[0m
+2025.07.07 21:32:27 WARN  Invalid text document uri received from build server: file:///home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/http/views/HomeController.scala[0m
+2025.07.07 21:32:27 INFO  time: compiled root in 0.83s[0m
+2025.07.07 21:32:28 WARN  Could not load snapshot text for /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/http/server/Server.scala[0m
+2025.07.07 21:32:35 WARN  Could not load snapshot text for /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/http/server/Server.scala[0m
+2025.07.07 21:32:37 WARN  Could not load snapshot text for /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/http/server/Server.scala[0m
+jul. 07, 2025 9:32:37 P. M. scala.meta.internal.pc.CompilerAccess retryWithCleanCompiler
+INFORMACIÓN: compiler crashed due to an error in the Scala compiler, retrying with new compiler instance.
+2025.07.07 21:32:37 INFO  compiling root (1 scala source)[0m
+2025.07.07 21:32:37 INFO  time: compiled root in 0.38s[0m
+2025.07.07 21:32:38 WARN  Could not load snapshot text for /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/http/server/Server.scala[0m
+2025.07.07 21:32:41 WARN  Could not load snapshot text for /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/http/server/Server.scala[0m
+2025.07.07 21:34:28 WARN  Could not load snapshot text for /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/http/server/Server.scala[0m
+2025.07.07 21:34:43 INFO  compiling root (2 scala sources)[0m
+2025.07.07 21:34:43 INFO  time: compiled root in 0.43s[0m
+2025.07.07 21:34:48 INFO  compiling root (3 scala sources)[0m
+2025.07.07 21:34:49 WARN  Could not load snapshot text for /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/http/controllers/AdminController.scala[0m
+2025.07.07 21:34:48 INFO  time: compiled root in 0.74s[0m
+2025.07.07 21:34:49 WARN  Could not load snapshot text for /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/http/controllers/AdminController.scala[0m
+2025.07.07 21:34:52 WARN  Could not load snapshot text for /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/http/controllers/AdminController.scala[0m
+2025.07.07 21:34:54 WARN  Could not load snapshot text for /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/http/controllers/AdminController.scala[0m
+2025.07.07 21:35:00 WARN  Could not load snapshot text for /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/http/server/Server.scala[0m
+2025.07.07 21:35:02 WARN  Could not load snapshot text for /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/http/server/Server.scala[0m
+2025.07.07 21:35:32 WARN  Could not load snapshot text for /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/http/server/Server.scala[0m
+2025.07.07 21:35:34 WARN  Could not load snapshot text for /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/http/server/Server.scala[0m
+2025.07.07 21:35:35 INFO  compiling root (3 scala sources)[0m
+2025.07.07 21:35:35 INFO  time: compiled root in 0.98s[0m
+2025.07.07 21:35:36 WARN  Could not load snapshot text for /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/http/server/Server.scala[0m
+2025.07.07 21:35:39 WARN  Could not load snapshot text for /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/http/controllers/AdminController.scala[0m
+2025.07.07 21:35:42 WARN  Could not load snapshot text for /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/http/controllers/AdminController.scala[0m
+2025.07.07 21:36:08 WARN  Could not load snapshot text for /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/http/controllers/AdminController.scala[0m
+2025.07.07 21:36:12 WARN  Could not load snapshot text for /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/http/controllers/AdminController.scala[0m
+2025.07.07 21:36:17 WARN  Could not load snapshot text for /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/http/controllers/AdminController.scala[0m
+2025.07.07 21:36:21 WARN  Could not load snapshot text for /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/http/controllers/AdminController.scala[0m
+2025.07.07 21:36:58 WARN  Could not load snapshot text for /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/http/controllers/AdminController.scala[0m
+2025.07.07 21:37:08 INFO  compiling root (3 scala sources)[0m
+2025.07.07 21:37:09 INFO  time: compiled root in 1.36s[0m
+jul. 07, 2025 9:38:35 P. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+ADVERTENCIA: Unmatched cancel notification for request id 9936
+2025.07.07 21:41:14 INFO  empty definition using pc, found symbol in pc:  (full report at: "/home/enkit/Proyectos2025/ucsp/scala/ecom/.metals/.reports/metals-full/2025-06-18/r_empty-definition_(root)_15-37-04-881.md")[0m
+2025.07.07 21:41:14 INFO  empty definition using pc, found symbol in pc:  (full report at: "/home/enkit/Proyectos2025/ucsp/scala/ecom/.metals/.reports/metals-full/2025-06-18/r_empty-definition_(root)_15-37-04-881.md")[0m
+2025.07.07 21:41:14 INFO  Created report: Optional.empty[0m
+2025.07.07 21:41:14 INFO  scala.meta.internal.mtags.IndexingExceptions$InvalidSymbolException: . (full report at: "/home/enkit/Proyectos2025/ucsp/scala/ecom/.metals/.reports/metals/2025-07-07/r_invalid-symbol_21-41-14-923.md")[0m
+2025.07.07 21:41:14 ERROR searching for `.` failed
+java.lang.RuntimeException: invalid symbol format
+.
+^
+	at scala.sys.package$.error(package.scala:27)
+	at scala.meta.internal.semanticdb.Scala$DescriptorParser.fail(Scala.scala:162)
+	at scala.meta.internal.semanticdb.Scala$DescriptorParser.readChar(Scala.scala:174)
+	at scala.meta.internal.semanticdb.Scala$DescriptorParser.parseValue(Scala.scala:190)
+	at scala.meta.internal.semanticdb.Scala$DescriptorParser.parseDescriptor(Scala.scala:209)
+	at scala.meta.internal.semanticdb.Scala$DescriptorParser.entryPoint(Scala.scala:230)
+	at scala.meta.internal.semanticdb.Scala$DescriptorParser$.apply(Scala.scala:238)
+	at scala.meta.internal.semanticdb.Scala$ScalaSymbolOps$.owner$extension(Scala.scala:78)
+	at scala.meta.internal.mtags.Symbol.toplevel(Symbol.scala:50)
+	at scala.meta.internal.mtags.SymbolIndexBucket.query0(SymbolIndexBucket.scala:212)
+	at scala.meta.internal.mtags.SymbolIndexBucket.query(SymbolIndexBucket.scala:189)
+	at scala.meta.internal.mtags.OnDemandSymbolIndex.$anonfun$findSymbolDefinition$1(OnDemandSymbolIndex.scala:142)
+	at scala.collection.immutable.List.flatMap(List.scala:294)
+	at scala.meta.internal.mtags.OnDemandSymbolIndex.findSymbolDefinition(OnDemandSymbolIndex.scala:142)
+	at scala.meta.internal.mtags.OnDemandSymbolIndex.definition(OnDemandSymbolIndex.scala:48)
+	at scala.meta.internal.metals.FallbackDefinitionProvider.findInIndex$1(FallbackDefinitionProvider.scala:131)
+	at scala.meta.internal.metals.FallbackDefinitionProvider.$anonfun$search$15(FallbackDefinitionProvider.scala:140)
+	at scala.collection.immutable.List.flatMap(List.scala:294)
+	at scala.meta.internal.metals.FallbackDefinitionProvider.$anonfun$search$3(FallbackDefinitionProvider.scala:140)
+	at scala.Option.map(Option.scala:242)
+	at scala.meta.internal.metals.FallbackDefinitionProvider.$anonfun$search$2(FallbackDefinitionProvider.scala:47)
+	at scala.Option.flatMap(Option.scala:283)
+	at scala.meta.internal.metals.FallbackDefinitionProvider.$anonfun$search$1(FallbackDefinitionProvider.scala:44)
+	at scala.Option.flatMap(Option.scala:283)
+	at scala.meta.internal.metals.FallbackDefinitionProvider.search(FallbackDefinitionProvider.scala:43)
+	at scala.meta.internal.metals.DefinitionProvider.fromFallback$1(DefinitionProvider.scala:126)
+	at scala.meta.internal.metals.DefinitionProvider.$anonfun$definition$13(DefinitionProvider.scala:143)
+	at scala.meta.internal.metals.DefinitionProvider.$anonfun$definition$15(DefinitionProvider.scala:150)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:470)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.lang.Thread.run(Thread.java:840)
+[0m
+2025.07.07 21:41:14 INFO  Created report: Optional.empty[0m
+2025.07.07 21:41:14 INFO  scala.meta.internal.mtags.IndexingExceptions$InvalidSymbolException: # (full report at: "/home/enkit/Proyectos2025/ucsp/scala/ecom/.metals/.reports/metals/2025-07-07/r_invalid-symbol_21-41-14-927.md")[0m
+2025.07.07 21:41:14 ERROR searching for `#` failed
+java.lang.RuntimeException: invalid symbol format
+#
+^
+	at scala.sys.package$.error(package.scala:27)
+	at scala.meta.internal.semanticdb.Scala$DescriptorParser.fail(Scala.scala:162)
+	at scala.meta.internal.semanticdb.Scala$DescriptorParser.readChar(Scala.scala:174)
+	at scala.meta.internal.semanticdb.Scala$DescriptorParser.parseValue(Scala.scala:190)
+	at scala.meta.internal.semanticdb.Scala$DescriptorParser.parseDescriptor(Scala.scala:212)
+	at scala.meta.internal.semanticdb.Scala$DescriptorParser.entryPoint(Scala.scala:230)
+	at scala.meta.internal.semanticdb.Scala$DescriptorParser$.apply(Scala.scala:238)
+	at scala.meta.internal.semanticdb.Scala$ScalaSymbolOps$.owner$extension(Scala.scala:78)
+	at scala.meta.internal.mtags.Symbol.toplevel(Symbol.scala:50)
+	at scala.meta.internal.mtags.SymbolIndexBucket.query0(SymbolIndexBucket.scala:212)
+	at scala.meta.internal.mtags.SymbolIndexBucket.query(SymbolIndexBucket.scala:189)
+	at scala.meta.internal.mtags.OnDemandSymbolIndex.$anonfun$findSymbolDefinition$1(OnDemandSymbolIndex.scala:142)
+	at scala.collection.immutable.List.flatMap(List.scala:294)
+	at scala.meta.internal.mtags.OnDemandSymbolIndex.findSymbolDefinition(OnDemandSymbolIndex.scala:142)
+	at scala.meta.internal.mtags.OnDemandSymbolIndex.definition(OnDemandSymbolIndex.scala:48)
+	at scala.meta.internal.metals.FallbackDefinitionProvider.findInIndex$1(FallbackDefinitionProvider.scala:131)
+	at scala.meta.internal.metals.FallbackDefinitionProvider.$anonfun$search$15(FallbackDefinitionProvider.scala:140)
+	at scala.collection.immutable.List.flatMap(List.scala:294)
+	at scala.meta.internal.metals.FallbackDefinitionProvider.$anonfun$search$3(FallbackDefinitionProvider.scala:140)
+	at scala.Option.map(Option.scala:242)
+	at scala.meta.internal.metals.FallbackDefinitionProvider.$anonfun$search$2(FallbackDefinitionProvider.scala:47)
+	at scala.Option.flatMap(Option.scala:283)
+	at scala.meta.internal.metals.FallbackDefinitionProvider.$anonfun$search$1(FallbackDefinitionProvider.scala:44)
+	at scala.Option.flatMap(Option.scala:283)
+	at scala.meta.internal.metals.FallbackDefinitionProvider.search(FallbackDefinitionProvider.scala:43)
+	at scala.meta.internal.metals.DefinitionProvider.fromFallback$1(DefinitionProvider.scala:126)
+	at scala.meta.internal.metals.DefinitionProvider.$anonfun$definition$13(DefinitionProvider.scala:143)
+	at scala.meta.internal.metals.DefinitionProvider.$anonfun$definition$15(DefinitionProvider.scala:150)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:470)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.lang.Thread.run(Thread.java:840)
+[0m
+2025.07.07 21:41:14 INFO  Created report: Optional.empty[0m
+2025.07.07 21:41:14 INFO  scala.meta.internal.mtags.IndexingExceptions$InvalidSymbolException: (). (full report at: "/home/enkit/Proyectos2025/ucsp/scala/ecom/.metals/.reports/metals/2025-07-07/r_invalid-symbol_21-41-14-930.md")[0m
+2025.07.07 21:41:14 ERROR searching for `().` failed
+java.lang.RuntimeException: invalid symbol format
+().
+^
+	at scala.sys.package$.error(package.scala:27)
+	at scala.meta.internal.semanticdb.Scala$DescriptorParser.fail(Scala.scala:162)
+	at scala.meta.internal.semanticdb.Scala$DescriptorParser.readChar(Scala.scala:174)
+	at scala.meta.internal.semanticdb.Scala$DescriptorParser.parseValue(Scala.scala:190)
+	at scala.meta.internal.semanticdb.Scala$DescriptorParser.parseDescriptor(Scala.scala:207)
+	at scala.meta.internal.semanticdb.Scala$DescriptorParser.entryPoint(Scala.scala:230)
+	at scala.meta.internal.semanticdb.Scala$DescriptorParser$.apply(Scala.scala:238)
+	at scala.meta.internal.semanticdb.Scala$ScalaSymbolOps$.owner$extension(Scala.scala:78)
+	at scala.meta.internal.mtags.Symbol.toplevel(Symbol.scala:50)
+	at scala.meta.internal.mtags.SymbolIndexBucket.query0(SymbolIndexBucket.scala:212)
+	at scala.meta.internal.mtags.SymbolIndexBucket.query(SymbolIndexBucket.scala:189)
+	at scala.meta.internal.mtags.OnDemandSymbolIndex.$anonfun$findSymbolDefinition$1(OnDemandSymbolIndex.scala:142)
+	at scala.collection.immutable.List.flatMap(List.scala:294)
+	at scala.meta.internal.mtags.OnDemandSymbolIndex.findSymbolDefinition(OnDemandSymbolIndex.scala:142)
+	at scala.meta.internal.mtags.OnDemandSymbolIndex.definition(OnDemandSymbolIndex.scala:48)
+	at scala.meta.internal.metals.FallbackDefinitionProvider.findInIndex$1(FallbackDefinitionProvider.scala:131)
+	at scala.meta.internal.metals.FallbackDefinitionProvider.$anonfun$search$15(FallbackDefinitionProvider.scala:140)
+	at scala.collection.immutable.List.flatMap(List.scala:294)
+	at scala.meta.internal.metals.FallbackDefinitionProvider.$anonfun$search$3(FallbackDefinitionProvider.scala:140)
+	at scala.Option.map(Option.scala:242)
+	at scala.meta.internal.metals.FallbackDefinitionProvider.$anonfun$search$2(FallbackDefinitionProvider.scala:47)
+	at scala.Option.flatMap(Option.scala:283)
+	at scala.meta.internal.metals.FallbackDefinitionProvider.$anonfun$search$1(FallbackDefinitionProvider.scala:44)
+	at scala.Option.flatMap(Option.scala:283)
+	at scala.meta.internal.metals.FallbackDefinitionProvider.search(FallbackDefinitionProvider.scala:43)
+	at scala.meta.internal.metals.DefinitionProvider.fromFallback$1(DefinitionProvider.scala:126)
+	at scala.meta.internal.metals.DefinitionProvider.$anonfun$definition$13(DefinitionProvider.scala:143)
+	at scala.meta.internal.metals.DefinitionProvider.$anonfun$definition$15(DefinitionProvider.scala:150)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:470)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.lang.Thread.run(Thread.java:840)
+[0m
+2025.07.07 21:41:14 WARN  Could not find 'flatMap' using presentation compiler nor semanticdb. Trying to guess the definition using available information from local class context. [0m
+2025.07.07 21:41:14 INFO  empty definition using pc, found symbol in pc:  (full report at: "/home/enkit/Proyectos2025/ucsp/scala/ecom/.metals/.reports/metals-full/2025-06-18/r_empty-definition_(root)_15-37-04-881.md")[0m
+2025.07.07 21:41:15 INFO  empty definition using pc, found symbol in pc:  (full report at: "/home/enkit/Proyectos2025/ucsp/scala/ecom/.metals/.reports/metals-full/2025-06-18/r_empty-definition_(root)_15-37-04-881.md")[0m
+2025.07.07 21:41:15 INFO  compiling root (1 scala source)[0m
+2025.07.07 21:41:15 WARN  Could not load snapshot text for /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/http/controllers/CategoryAdminController.scala[0m
+2025.07.07 21:41:15 WARN  Invalid text document uri received from build server: file:///home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/http/Server.scala[0m
+2025.07.07 21:41:15 WARN  Invalid text document uri received from build server: file:///home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/http/views/HomeController.scala[0m
+2025.07.07 21:41:15 INFO  time: compiled root in 1s[0m
+2025.07.07 21:41:16 WARN  Could not load snapshot text for /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/http/controllers/CategoryAdminController.scala[0m
+2025.07.07 21:41:22 WARN  Could not load snapshot text for /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/http/controllers/CategoryAdminController.scala[0m
+2025.07.07 21:41:22 WARN  Could not load snapshot text for /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/http/controllers/CategoryAdminController.scala[0m
+2025.07.07 21:41:22 WARN  Could not load snapshot text for /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/http/controllers/CategoryAdminController.scala[0m
+2025.07.07 21:41:22 WARN  Could not load snapshot text for /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/http/controllers/CategoryAdminController.scala[0m
+2025.07.07 21:41:22 WARN  Could not find 'IO' using presentation compiler nor semanticdb. Trying to guess the definition using available information from local class context. [0m
+2025.07.07 21:41:22 INFO  empty definition using pc, found symbol in pc:  (full report at: "/home/enkit/Proyectos2025/ucsp/scala/ecom/.metals/.reports/metals-full/2025-06-18/r_empty-definition_(root)_15-37-04-881.md")[0m
+2025.07.07 21:41:22 INFO  empty definition using pc, found symbol in pc:  (full report at: "/home/enkit/Proyectos2025/ucsp/scala/ecom/.metals/.reports/metals-full/2025-06-18/r_empty-definition_(root)_15-37-04-881.md")[0m
+2025.07.07 21:41:22 WARN  Could not load snapshot text for /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/http/controllers/CategoryAdminController.scala[0m
+jul. 07, 2025 9:41:23 P. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+ADVERTENCIA: Unmatched cancel notification for request id 10155
+2025.07.07 21:41:24 WARN  Could not load snapshot text for /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/http/controllers/CategoryAdminController.scala[0m
+2025.07.07 21:41:24 WARN  Could not load snapshot text for /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/http/controllers/CategoryAdminController.scala[0m
+2025.07.07 21:41:24 WARN  Could not load snapshot text for /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/http/controllers/CategoryAdminController.scala[0m
+2025.07.07 21:41:24 INFO  empty definition using pc, found symbol in pc:  (full report at: "/home/enkit/Proyectos2025/ucsp/scala/ecom/.metals/.reports/metals-full/2025-06-18/r_empty-definition_(root)_15-37-04-881.md")[0m
+2025.07.07 21:41:25 INFO  compiling root (1 scala source)[0m
+2025.07.07 21:41:25 INFO  time: compiled root in 0.73s[0m
+2025.07.07 21:41:26 WARN  Could not load snapshot text for /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/http/controllers/CategoryAdminController.scala[0m
+2025.07.07 21:41:30 WARN  Could not load snapshot text for /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/http/controllers/CategoryAdminController.scala[0m
+jul. 07, 2025 9:41:30 P. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+ADVERTENCIA: Unmatched cancel notification for request id 10202
+2025.07.07 21:41:30 WARN  Could not load snapshot text for /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/http/controllers/CategoryAdminController.scala[0m
+2025.07.07 21:41:31 WARN  Could not load snapshot text for /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/http/controllers/CategoryAdminController.scala[0m
+2025.07.07 21:41:31 WARN  Could not load snapshot text for /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/http/controllers/CategoryAdminController.scala[0m
+2025.07.07 21:41:32 INFO  compiling root (1 scala source)[0m
+2025.07.07 21:41:32 INFO  time: compiled root in 0.49s[0m
+2025.07.07 21:41:33 WARN  Could not load snapshot text for /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/http/controllers/CategoryAdminController.scala[0m
+2025.07.07 21:41:47 WARN  Could not load snapshot text for /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/http/controllers/CategoryAdminController.scala[0m
+2025.07.07 21:41:58 INFO  Created report: Optional[file:///home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/http/controllers/ProductAdminController.scala][0m
+2025.07.07 21:41:58 INFO  empty definition using pc, found symbol in pc:  (full report at: "/home/enkit/Proyectos2025/ucsp/scala/ecom/.metals/.reports/metals-full/2025-07-07/r_empty-definition_(root)_21-41-58-379.md")[0m
+2025.07.07 21:41:59 WARN  Could not load snapshot text for /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/http/controllers/CategoryAdminController.scala[0m
+2025.07.07 21:42:00 WARN  Could not load snapshot text for /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/http/controllers/CategoryAdminController.scala[0m
+2025.07.07 21:42:01 WARN  Could not load snapshot text for /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/http/controllers/CategoryAdminController.scala[0m
+2025.07.07 21:42:01 INFO  compiling root (1 scala source)[0m
+2025.07.07 21:42:02 INFO  time: compiled root in 1.41s[0m
+jul. 08, 2025 12:13:07 A. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+ADVERTENCIA: Unmatched cancel notification for request id 10393
+jul. 08, 2025 12:13:08 A. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+ADVERTENCIA: Unmatched cancel notification for request id 10394
+jul. 08, 2025 12:13:08 A. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+ADVERTENCIA: Unmatched cancel notification for request id 10395
+jul. 08, 2025 12:13:08 A. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+ADVERTENCIA: Unmatched cancel notification for request id 10401
+jul. 08, 2025 12:13:11 A. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+ADVERTENCIA: Unmatched cancel notification for request id 10411
+2025.07.08 00:23:25 INFO  Created report: Optional[file:///home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/http/views/admin/CategoryAdminView.scala][0m
+2025.07.08 00:23:25 INFO  empty definition using pc, found symbol in pc:  (full report at: "/home/enkit/Proyectos2025/ucsp/scala/ecom/.metals/.reports/metals-full/2025-07-08/r_empty-definition_(root)_00-23-25-163.md")[0m
+2025.07.08 00:23:34 INFO  compiling root (1 scala source)[0m
+2025.07.08 00:23:56 WARN  Invalid text document uri received from build server: file:///home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/http/Server.scala[0m
+2025.07.08 00:23:56 WARN  Invalid text document uri received from build server: file:///home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/http/views/HomeController.scala[0m
+2025.07.08 00:23:57 INFO  time: compiled root in 22s[0m
+2025.07.08 00:42:38 INFO  compiling root (1 scala source)[0m
+2025.07.08 00:42:39 WARN  Invalid text document uri received from build server: file:///home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/http/Server.scala[0m
+2025.07.08 00:42:39 WARN  Invalid text document uri received from build server: file:///home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/http/views/HomeController.scala[0m
+2025.07.08 00:42:39 INFO  time: compiled root in 1.24s[0m
+jul. 08, 2025 12:43:24 A. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+ADVERTENCIA: Unmatched cancel notification for request id 10698
+jul. 08, 2025 12:43:24 A. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+ADVERTENCIA: Unmatched cancel notification for request id 10701
+2025.07.08 00:45:54 INFO  Created report: Optional[file:///home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/http/controllers/CategoryAdminController.scala][0m
+2025.07.08 00:45:54 INFO  empty definition using pc, found symbol in pc:  (full report at: "/home/enkit/Proyectos2025/ucsp/scala/ecom/.metals/.reports/metals-full/2025-07-08/r_empty-definition_(root)_00-45-54-087.md")[0m
+jul. 08, 2025 12:45:57 A. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+ADVERTENCIA: Unmatched cancel notification for request id 10723
+jul. 08, 2025 12:45:57 A. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+ADVERTENCIA: Unmatched cancel notification for request id 10722
+jul. 08, 2025 12:45:57 A. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+ADVERTENCIA: Unmatched cancel notification for request id 10727
+2025.07.08 00:45:58 INFO  compiling root (1 scala source)[0m
+2025.07.08 00:46:02 WARN  Invalid text document uri received from build server: file:///home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/http/Server.scala[0m
+2025.07.08 00:46:02 WARN  Invalid text document uri received from build server: file:///home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/http/views/HomeController.scala[0m
+2025.07.08 00:46:02 INFO  time: compiled root in 4.26s[0m
+2025.07.08 00:46:28 INFO  empty definition using pc, found symbol in pc:  (full report at: "/home/enkit/Proyectos2025/ucsp/scala/ecom/.metals/.reports/metals-full/2025-07-07/r_empty-definition_(root)_21-41-58-379.md")[0m
+2025.07.08 00:46:45 INFO  empty definition using pc, found symbol in pc:  (full report at: "/home/enkit/Proyectos2025/ucsp/scala/ecom/.metals/.reports/metals-full/2025-07-07/r_empty-definition_(root)_21-41-58-379.md")[0m
+2025.07.08 00:46:45 INFO  Created report: Optional[file:///home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/http/controllers/ProductAdminController.scala][0m
+2025.07.08 00:46:45 INFO  empty definition using pc, found symbol in pc:  (full report at: "/home/enkit/Proyectos2025/ucsp/scala/ecom/.metals/.reports/metals-full/2025-07-08/r_empty-definition_(root)_00-46-45-652.md")[0m
+2025.07.08 00:46:51 INFO  empty definition using pc, found symbol in pc:  (full report at: "/home/enkit/Proyectos2025/ucsp/scala/ecom/.metals/.reports/metals-full/2025-06-18/r_empty-definition_(root)_15-37-04-881.md")[0m
+Exception in thread "pool-7-thread-8" java.lang.InterruptedException
+	at scala.meta.internal.metals.FutureCancelToken.checkCanceled(FutureCancelToken.scala:29)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$onCompilerJobQueue$1(CompilerAccess.scala:243)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:152)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+Exception in thread "pool-7-thread-9" java.lang.InterruptedException
+	at scala.meta.internal.metals.FutureCancelToken.checkCanceled(FutureCancelToken.scala:29)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$onCompilerJobQueue$1(CompilerAccess.scala:243)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:152)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+2025.07.08 00:46:52 INFO  compiling root (1 scala source)[0m
+2025.07.08 00:46:54 INFO  time: compiled root in 2.09s[0m
+2025.07.08 00:46:54 INFO  compiling root (1 scala source)[0m
+2025.07.08 00:46:54 INFO  time: compiled root in 0.37s[0m
+2025.07.08 00:47:20 INFO  compiling root (2 scala sources)[0m
+2025.07.08 00:47:21 INFO  time: compiled root in 1.37s[0m
+2025.07.08 00:47:31 INFO  empty definition using pc, found symbol in pc:  (full report at: "/home/enkit/Proyectos2025/ucsp/scala/ecom/.metals/.reports/metals-full/2025-07-08/r_empty-definition_(root)_00-23-25-163.md")[0m
+2025.07.08 00:47:34 INFO  compiling root (1 scala source)[0m
+2025.07.08 00:47:34 WARN  Invalid text document uri received from build server: file:///home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/http/Server.scala[0m
+2025.07.08 00:47:34 WARN  Invalid text document uri received from build server: file:///home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/http/views/HomeController.scala[0m
+2025.07.08 00:47:34 INFO  time: compiled root in 0.97s[0m
+2025.07.08 00:49:31 INFO  compiling root (1 scala source)[0m
+2025.07.08 00:49:31 WARN  Invalid text document uri received from build server: file:///home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/http/Server.scala[0m
+2025.07.08 00:49:31 WARN  Invalid text document uri received from build server: file:///home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/http/views/HomeController.scala[0m
+2025.07.08 00:49:31 INFO  time: compiled root in 0.82s[0m
+2025.07.08 00:49:32 INFO  empty definition using pc, found symbol in pc:  (full report at: "/home/enkit/Proyectos2025/ucsp/scala/ecom/.metals/.reports/metals-full/2025-07-08/r_empty-definition_(root)_00-23-25-163.md")[0m
+2025.07.08 00:49:41 INFO  compiling root (1 scala source)[0m
+2025.07.08 00:49:41 WARN  Invalid text document uri received from build server: file:///home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/http/Server.scala[0m
+2025.07.08 00:49:41 WARN  Invalid text document uri received from build server: file:///home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/http/views/HomeController.scala[0m
+2025.07.08 00:49:41 INFO  time: compiled root in 0.91s[0m
+2025.07.08 00:54:07 WARN  Could not load snapshot text for /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/http/controllers/CategoryAdminController.scala[0m
+2025.07.08 00:54:07 INFO  compiling root (1 scala source)[0m
+2025.07.08 00:54:08 WARN  Could not load snapshot text for /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/http/controllers/CategoryAdminController.scala[0m
+2025.07.08 00:54:09 WARN  Invalid text document uri received from build server: file:///home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/http/Server.scala[0m
+2025.07.08 00:54:09 WARN  Invalid text document uri received from build server: file:///home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/http/views/HomeController.scala[0m
+2025.07.08 00:54:09 INFO  time: compiled root in 2s[0m
+2025.07.08 00:54:38 INFO  compiling root (1 scala source)[0m
+2025.07.08 00:54:38 INFO  Created report: Optional[file:///home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/http/views/admin/CategoryAdminView.scala][0m
+2025.07.08 00:54:38 INFO  empty definition using pc, found symbol in pc:  (full report at: "/home/enkit/Proyectos2025/ucsp/scala/ecom/.metals/.reports/metals-full/2025-07-08/r_empty-definition_(root)_00-54-38-750.md")[0m
+2025.07.08 00:54:38 WARN  Invalid text document uri received from build server: file:///home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/http/Server.scala[0m
+2025.07.08 00:54:38 WARN  Invalid text document uri received from build server: file:///home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/http/views/HomeController.scala[0m
+2025.07.08 00:54:38 INFO  time: compiled root in 0.17s[0m
+jul. 08, 2025 12:54:38 A. M. scala.meta.internal.pc.CompilerAccess retryWithCleanCompiler
+INFORMACIÓN: compiler crashed due to an error in the Scala compiler, retrying with new compiler instance.
+2025.07.08 00:56:29 INFO  compiling root (1 scala source)[0m
+2025.07.08 00:56:29 INFO  time: compiled root in 0.16s[0m
+2025.07.08 00:57:20 INFO  empty definition using pc, found symbol in pc:  (full report at: "/home/enkit/Proyectos2025/ucsp/scala/ecom/.metals/.reports/metals-full/2025-07-08/r_empty-definition_(root)_00-23-25-163.md")[0m
+2025.07.08 00:58:03 INFO  empty definition using pc, found symbol in pc:  (full report at: "/home/enkit/Proyectos2025/ucsp/scala/ecom/.metals/.reports/metals-full/2025-07-08/r_empty-definition_(root)_00-23-25-163.md")[0m
+2025.07.08 00:58:07 INFO  compiling root (1 scala source)[0m
+2025.07.08 00:58:07 INFO  time: compiled root in 0.2s[0m
+2025.07.08 00:58:11 INFO  empty definition using pc, found symbol in pc:  (full report at: "/home/enkit/Proyectos2025/ucsp/scala/ecom/.metals/.reports/metals-full/2025-07-08/r_empty-definition_(root)_00-23-25-163.md")[0m
+2025.07.08 00:58:11 INFO  compiling root (1 scala source)[0m
+2025.07.08 00:58:11 INFO  empty definition using pc, found symbol in pc:  (full report at: "/home/enkit/Proyectos2025/ucsp/scala/ecom/.metals/.reports/metals-full/2025-07-08/r_empty-definition_(root)_00-23-25-163.md")[0m
+2025.07.08 00:58:11 INFO  Created report: Optional[file:///home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/http/views/admin/CategoryAdminView.scala][0m
+2025.07.08 00:58:11 INFO  empty definition using pc, found symbol in pc:  (full report at: "/home/enkit/Proyectos2025/ucsp/scala/ecom/.metals/.reports/metals-full/2025-07-08/r_empty-definition_(root)_00-58-11-501.md")[0m
+2025.07.08 00:58:11 INFO  time: compiled root in 0.33s[0m
+2025.07.08 00:58:14 INFO  empty definition using pc, found symbol in pc:  (full report at: "/home/enkit/Proyectos2025/ucsp/scala/ecom/.metals/.reports/metals-full/2025-07-08/r_empty-definition_(root)_00-23-25-163.md")[0m
+2025.07.08 00:58:15 INFO  compiling root (1 scala source)[0m
+2025.07.08 00:58:15 INFO  time: compiled root in 0.27s[0m
+2025.07.08 00:58:39 INFO  compiling root (1 scala source)[0m
+2025.07.08 00:58:39 INFO  time: compiled root in 0.16s[0m
+2025.07.08 00:58:44 INFO  compiling root (1 scala source)[0m
+2025.07.08 00:58:44 INFO  time: compiled root in 0.38s[0m
+2025.07.08 00:58:59 INFO  compiling root (1 scala source)[0m
+2025.07.08 00:58:59 INFO  time: compiled root in 0.17s[0m
+2025.07.08 00:59:05 INFO  compiling root (1 scala source)[0m
+2025.07.08 00:59:05 INFO  time: compiled root in 0.34s[0m
+2025.07.08 01:00:25 INFO  compiling root (1 scala source)[0m
+2025.07.08 01:00:25 INFO  time: compiled root in 0.19s[0m
+2025.07.08 01:00:38 INFO  empty definition using pc, found symbol in pc:  (full report at: "/home/enkit/Proyectos2025/ucsp/scala/ecom/.metals/.reports/metals-full/2025-07-08/r_empty-definition_(root)_00-23-25-163.md")[0m
+2025.07.08 01:00:38 INFO  empty definition using pc, found symbol in pc:  (full report at: "/home/enkit/Proyectos2025/ucsp/scala/ecom/.metals/.reports/metals-full/2025-07-08/r_empty-definition_(root)_00-23-25-163.md")[0m
+Exception in thread "pool-7-thread-10" java.lang.InterruptedException
+	at scala.meta.internal.metals.FutureCancelToken.checkCanceled(FutureCancelToken.scala:29)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$onCompilerJobQueue$1(CompilerAccess.scala:243)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:152)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+Exception in thread "pool-7-thread-11" java.lang.InterruptedException
+	at scala.meta.internal.metals.FutureCancelToken.checkCanceled(FutureCancelToken.scala:29)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$onCompilerJobQueue$1(CompilerAccess.scala:243)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:152)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+2025.07.08 01:01:34 INFO  empty definition using pc, found symbol in pc:  (full report at: "/home/enkit/Proyectos2025/ucsp/scala/ecom/.metals/.reports/metals-full/2025-07-08/r_empty-definition_(root)_00-23-25-163.md")[0m
+2025.07.08 01:01:35 INFO  compiling root (1 scala source)[0m
+2025.07.08 01:01:35 INFO  time: compiled root in 0.35s[0m
+2025.07.08 01:01:42 INFO  empty definition using pc, found symbol in pc:  (full report at: "/home/enkit/Proyectos2025/ucsp/scala/ecom/.metals/.reports/metals-full/2025-07-08/r_empty-definition_(root)_00-23-25-163.md")[0m
+2025.07.08 01:01:42 INFO  compiling root (1 scala source)[0m
+2025.07.08 01:01:42 INFO  time: compiled root in 0.69s[0m
+2025.07.08 01:01:55 INFO  empty definition using pc, found symbol in pc:  (full report at: "/home/enkit/Proyectos2025/ucsp/scala/ecom/.metals/.reports/metals-full/2025-07-08/r_empty-definition_(root)_00-23-25-163.md")[0m
+2025.07.08 01:01:55 INFO  empty definition using pc, found symbol in pc:  (full report at: "/home/enkit/Proyectos2025/ucsp/scala/ecom/.metals/.reports/metals-full/2025-07-08/r_empty-definition_(root)_00-23-25-163.md")[0m
+2025.07.08 01:01:56 INFO  compiling root (1 scala source)[0m
+2025.07.08 01:01:56 WARN  Could not load snapshot text for /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/http/views/admin/CategoryAdminView.scala[0m
+2025.07.08 01:01:56 WARN  Invalid text document uri received from build server: file:///home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/http/Server.scala[0m
+2025.07.08 01:01:56 WARN  Invalid text document uri received from build server: file:///home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/http/views/HomeController.scala[0m
+2025.07.08 01:01:56 INFO  time: compiled root in 0.77s[0m
+2025.07.08 01:04:15 INFO  compiling root (1 scala source)[0m
+2025.07.08 01:04:20 WARN  Invalid text document uri received from build server: file:///home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/http/Server.scala[0m
+2025.07.08 01:04:20 WARN  Invalid text document uri received from build server: file:///home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/http/views/HomeController.scala[0m
+2025.07.08 01:04:20 INFO  time: compiled root in 5.41s[0m
+jul. 08, 2025 1:04:28 A. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+ADVERTENCIA: Unmatched cancel notification for request id 11926
+2025.07.08 01:04:31 INFO  empty definition using pc, found symbol in pc:  (full report at: "/home/enkit/Proyectos2025/ucsp/scala/ecom/.metals/.reports/metals-full/2025-07-08/r_empty-definition_(root)_00-23-25-163.md")[0m
+2025.07.08 01:04:31 INFO  Created report: Optional[file:///home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/http/views/admin/CategoryAdminView.scala][0m
+2025.07.08 01:04:31 INFO  empty definition using pc, found symbol in pc:  (full report at: "/home/enkit/Proyectos2025/ucsp/scala/ecom/.metals/.reports/metals-full/2025-07-08/r_empty-definition_(root)_01-04-31-467.md")[0m
+2025.07.08 01:04:31 INFO  Created report: Optional[file:///home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/http/views/admin/CategoryAdminView.scala][0m
+2025.07.08 01:04:31 INFO  empty definition using pc, found symbol in pc:  (full report at: "/home/enkit/Proyectos2025/ucsp/scala/ecom/.metals/.reports/metals-full/2025-07-08/r_empty-definition_(root)_01-04-31-500.md")[0m
+2025.07.08 01:04:31 INFO  empty definition using pc, found symbol in pc:  (full report at: "/home/enkit/Proyectos2025/ucsp/scala/ecom/.metals/.reports/metals-full/2025-07-08/r_empty-definition_(root)_00-23-25-163.md")[0m
+2025.07.08 01:04:31 INFO  empty definition using pc, found symbol in pc:  (full report at: "/home/enkit/Proyectos2025/ucsp/scala/ecom/.metals/.reports/metals-full/2025-07-08/r_empty-definition_(root)_00-23-25-163.md")[0m
+2025.07.08 01:04:32 INFO  compiling root (1 scala source)[0m
+2025.07.08 01:04:32 WARN  Invalid text document uri received from build server: file:///home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/http/Server.scala[0m
+2025.07.08 01:04:32 WARN  Invalid text document uri received from build server: file:///home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/http/views/HomeController.scala[0m
+2025.07.08 01:04:32 INFO  time: compiled root in 0.3s[0m
+2025.07.08 01:04:41 INFO  time: compiled root in 5ms[0m
+2025.07.08 01:04:50 INFO  empty definition using pc, found symbol in pc:  (full report at: "/home/enkit/Proyectos2025/ucsp/scala/ecom/.metals/.reports/metals-full/2025-07-08/r_empty-definition_(root)_00-23-25-163.md")[0m
+2025.07.08 01:04:51 INFO  compiling root (1 scala source)[0m
+2025.07.08 01:04:51 WARN  Invalid text document uri received from build server: file:///home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/http/Server.scala[0m
+2025.07.08 01:04:51 WARN  Invalid text document uri received from build server: file:///home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/http/views/HomeController.scala[0m
+2025.07.08 01:04:51 INFO  time: compiled root in 0.16s[0m
+2025.07.08 01:05:04 INFO  compiling root (1 scala source)[0m
+2025.07.08 01:05:04 INFO  time: compiled root in 0.88s[0m

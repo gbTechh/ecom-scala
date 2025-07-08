@@ -16,7 +16,7 @@ import org.http4s.implicits._
 class OrderAdminController(orderService: OrderService) {
   val routes: HttpRoutes[IO] = HttpRoutes.of[IO] {
     case GET -> Root =>
-      OrderService
+      orderService
         .findAll()
         .flatMap(orders =>
           Ok(OrderAdminView.list(orders))

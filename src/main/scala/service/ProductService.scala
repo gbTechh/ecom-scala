@@ -8,6 +8,8 @@ import repository.ProductRepository
 trait ProductService {
   def findAll(): IO[List[Product]]
   def findById(id: Int): IO[Option[Product]]
+  def findBySlug(slug: String): IO[Option[Product]]
+  def findByCategorySlug(categorySlug: String): IO[List[Product]]
   def create(product: Product): IO[Unit]
   def update(product: Product): IO[Unit]
   def delete(id: Int): IO[Unit]
@@ -17,8 +19,15 @@ object ProductService {
   def apply(repo: ProductRepository): ProductService = new ProductService {
     def findAll(): IO[List[Product]] =
       repo.findAll()
+
     def findById(id: Int): IO[Option[Product]] =
       repo.findById(id)
+
+    def findBySlug(slug: String): IO[Option[Product]] =
+      repo.findBySlug(slug)
+
+    def findByCategorySlug(categorySlug: String): IO[List[Product]] =
+      repo.findByCategorySlug(categorySlug)
 
     def create(product: Product): IO[Unit] =
       for {

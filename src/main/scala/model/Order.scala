@@ -34,6 +34,11 @@ object OrderStatus {
 
     Meta[String].timap(fromString)(toString)
   }
+  val allStatuses: List[OrderStatus] =
+    List(Pending, Processing, Shipped, Delivered, Cancelled)
+
+  def fromString(s: String): Option[OrderStatus] =
+    allStatuses.find(_.toString == s)
 }
 
 case class Order(

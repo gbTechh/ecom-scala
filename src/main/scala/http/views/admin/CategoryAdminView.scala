@@ -14,7 +14,7 @@ object CategoryAdminView {
       ),
       body(
         h1("Categorías"),
-        a(href := "/admin/category/add", "➕ Nueva categoría"),
+        a(href := "/admin/categories/add", "➕ Nueva categoría"),
         table(
           border := "1",
           // cellpa := "8",
@@ -34,12 +34,12 @@ object CategoryAdminView {
                 td(cat.slug),
                 td(
                   a(
-                    href := s"/admin/category/edit/${cat.id.toString()}",
+                    href := s"/admin/categories/edit/${cat.id.toString()}",
                     "✏️ Editar"
                   ),
                   " | ",
                   form(
-                    action := s"/admin/category/delete/${cat.id.toString()}",
+                    action := s"/admin/categories/delete/${cat.id.toString()}",
                     method := "post",
                     input(`type` := "submit", value := "🗑️ Eliminar")
                   )
@@ -63,7 +63,7 @@ object CategoryAdminView {
       body(
         h1("Nueva Categoría"),
         form(
-          action := "/admin/category/add",
+          action := "/admin/categories/add",
           method := "post",
           p("Nombre: ", input(name := "name")),
           p("Slug: ", input(name := "slug")),
@@ -71,10 +71,13 @@ object CategoryAdminView {
           p("Estado: ", input(name := "status")),
           p(input(`type` := "submit", value := "Guardar"))
         ),
-        a(href := "/admin/category", "⬅ Volver a lista")
+        a(href := "/admin/categories", "⬅ Volver a lista")
       )
     ).render
   }
+
+  private def renderTextareaContent(content: Option[String]): Frag =
+    content.map(str => str: Frag).getOrElse("": Frag)
 
   def editForm(category: Category): String = {
     html(
@@ -84,20 +87,40 @@ object CategoryAdminView {
       ),
       body(
         h1("Editar Categoría"),
+        // Asegúrate que el action coincide con la ruta del controlador
         form(
-          action := s"/admin/category/edit/${category.id.toString()}",
+          action := s"/admin/categories/edit/${category.id}",
           method := "post",
           p("Nombre: ", input(name := "name", value := category.name)),
           p("Slug: ", input(name := "slug", value := category.slug)),
           p(
             "Descripción: ",
-            textarea(name := "description", category.description)
+            textarea(
+              name := "description",
+              renderTextareaContent(category.description)
+            )
           ),
-          p("Estado: ", input(name := "status", value := category.status)),
+          p(
+            "Estado: ",
+            select(
+              name := "status",
+              option(
+                value := "true",
+                if (category.status) selected := true,
+                "Activo"
+              ),
+              option(
+                value := "false",
+                if (!category.status) selected := true,
+                "Inactivo"
+              )
+            )
+          ),
           p(input(`type` := "submit", value := "Actualizar"))
         ),
-        a(href := "/admin/category", "⬅ Volver a lista")
+        a(href := "/admin/categories", "⬅ Volver a lista")
       )
     ).render
   }
+
 }

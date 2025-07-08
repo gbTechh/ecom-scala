@@ -11,6 +11,7 @@ trait ProductRepository {
   def findAll(): IO[List[Product]]
   def findById(id: Int): IO[Option[Product]]
   def findBySlug(slug: String): IO[Option[Product]]
+  def findByCategorySlug(categorySlug: String): IO[List[Product]]
   def create(product: Product): IO[Unit]
   def update(product: Product): IO[Unit]
   def delete(id: Int): IO[Unit]
@@ -18,7 +19,14 @@ trait ProductRepository {
 
 object ProductRepository {
   def apply(xa: Transactor[IO]): ProductRepository = new ProductRepository {
-
+    def findByCategorySlug(categorySlug: String): IO[List[Product]] = {
+      sql"""
+        SELECT p.* 
+        FROM products p
+        JOIN categories c ON p.category_id = c.id
+        WHERE c.slug = $categorySlug AND p.deleted_at IS NULL
+      """.query[Product].to[List].transact(xa)
+    }
     def findAll(): IO[List[Product]] =
       sql"""
         SELECT *

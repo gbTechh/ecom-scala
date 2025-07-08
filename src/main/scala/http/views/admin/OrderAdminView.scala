@@ -4,6 +4,7 @@ import scalatags.Text.all._
 import scalatags.Text.tags2
 import model.{Order, OrderItem, OrderStatus}
 import java.time.format.DateTimeFormatter
+import java.sql.Timestamp
 
 object OrderAdminView {
   private val dateFormatter = DateTimeFormatter.ofPattern("yyyy-MM-dd HH:mm:ss")
@@ -184,7 +185,7 @@ object OrderAdminView {
               select(
                 name := "status",
                 `class` := "form-select",
-                OrderStatus.values.map { status =>
+                OrderStatus.allStatuses.map { status =>
                   option(
                     value := status.toString,
                     if (order.status == status) selected := true,

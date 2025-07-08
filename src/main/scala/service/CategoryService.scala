@@ -8,6 +8,7 @@ import repository.CategoryRepository
 trait CategoryService {
   def findAll(): IO[List[Category]]
   def findById(id: Int): IO[Option[Category]]
+  def findBySlug(slug: String): IO[Option[Category]]
   def create(category: Category): IO[Unit]
   def update(category: Category): IO[Unit]
   def delete(id: Int): IO[Unit]
@@ -19,6 +20,9 @@ object CategoryService {
       repo.findAll()
     def findById(id: Int): IO[Option[Category]] =
       repo.findById(id)
+
+    def findBySlug(slug: String): IO[Option[Category]] =
+      repo.findBySlug(slug)
 
     def create(category: Category): IO[Unit] =
       for {

@@ -1,76 +1,105 @@
-package http.controllers
+package http.controllers.admin
 
 import cats.effect.IO
 import org.http4s._
 import org.http4s.dsl.io._
+import org.http4s.implicits._
 import org.http4s.headers.Location
-import org.http4s.syntax.literals._
+import org.http4s.headers.`Content-Type`
 import service.CategoryService
 import java.sql.Timestamp
 import java.time.Instant
 import model.Category
 import _root_.http.views.admin.CategoryAdminView
+import org.http4s.MediaType
 
-class CategoryAdminController(service: CategoryService) {
+class CategoryAdminController(categoryService: CategoryService) {
   val routes: HttpRoutes[IO] = HttpRoutes.of[IO] {
-
-    case GET -> Root / "admin" / "category" =>
-      for {
-        cats <- service.findAll() // Esto devuelve List[Category]
-        res <- Ok(CategoryAdminView.list(cats))
-      } yield res.withContentType(
-        org.http4s.headers.`Content-Type`(org.http4s.MediaType.text.html)
-      )
-
-    case GET -> Root / "admin" / "category" / "add" =>
-      Ok(CategoryAdminView.addForm()).map(
-        _.withContentType(
-          org.http4s.headers.`Content-Type`(MediaType.text.html)
+    // Listar categorías (GET /admin/categories)
+    case GET -> Root =>
+      categoryService
+        .findAll()
+        .flatMap(categories =>
+          Ok(CategoryAdminView.list(categories))
+            .map(_.withContentType(`Content-Type`(MediaType.text.html)))
         )
-      )
 
-    case GET -> Root / "admin" / "category" / "edit" / IntVar(id) =>
-      for {
-        catOpt <- service.findById(id)
-        res <- catOpt match {
-          case Some(cat) => Ok(CategoryAdminView.editForm(cat))
-          case None      => NotFound("Categoría no encontrada")
-        }
-      } yield res.withContentType(
-        org.http4s.headers.`Content-Type`(org.http4s.MediaType.text.html)
-      )
+    // Mostrar formulario de añadir (GET /admin/categories/add)
+    case GET -> Root / "add" =>
+      Ok(CategoryAdminView.addForm())
+        .map(_.withContentType(`Content-Type`(MediaType.text.html)))
 
-    case POST -> Root / "admin" / "category" / "delete" / IntVar(id) =>
-      service.delete(id) *> SeeOther(
-        Location(Uri.unsafeFromString("/admin/category"))
-      )
-    case req @ POST -> Root / "admin" / "category" / "add" =>
-      for {
-        form <- req.as[UrlForm]
-        name = form.getFirstOrElse("name", "").trim
-        slug = form.getFirstOrElse("slug", "").trim
-        description = Option(form.getFirstOrElse("description", "").trim)
-          .filter(_.nonEmpty)
-        statusStr = form.getFirstOrElse("status", "false").trim.toLowerCase
-        status = statusStr == "true" || statusStr == "on" || statusStr == "1"
+    // Mostrar formulario de edición (GET /admin/categories/edit/:id)
+    case GET -> Root / "edit" / IntVar(id) =>
+      categoryService.findById(id).flatMap {
+        case Some(category) =>
+          Ok(CategoryAdminView.editForm(category))
+            .map(_.withContentType(`Content-Type`(MediaType.text.html)))
+        case None =>
+          NotFound("Category not found")
+      }
 
-        now = Timestamp.from(Instant.now())
-        fakeId = 0 // No se usa, el DB genera el ID
-
-        category = Category(
-          id = fakeId,
-          name = name,
-          slug = slug,
-          description = description,
-          status = status,
+    // Procesar añadir categoría (POST /admin/categories/add)
+    case req @ POST -> Root / "add" =>
+      req.as[UrlForm].flatMap { form =>
+        val now = Timestamp.from(Instant.now())
+        val category = Category(
+          id = 0,
+          name = form.getFirstOrElse("name", ""),
+          slug = form.getFirstOrElse("slug", ""),
+          description =
+            Option(form.getFirstOrElse("description", "")).filter(_.nonEmpty),
+          status = form.getFirstOrElse("status", "false").toBoolean,
           createdAt = now,
           updatedAt = now,
           deletedAt = None
         )
+        categoryService.create(category) *>
+          SeeOther(Location(uri"/admin/categories"))
+      }
+    case req @ POST -> Root / "edit" / IntVar(id) =>
+      req.as[UrlForm].flatMap { form =>
+        for {
+          // Primero obtenemos la categoría existente para preservar createdAt
+          existing <- categoryService.findById(id)
+          now = Timestamp.from(Instant.now())
 
-        _ <- service.create(category)
-        res <- SeeOther(Location(uri"/admin/category"))
-      } yield res
+          updatedCategory = existing match {
+            case Some(c) =>
+              Category(
+                id = id,
+                name = form.getFirstOrElse("name", c.name),
+                slug = form.getFirstOrElse("slug", c.slug),
+                description = Option(form.getFirstOrElse("description", ""))
+                  .filter(_.nonEmpty),
+                status =
+                  form.getFirstOrElse("status", c.status.toString).toBoolean,
+                createdAt = c.createdAt, // Mantenemos la fecha original
+                updatedAt = now,
+                deletedAt = None
+              )
+            case None =>
+              // Si no existe, creamos una nueva (aunque esto no debería ocurrir)
+              Category(
+                id = id,
+                name = form.getFirstOrElse("name", ""),
+                slug = form.getFirstOrElse("slug", ""),
+                description = Option(form.getFirstOrElse("description", ""))
+                  .filter(_.nonEmpty),
+                status = form.getFirstOrElse("status", "false").toBoolean,
+                createdAt = now,
+                updatedAt = now,
+                deletedAt = None
+              )
+          }
 
+          _ <- categoryService.update(updatedCategory)
+          response <- SeeOther(Location(uri"/admin/categories"))
+        } yield response
+      }
+    // Eliminar categoría (POST /admin/categories/delete/:id)
+    case POST -> Root / "delete" / IntVar(id) =>
+      categoryService.delete(id) *>
+        SeeOther(Location(uri"/admin/categories"))
   }
 }
