@@ -5,11 +5,11 @@ import org.http4s._
 import org.http4s.dsl.io._
 import org.http4s.headers.Location
 import org.http4s.syntax.literals._
-import http.views.CategoryAdminView
 import service.CategoryService
 import java.sql.Timestamp
 import java.time.Instant
 import model.Category
+import _root_.http.views.admin.CategoryAdminView
 
 class CategoryAdminController(service: CategoryService) {
   val routes: HttpRoutes[IO] = HttpRoutes.of[IO] {

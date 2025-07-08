@@ -9,6 +9,7 @@ import model.Order._
 import model.OrderStatus
 
 trait OrderRepository {
+  def findAll(): IO[List[Order]]
   def findById(id: Int): IO[Option[Order]]
   def findByUserId(userId: Int): IO[List[Order]]
   def create(order: Order): IO[Unit]
@@ -19,7 +20,12 @@ trait OrderRepository {
 
 object OrderRepository {
   def apply(xa: Transactor[IO]): OrderRepository = new OrderRepository {
-
+    def findAll(): IO[List[Order]] =
+      sql"""
+        SELECT *
+        FROM orders
+        WHERE deleted_at IS NULL
+      """.query[Order].to[List].transact(xa)
     def findById(id: Int): IO[Option[Order]] = {
       sql"""
         SELECT id, user_id, total_amount, status, created_at, updated_at, deleted_at 

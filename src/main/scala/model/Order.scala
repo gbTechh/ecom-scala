@@ -13,20 +13,27 @@ object OrderStatus {
   case object Delivered extends OrderStatus
   case object Cancelled extends OrderStatus
 
-  implicit val orderStatusMeta: Meta[OrderStatus] =
-    Meta[String].timap {
+  implicit val ordeStatusMeta: Meta[OrderStatus] = {
+    val fromString: String => OrderStatus = {
       case "Pending"    => Pending
       case "Processing" => Processing
       case "Shipped"    => Shipped
       case "Delivered"  => Delivered
       case "Cancelled"  => Cancelled
-    } {
+      case other =>
+        throw new IllegalArgumentException(s"Unknown OrderStatus: $other")
+    }
+
+    val toString: OrderStatus => String = {
       case Pending    => "Pending"
       case Processing => "Processing"
       case Shipped    => "Shipped"
       case Delivered  => "Delivered"
       case Cancelled  => "Cancelled"
     }
+
+    Meta[String].timap(fromString)(toString)
+  }
 }
 
 case class Order(
@@ -40,17 +47,23 @@ case class Order(
 )
 
 object Order {
-  implicit val orderRead: Read[Order] =
-    Read[(Int, Int, Double, String, Timestamp, Timestamp, Option[Timestamp])]
+  implicit val orderRead: Read[Order] = {
+    // Asegurarse de que todas las instancias necesarias estén disponibles
+    implicit val orderMeta: Meta[OrderStatus] = OrderStatus.ordeStatusMeta
+
+    Read[
+      (Int, Int, Double, OrderStatus, Timestamp, Timestamp, Option[Timestamp])
+    ]
       .map { case (id, userId, amount, status, created, updated, deleted) =>
         Order(
           id,
           userId,
           amount,
-          OrderStatus.orderStatusMeta.get(status),
+          status,
           created,
           updated,
           deleted
         )
       }
+  }
 }

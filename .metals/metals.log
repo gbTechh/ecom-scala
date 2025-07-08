@@ -3242,3 +3242,1043 @@ GRAVE: A severe compiler error occurred, full details of the error can be found 
 2025.06.18 15:57:15 WARN  Could not load snapshot text for /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/model/Order.scala[0m
 jun. 18, 2025 3:57:40 P. M. org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
 INFORMACIÓN: Unsupported notification method: $/setTrace
+jun. 19, 2025 8:09:37 P. M. org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFORMACIÓN: Unsupported notification method: $/setTrace
+2025.06.19 21:03:59 INFO  Shutting down server[0m
+2025.06.19 21:03:59 INFO  shutting down Metals[0m
+2025.06.19 21:04:00 INFO  Shut down connection with build server.[0m
+2025.06.19 21:04:00 INFO  Shut down connection with build server.[0m
+2025.06.19 21:03:59 INFO  Exiting server[0m
+2025.07.07 16:40:24 INFO  Started: Metals version 1.6.0 in folders '/home/enkit/Proyectos2025/ucsp/scala/ecom' for client Code - OSS 1.100.3.[0m
+2025.07.07 16:40:25 INFO  no build target found for /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/service/CategoryService.scala. Using presentation compiler with project's scala-library version: 3.3.6[0m
+2025.07.07 16:40:25 INFO  Attempting to connect to the build server...[0m
+2025.07.07 16:40:25 INFO  No running Bloop server found, starting one.[0m
+2025.07.07 16:40:30 INFO  Starting compilation server[0m
+2025.07.07 16:40:33 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/enkit/Proyectos2025/ucsp/scala/ecom/.metals/bsp.trace.json or /home/enkit/.cache/metals/bsp.trace.json[0m
+2025.07.07 16:40:37 INFO  Attempting to connect to the build server...[0m
+2025.07.07 16:40:37 INFO  Found a Bloop server running[0m
+2025.07.07 16:40:37 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/enkit/Proyectos2025/ucsp/scala/ecom/project/.metals/bsp.trace.json or /home/enkit/.cache/metals/bsp.trace.json[0m
+2025.07.07 16:40:37 INFO  time: Connected to build server in 12s[0m
+2025.07.07 16:40:37 INFO  Connected to Build server: Bloop v2.0.10[0m
+2025.07.07 16:40:37 INFO  time: Imported build in 0.22s[0m
+2025.07.07 16:40:37 WARN  2.13.12 is no longer supported in the current Metals versions, using the last known supported version 1.4.2[0m
+2025.07.07 16:40:43 WARN  Could not find java sources in /usr/lib/jvm/src.zip, /usr/lib/jvm/lib/src.zip, /usr/lib/jvm/java-17-openjdk/src.zip, /usr/lib/jvm/java-17-openjdk/lib/src.zip. Java symbols will not be available.[0m
+2025.07.07 16:40:46 INFO  time: indexed workspace in 9.1s[0m
+2025.07.07 16:40:47 INFO  compiling root (10 scala sources)[0m
+2025.07.07 16:40:54 WARN  Invalid text document uri received from build server: file:///home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/http/Server.scala[0m
+2025.07.07 16:40:54 WARN  Invalid text document uri received from build server: file:///home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/http/views/HomeController.scala[0m
+2025.07.07 16:40:54 INFO  time: compiled root in 6.5s[0m
+2025.07.07 16:55:56 WARN  Could not load snapshot text for /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/model/Order.scala[0m
+2025.07.07 16:56:17 WARN  Could not load snapshot text for /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/model/Order.scala[0m
+2025.07.07 16:56:21 WARN  Could not load snapshot text for /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/model/Order.scala[0m
+2025.07.07 16:56:26 WARN  Could not load snapshot text for /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/model/Order.scala[0m
+2025.07.07 16:56:36 WARN  Could not load snapshot text for /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/model/Order.scala[0m
+2025.07.07 16:56:36 WARN  Could not load snapshot text for /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/model/Order.scala[0m
+2025.07.07 16:56:36 WARN  Could not load snapshot text for /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/model/Order.scala[0m
+2025.07.07 16:56:36 WARN  Could not load snapshot text for /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/model/Order.scala[0m
+2025.07.07 16:56:36 INFO  Created report: Optional[file:///home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/model/Order.scala][0m
+2025.07.07 16:56:36 INFO  empty definition using pc, found symbol in pc:  (full report at: "/home/enkit/Proyectos2025/ucsp/scala/ecom/.metals/.reports/metals-full/2025-07-07/r_empty-definition_(root)_16-56-36-601.md")[0m
+2025.07.07 16:56:36 WARN  Could not find 'OrderStatus' using presentation compiler nor semanticdb. Trying to guess the definition using available information from local class context. [0m
+2025.07.07 16:56:36 INFO  empty definition using pc, found symbol in pc:  (full report at: "/home/enkit/Proyectos2025/ucsp/scala/ecom/.metals/.reports/metals-full/2025-07-07/r_empty-definition_(root)_16-56-36-601.md")[0m
+2025.07.07 16:56:38 WARN  Could not load snapshot text for /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/model/Order.scala[0m
+2025.07.07 16:56:39 WARN  Could not load snapshot text for /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/model/Order.scala[0m
+2025.07.07 16:56:43 WARN  Could not load snapshot text for /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/model/Order.scala[0m
+2025.07.07 16:56:55 WARN  Could not load snapshot text for /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/model/Order.scala[0m
+2025.07.07 16:56:55 WARN  Could not load snapshot text for /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/model/Order.scala[0m
+2025.07.07 16:56:55 INFO  empty definition using pc, found symbol in pc:  (full report at: "/home/enkit/Proyectos2025/ucsp/scala/ecom/.metals/.reports/metals-full/2025-07-07/r_empty-definition_(root)_16-56-36-601.md")[0m
+2025.07.07 16:56:55 WARN  Could not load snapshot text for /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/model/Order.scala[0m
+2025.07.07 16:56:57 WARN  Could not load snapshot text for /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/model/Order.scala[0m
+2025.07.07 16:56:57 WARN  Could not load snapshot text for /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/model/Order.scala[0m
+2025.07.07 16:56:57 WARN  Could not load snapshot text for /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/model/Order.scala[0m
+2025.07.07 16:56:57 WARN  Could not load snapshot text for /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/model/Order.scala[0m
+2025.07.07 16:56:57 WARN  Could not load snapshot text for /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/model/Order.scala[0m
+2025.07.07 16:56:58 INFO  compiling root (10 scala sources)[0m
+2025.07.07 16:56:58 WARN  Could not load snapshot text for /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/model/Order.scala[0m
+2025.07.07 16:56:59 INFO  time: compiled root in 1.42s[0m
+2025.07.07 16:56:59 WARN  Could not load snapshot text for /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/model/Order.scala[0m
+2025.07.07 16:57:07 WARN  Could not load snapshot text for /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/model/Order.scala[0m
+2025.07.07 16:57:07 WARN  Could not load snapshot text for /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/model/Order.scala[0m
+2025.07.07 16:57:07 INFO  empty definition using pc, found symbol in pc:  (full report at: "/home/enkit/Proyectos2025/ucsp/scala/ecom/.metals/.reports/metals-full/2025-07-07/r_empty-definition_(root)_16-56-36-601.md")[0m
+2025.07.07 16:57:07 WARN  Could not load snapshot text for /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/model/Order.scala[0m
+2025.07.07 16:57:07 WARN  Could not load snapshot text for /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/model/Order.scala[0m
+2025.07.07 16:57:07 INFO  empty definition using pc, found symbol in pc:  (full report at: "/home/enkit/Proyectos2025/ucsp/scala/ecom/.metals/.reports/metals-full/2025-07-07/r_empty-definition_(root)_16-56-36-601.md")[0m
+2025.07.07 16:57:07 WARN  Could not load snapshot text for /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/model/Order.scala[0m
+2025.07.07 16:57:07 WARN  Could not load snapshot text for /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/model/Order.scala[0m
+2025.07.07 16:57:07 WARN  Could not load snapshot text for /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/model/Order.scala[0m
+2025.07.07 16:57:07 WARN  Could not load snapshot text for /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/model/Order.scala[0m
+2025.07.07 16:57:07 WARN  Could not load snapshot text for /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/model/Order.scala[0m
+2025.07.07 16:57:10 WARN  Could not load snapshot text for /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/model/Order.scala[0m
+2025.07.07 16:57:10 WARN  Could not load snapshot text for /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/model/Order.scala[0m
+2025.07.07 16:57:10 WARN  Could not load snapshot text for /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/model/Order.scala[0m
+2025.07.07 16:57:10 WARN  Could not load snapshot text for /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/model/Order.scala[0m
+2025.07.07 16:57:10 WARN  Could not load snapshot text for /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/model/Order.scala[0m
+2025.07.07 16:57:10 WARN  Could not load snapshot text for /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/model/Order.scala[0m
+2025.07.07 16:57:10 INFO  empty definition using pc, found symbol in pc:  (full report at: "/home/enkit/Proyectos2025/ucsp/scala/ecom/.metals/.reports/metals-full/2025-07-07/r_empty-definition_(root)_16-56-36-601.md")[0m
+2025.07.07 16:57:10 WARN  Could not load snapshot text for /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/model/Order.scala[0m
+2025.07.07 16:57:10 WARN  Could not load snapshot text for /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/model/Order.scala[0m
+2025.07.07 16:57:10 WARN  Could not load snapshot text for /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/model/Order.scala[0m
+2025.07.07 16:57:10 WARN  Could not load snapshot text for /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/model/Order.scala[0m
+2025.07.07 16:57:10 INFO  empty definition using pc, found symbol in pc:  (full report at: "/home/enkit/Proyectos2025/ucsp/scala/ecom/.metals/.reports/metals-full/2025-07-07/r_empty-definition_(root)_16-56-36-601.md")[0m
+2025.07.07 16:57:11 INFO  compiling root (10 scala sources)[0m
+2025.07.07 16:57:10 WARN  Could not load snapshot text for /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/model/Order.scala[0m
+2025.07.07 16:57:11 WARN  Could not load snapshot text for /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/model/Order.scala[0m
+2025.07.07 16:57:11 INFO  empty definition using pc, found symbol in pc:  (full report at: "/home/enkit/Proyectos2025/ucsp/scala/ecom/.metals/.reports/metals-full/2025-07-07/r_empty-definition_(root)_16-56-36-601.md")[0m
+2025.07.07 16:57:12 INFO  time: compiled root in 1.13s[0m
+2025.07.07 16:57:12 WARN  Could not load snapshot text for /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/model/Order.scala[0m
+2025.07.07 16:58:01 WARN  Could not load snapshot text for /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/model/Order.scala[0m
+2025.07.07 16:58:02 WARN  Could not load snapshot text for /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/model/Order.scala[0m
+2025.07.07 16:58:04 INFO  compiling root (10 scala sources)[0m
+2025.07.07 16:58:05 INFO  time: compiled root in 1.08s[0m
+2025.07.07 16:58:06 WARN  Could not load snapshot text for /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/model/Order.scala[0m
+2025.07.07 16:58:10 WARN  Could not load snapshot text for /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/model/Order.scala[0m
+2025.07.07 16:58:14 WARN  Could not load snapshot text for /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/model/Order.scala[0m
+2025.07.07 16:58:14 WARN  Could not load snapshot text for /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/model/Order.scala[0m
+2025.07.07 16:58:14 WARN  Could not load snapshot text for /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/model/Order.scala[0m
+2025.07.07 16:58:18 WARN  Could not load snapshot text for /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/model/Order.scala[0m
+2025.07.07 16:58:18 INFO  compiling root (10 scala sources)[0m
+2025.07.07 16:58:18 INFO  time: compiled root in 0.75s[0m
+2025.07.07 16:58:19 WARN  Could not load snapshot text for /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/model/Order.scala[0m
+2025.07.07 16:58:30 INFO  compiling root (10 scala sources)[0m
+2025.07.07 16:58:30 INFO  time: compiled root in 0.64s[0m
+2025.07.07 16:58:30 WARN  Could not load snapshot text for /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/model/Order.scala[0m
+2025.07.07 16:58:32 WARN  Could not load snapshot text for /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/model/Order.scala[0m
+2025.07.07 16:58:32 WARN  Could not load snapshot text for /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/model/Order.scala[0m
+2025.07.07 16:58:52 WARN  Could not load snapshot text for /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/model/Order.scala[0m
+2025.07.07 16:59:54 WARN  Could not load snapshot text for /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/model/Order.scala[0m
+2025.07.07 16:59:55 WARN  Could not load snapshot text for /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/model/Order.scala[0m
+2025.07.07 16:59:55 WARN  Could not load snapshot text for /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/model/Order.scala[0m
+2025.07.07 16:59:55 WARN  Could not load snapshot text for /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/model/Order.scala[0m
+2025.07.07 16:59:55 INFO  compiling root (10 scala sources)[0m
+2025.07.07 16:59:56 WARN  Could not load snapshot text for /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/model/Order.scala[0m
+2025.07.07 16:59:55 INFO  time: compiled root in 0.87s[0m
+2025.07.07 16:59:57 WARN  Could not load snapshot text for /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/model/Order.scala[0m
+2025.07.07 17:00:47 WARN  Could not load snapshot text for /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/model/Order.scala[0m
+2025.07.07 17:00:49 WARN  Could not load snapshot text for /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/model/Order.scala[0m
+2025.07.07 17:00:50 INFO  compiling root (10 scala sources)[0m
+2025.07.07 17:00:50 WARN  Could not load snapshot text for /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/model/Order.scala[0m
+2025.07.07 17:00:50 INFO  time: compiled root in 0.81s[0m
+2025.07.07 17:00:51 WARN  Could not load snapshot text for /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/model/Order.scala[0m
+2025.07.07 17:00:51 WARN  Could not load snapshot text for /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/model/Order.scala[0m
+2025.07.07 17:00:52 WARN  Could not load snapshot text for /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/model/Order.scala[0m
+2025.07.07 17:00:52 WARN  Could not load snapshot text for /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/model/Order.scala[0m
+2025.07.07 17:00:52 INFO  compiling root (10 scala sources)[0m
+2025.07.07 17:00:53 WARN  Could not load snapshot text for /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/model/Order.scala[0m
+2025.07.07 17:00:53 WARN  Could not load snapshot text for /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/model/Order.scala[0m
+2025.07.07 17:00:53 WARN  Could not find 'fromString' using presentation compiler nor semanticdb. Trying to guess the definition using available information from local class context. [0m
+2025.07.07 17:00:53 INFO  empty definition using pc, found symbol in pc:  (full report at: "/home/enkit/Proyectos2025/ucsp/scala/ecom/.metals/.reports/metals-full/2025-07-07/r_empty-definition_(root)_16-56-36-601.md")[0m
+2025.07.07 17:00:55 INFO  time: compiled root in 2.85s[0m
+2025.07.07 17:00:56 WARN  Could not load snapshot text for /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/model/Order.scala[0m
+2025.07.07 17:02:32 WARN  Could not load snapshot text for /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/model/Order.scala[0m
+2025.07.07 17:02:33 WARN  Could not load snapshot text for /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/model/Order.scala[0m
+2025.07.07 17:02:33 WARN  Could not load snapshot text for /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/model/Order.scala[0m
+2025.07.07 17:02:33 WARN  Could not load snapshot text for /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/model/Order.scala[0m
+2025.07.07 17:02:32 WARN  Could not load snapshot text for /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/model/Order.scala[0m
+2025.07.07 17:02:33 WARN  Could not load snapshot text for /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/model/Order.scala[0m
+2025.07.07 17:02:33 WARN  Could not load snapshot text for /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/model/Order.scala[0m
+2025.07.07 17:02:33 WARN  Could not load snapshot text for /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/model/Order.scala[0m
+2025.07.07 17:02:33 WARN  Could not load snapshot text for /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/model/Order.scala[0m
+2025.07.07 17:02:34 WARN  Could not load snapshot text for /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/model/Order.scala[0m
+2025.07.07 17:02:34 INFO  compiling root (10 scala sources)[0m
+2025.07.07 17:02:34 WARN  Could not load snapshot text for /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/model/Order.scala[0m
+2025.07.07 17:02:34 INFO  time: compiled root in 0.72s[0m
+2025.07.07 17:02:34 WARN  Could not load snapshot text for /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/model/Order.scala[0m
+2025.07.07 17:02:48 WARN  Could not load snapshot text for /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/model/Order.scala[0m
+2025.07.07 17:08:25 WARN  Could not load snapshot text for /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/model/Order.scala[0m
+2025.07.07 17:08:48 WARN  Could not load snapshot text for /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/model/Order.scala[0m
+2025.07.07 17:12:20 WARN  Could not load snapshot text for /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/model/Order.scala[0m
+2025.07.07 17:12:25 WARN  Could not load snapshot text for /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/model/User.scala[0m
+2025.07.07 17:12:27 WARN  Could not load snapshot text for /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/model/User.scala[0m
+2025.07.07 17:12:46 WARN  Could not load snapshot text for /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/model/User.scala[0m
+2025.07.07 17:12:56 WARN  Could not load snapshot text for /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/model/User.scala[0m
+2025.07.07 17:12:57 WARN  Could not load snapshot text for /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/model/User.scala[0m
+2025.07.07 17:12:58 WARN  Could not load snapshot text for /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/model/User.scala[0m
+2025.07.07 17:12:58 WARN  Could not load snapshot text for /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/model/User.scala[0m
+2025.07.07 17:12:58 WARN  Could not load snapshot text for /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/model/User.scala[0m
+2025.07.07 17:12:58 INFO  Created report: Optional[file:///home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/model/User.scala][0m
+2025.07.07 17:12:58 INFO  empty definition using pc, found symbol in pc: java/sql/Timestamp# (full report at: "/home/enkit/Proyectos2025/ucsp/scala/ecom/.metals/.reports/metals-full/2025-07-07/r_empty-definition_(root)_17-12-58-577.md")[0m
+2025.07.07 17:12:58 INFO  compiling root (10 scala sources)[0m
+2025.07.07 17:12:58 WARN  Could not load snapshot text for /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/model/User.scala[0m
+2025.07.07 17:12:58 INFO  time: compiled root in 0.66s[0m
+2025.07.07 17:12:59 WARN  Could not load snapshot text for /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/model/User.scala[0m
+2025.07.07 17:13:26 WARN  Could not load snapshot text for /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/model/User.scala[0m
+2025.07.07 17:13:27 WARN  Could not load snapshot text for /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/model/User.scala[0m
+2025.07.07 17:13:27 WARN  Could not load snapshot text for /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/model/User.scala[0m
+2025.07.07 17:13:27 INFO  Created report: Optional[file:///home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/model/User.scala][0m
+2025.07.07 17:13:27 INFO  empty definition using pc, found symbol in pc:  (full report at: "/home/enkit/Proyectos2025/ucsp/scala/ecom/.metals/.reports/metals-full/2025-07-07/r_empty-definition_(root)_17-13-27-565.md")[0m
+2025.07.07 17:13:27 WARN  Could not load snapshot text for /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/model/User.scala[0m
+2025.07.07 17:13:27 WARN  Could not load snapshot text for /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/model/User.scala[0m
+2025.07.07 17:13:27 WARN  Could not load snapshot text for /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/model/User.scala[0m
+2025.07.07 17:13:27 WARN  Could not load snapshot text for /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/model/User.scala[0m
+2025.07.07 17:13:27 INFO  empty definition using pc, found symbol in pc:  (full report at: "/home/enkit/Proyectos2025/ucsp/scala/ecom/.metals/.reports/metals-full/2025-07-07/r_empty-definition_(root)_17-13-27-565.md")[0m
+2025.07.07 17:13:27 WARN  Could not load snapshot text for /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/model/User.scala[0m
+2025.07.07 17:13:29 WARN  Could not load snapshot text for /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/model/User.scala[0m
+2025.07.07 17:13:29 WARN  Could not load snapshot text for /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/model/User.scala[0m
+2025.07.07 17:13:29 INFO  empty definition using pc, found symbol in pc:  (full report at: "/home/enkit/Proyectos2025/ucsp/scala/ecom/.metals/.reports/metals-full/2025-07-07/r_empty-definition_(root)_17-13-27-565.md")[0m
+2025.07.07 17:13:29 WARN  Could not load snapshot text for /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/model/User.scala[0m
+2025.07.07 17:13:29 WARN  Could not load snapshot text for /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/model/User.scala[0m
+2025.07.07 17:13:29 WARN  Could not load snapshot text for /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/model/User.scala[0m
+2025.07.07 17:13:29 INFO  empty definition using pc, found symbol in pc:  (full report at: "/home/enkit/Proyectos2025/ucsp/scala/ecom/.metals/.reports/metals-full/2025-07-07/r_empty-definition_(root)_17-13-27-565.md")[0m
+2025.07.07 17:13:29 WARN  Could not load snapshot text for /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/model/User.scala[0m
+2025.07.07 17:13:31 WARN  Could not load snapshot text for /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/model/User.scala[0m
+2025.07.07 17:13:32 WARN  Could not load snapshot text for /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/model/User.scala[0m
+2025.07.07 17:13:32 INFO  compiling root (10 scala sources)[0m
+2025.07.07 17:13:33 INFO  time: compiled root in 1.06s[0m
+2025.07.07 17:13:34 WARN  Could not load snapshot text for /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/model/User.scala[0m
+2025.07.07 17:14:50 WARN  Could not load snapshot text for /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/model/User.scala[0m
+2025.07.07 17:15:21 INFO  compiling root (10 scala sources)[0m
+2025.07.07 17:15:21 WARN  Could not load snapshot text for /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/model/User.scala[0m
+2025.07.07 17:15:21 INFO  time: compiled root in 0.62s[0m
+2025.07.07 17:15:22 WARN  Could not load snapshot text for /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/model/User.scala[0m
+2025.07.07 17:15:27 WARN  Could not load snapshot text for /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/model/User.scala[0m
+2025.07.07 17:18:06 WARN  Could not load snapshot text for /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/model/User.scala[0m
+2025.07.07 17:18:22 WARN  Could not load snapshot text for /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/model/User.scala[0m
+2025.07.07 17:18:28 WARN  Could not load snapshot text for /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/model/User.scala[0m
+2025.07.07 17:18:28 INFO  compiling root (10 scala sources)[0m
+2025.07.07 17:18:28 WARN  Could not load snapshot text for /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/model/User.scala[0m
+2025.07.07 17:18:28 INFO  time: compiled root in 0.62s[0m
+2025.07.07 17:18:29 WARN  Could not load snapshot text for /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/model/User.scala[0m
+2025.07.07 17:18:34 WARN  Could not load snapshot text for /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/model/Order.scala[0m
+2025.07.07 17:18:35 WARN  Could not load snapshot text for /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/model/OrderItem.scala[0m
+2025.07.07 17:18:37 WARN  Could not load snapshot text for /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/model/Order.scala[0m
+2025.07.07 17:18:43 WARN  Could not load snapshot text for /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/model/User.scala[0m
+2025.07.07 17:18:49 WARN  Could not load snapshot text for /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/model/Order.scala[0m
+2025.07.07 17:18:51 WARN  Could not load snapshot text for /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/model/Order.scala[0m
+2025.07.07 17:18:59 WARN  Could not load snapshot text for /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/model/User.scala[0m
+2025.07.07 17:19:00 WARN  Could not load snapshot text for /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/model/Order.scala[0m
+2025.07.07 17:19:01 WARN  Could not load snapshot text for /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/model/User.scala[0m
+2025.07.07 17:19:01 WARN  Could not load snapshot text for /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/model/Order.scala[0m
+2025.07.07 17:19:24 WARN  Could not load snapshot text for /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/model/Order.scala[0m
+2025.07.07 17:19:28 WARN  Could not load snapshot text for /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/model/User.scala[0m
+2025.07.07 17:19:30 WARN  Could not load snapshot text for /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/model/User.scala[0m
+2025.07.07 17:19:31 WARN  Could not load snapshot text for /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/model/User.scala[0m
+2025.07.07 17:19:31 WARN  Could not load snapshot text for /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/model/User.scala[0m
+2025.07.07 17:19:31 WARN  Could not load snapshot text for /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/model/User.scala[0m
+2025.07.07 17:19:31 WARN  Could not load snapshot text for /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/model/User.scala[0m
+2025.07.07 17:19:31 INFO  empty definition using pc, found symbol in pc:  (full report at: "/home/enkit/Proyectos2025/ucsp/scala/ecom/.metals/.reports/metals-full/2025-07-07/r_empty-definition_(root)_17-13-27-565.md")[0m
+2025.07.07 17:19:31 INFO  compiling root (10 scala sources)[0m
+2025.07.07 17:19:31 WARN  Could not load snapshot text for /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/model/User.scala[0m
+2025.07.07 17:19:31 INFO  time: compiled root in 0.57s[0m
+2025.07.07 17:19:32 WARN  Could not load snapshot text for /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/model/User.scala[0m
+2025.07.07 17:19:32 WARN  Could not load snapshot text for /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/model/Order.scala[0m
+2025.07.07 17:20:39 WARN  Could not load snapshot text for /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/model/User.scala[0m
+2025.07.07 17:21:36 WARN  Could not load snapshot text for /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/model/User.scala[0m
+2025.07.07 17:26:58 WARN  Could not load snapshot text for /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/model/User.scala[0m
+2025.07.07 17:27:50 WARN  Could not load snapshot text for /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/model/User.scala[0m
+2025.07.07 17:28:43 WARN  Could not load snapshot text for /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/model/User.scala[0m
+2025.07.07 17:28:48 WARN  Could not load snapshot text for /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/model/User.scala[0m
+2025.07.07 17:28:59 WARN  Could not load snapshot text for /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/model/User.scala[0m
+2025.07.07 17:29:00 WARN  Could not load snapshot text for /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/model/User.scala[0m
+2025.07.07 17:29:00 INFO  compiling root (10 scala sources)[0m
+2025.07.07 17:29:00 WARN  Could not load snapshot text for /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/model/User.scala[0m
+2025.07.07 17:29:02 INFO  time: compiled root in 2.12s[0m
+2025.07.07 17:29:03 WARN  Could not load snapshot text for /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/model/User.scala[0m
+2025.07.07 17:29:03 WARN  Could not load snapshot text for /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/model/Order.scala[0m
+2025.07.07 17:29:06 WARN  Could not load snapshot text for /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/model/Order.scala[0m
+2025.07.07 17:29:07 WARN  Could not load snapshot text for /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/model/Order.scala[0m
+2025.07.07 17:29:07 WARN  Could not load snapshot text for /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/model/Order.scala[0m
+2025.07.07 17:29:07 INFO  Created report: Optional[file:///home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/model/Order.scala][0m
+2025.07.07 17:29:07 INFO  empty definition using pc, found symbol in pc: java/sql/Timestamp# (full report at: "/home/enkit/Proyectos2025/ucsp/scala/ecom/.metals/.reports/metals-full/2025-07-07/r_empty-definition_(root)_17-29-07-110.md")[0m
+2025.07.07 17:29:07 WARN  Could not load snapshot text for /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/model/Order.scala[0m
+2025.07.07 17:29:07 WARN  Could not load snapshot text for /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/model/Order.scala[0m
+2025.07.07 17:29:07 WARN  Could not load snapshot text for /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/model/Order.scala[0m
+2025.07.07 17:29:07 WARN  Could not load snapshot text for /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/model/Order.scala[0m
+2025.07.07 17:29:07 WARN  Could not load snapshot text for /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/model/Order.scala[0m
+2025.07.07 17:29:07 INFO  empty definition using pc, found symbol in pc:  (full report at: "/home/enkit/Proyectos2025/ucsp/scala/ecom/.metals/.reports/metals-full/2025-07-07/r_empty-definition_(root)_16-56-36-601.md")[0m
+2025.07.07 17:29:07 WARN  Could not load snapshot text for /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/model/Order.scala[0m
+2025.07.07 17:29:07 WARN  Could not load snapshot text for /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/model/Order.scala[0m
+2025.07.07 17:29:08 WARN  Could not load snapshot text for /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/model/Order.scala[0m
+2025.07.07 17:29:08 WARN  Could not load snapshot text for /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/model/Order.scala[0m
+2025.07.07 17:29:08 WARN  Could not load snapshot text for /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/model/Order.scala[0m
+2025.07.07 17:29:08 INFO  empty definition using pc, found symbol in pc:  (full report at: "/home/enkit/Proyectos2025/ucsp/scala/ecom/.metals/.reports/metals-full/2025-07-07/r_empty-definition_(root)_16-56-36-601.md")[0m
+2025.07.07 17:29:08 WARN  Could not load snapshot text for /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/model/Order.scala[0m
+2025.07.07 17:29:08 WARN  Could not load snapshot text for /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/model/Order.scala[0m
+2025.07.07 17:29:08 INFO  empty definition using pc, found symbol in pc:  (full report at: "/home/enkit/Proyectos2025/ucsp/scala/ecom/.metals/.reports/metals-full/2025-07-07/r_empty-definition_(root)_16-56-36-601.md")[0m
+2025.07.07 17:29:10 WARN  Could not load snapshot text for /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/model/Order.scala[0m
+2025.07.07 17:29:12 WARN  Could not load snapshot text for /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/model/Order.scala[0m
+2025.07.07 17:29:13 WARN  Could not load snapshot text for /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/model/Order.scala[0m
+2025.07.07 17:29:15 WARN  Could not load snapshot text for /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/model/Order.scala[0m
+2025.07.07 17:29:15 WARN  Could not load snapshot text for /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/model/Order.scala[0m
+2025.07.07 17:29:24 WARN  Could not load snapshot text for /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/model/Order.scala[0m
+2025.07.07 17:29:25 WARN  Could not load snapshot text for /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/model/Order.scala[0m
+2025.07.07 17:29:25 WARN  Could not load snapshot text for /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/model/Order.scala[0m
+2025.07.07 17:29:40 WARN  Could not load snapshot text for /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/model/Order.scala[0m
+2025.07.07 17:29:40 WARN  Could not load snapshot text for /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/model/Order.scala[0m
+2025.07.07 17:29:40 INFO  empty definition using pc, found symbol in pc:  (full report at: "/home/enkit/Proyectos2025/ucsp/scala/ecom/.metals/.reports/metals-full/2025-07-07/r_empty-definition_(root)_16-56-36-601.md")[0m
+2025.07.07 17:29:40 WARN  Could not load snapshot text for /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/model/Order.scala[0m
+2025.07.07 17:29:40 WARN  Could not load snapshot text for /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/model/Order.scala[0m
+2025.07.07 17:29:40 WARN  Could not load snapshot text for /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/model/Order.scala[0m
+2025.07.07 17:29:40 WARN  Could not load snapshot text for /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/model/Order.scala[0m
+2025.07.07 17:29:40 WARN  Could not load snapshot text for /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/model/Order.scala[0m
+2025.07.07 17:29:40 WARN  Could not load snapshot text for /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/model/Order.scala[0m
+2025.07.07 17:29:40 WARN  Could not load snapshot text for /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/model/Order.scala[0m
+2025.07.07 17:29:40 WARN  Could not load snapshot text for /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/model/Order.scala[0m
+2025.07.07 17:29:40 INFO  empty definition using pc, found symbol in pc:  (full report at: "/home/enkit/Proyectos2025/ucsp/scala/ecom/.metals/.reports/metals-full/2025-07-07/r_empty-definition_(root)_16-56-36-601.md")[0m
+2025.07.07 17:29:40 WARN  Could not load snapshot text for /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/model/Order.scala[0m
+2025.07.07 17:29:40 INFO  compiling root (10 scala sources)[0m
+2025.07.07 17:29:41 WARN  Could not load snapshot text for /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/model/Order.scala[0m
+2025.07.07 17:29:40 INFO  time: compiled root in 0.9s[0m
+2025.07.07 17:29:42 WARN  Could not load snapshot text for /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/model/User.scala[0m
+2025.07.07 17:29:42 WARN  Could not load snapshot text for /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/model/Order.scala[0m
+2025.07.07 17:29:43 WARN  Could not load snapshot text for /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/model/Order.scala[0m
+2025.07.07 17:29:43 WARN  Could not load snapshot text for /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/model/Order.scala[0m
+2025.07.07 17:29:44 INFO  compiling root (10 scala sources)[0m
+2025.07.07 17:29:44 WARN  Could not load snapshot text for /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/model/Order.scala[0m
+2025.07.07 17:29:45 INFO  time: compiled root in 1.42s[0m
+2025.07.07 17:29:45 WARN  Could not load snapshot text for /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/model/User.scala[0m
+2025.07.07 17:29:45 WARN  Could not load snapshot text for /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/model/Order.scala[0m
+2025.07.07 17:29:54 WARN  Could not load snapshot text for /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/model/User.scala[0m
+2025.07.07 17:29:55 WARN  Could not load snapshot text for /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/model/User.scala[0m
+2025.07.07 17:29:55 WARN  Could not load snapshot text for /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/model/User.scala[0m
+2025.07.07 17:29:55 INFO  empty definition using pc, found symbol in pc:  (full report at: "/home/enkit/Proyectos2025/ucsp/scala/ecom/.metals/.reports/metals-full/2025-07-07/r_empty-definition_(root)_17-13-27-565.md")[0m
+2025.07.07 17:29:55 WARN  Could not load snapshot text for /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/model/User.scala[0m
+2025.07.07 17:29:56 WARN  Could not load snapshot text for /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/model/Order.scala[0m
+2025.07.07 17:29:58 WARN  Could not load snapshot text for /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/model/Order.scala[0m
+2025.07.07 17:29:58 INFO  compiling root (10 scala sources)[0m
+2025.07.07 17:29:58 INFO  time: compiled root in 0.44s[0m
+2025.07.07 17:29:58 WARN  Could not load snapshot text for /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/model/Order.scala[0m
+2025.07.07 17:29:59 WARN  Could not load snapshot text for /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/model/User.scala[0m
+2025.07.07 17:30:25 WARN  Could not load snapshot text for /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/model/User.scala[0m
+2025.07.07 17:30:36 WARN  Could not load snapshot text for /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/model/Order.scala[0m
+2025.07.07 17:30:37 WARN  Could not load snapshot text for /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/model/Order.scala[0m
+2025.07.07 17:30:37 WARN  Could not load snapshot text for /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/model/Order.scala[0m
+2025.07.07 17:30:37 WARN  Could not load snapshot text for /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/model/Order.scala[0m
+2025.07.07 17:30:37 WARN  Could not load snapshot text for /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/model/Order.scala[0m
+2025.07.07 17:30:37 WARN  Could not load snapshot text for /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/model/Order.scala[0m
+2025.07.07 17:30:37 INFO  empty definition using pc, found symbol in pc:  (full report at: "/home/enkit/Proyectos2025/ucsp/scala/ecom/.metals/.reports/metals-full/2025-07-07/r_empty-definition_(root)_16-56-36-601.md")[0m
+2025.07.07 17:30:37 INFO  compiling root (10 scala sources)[0m
+2025.07.07 17:30:37 INFO  time: compiled root in 0.65s[0m
+2025.07.07 17:30:38 WARN  Could not load snapshot text for /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/model/User.scala[0m
+2025.07.07 17:30:38 WARN  Could not load snapshot text for /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/model/Order.scala[0m
+2025.07.07 17:30:41 WARN  Could not load snapshot text for /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/model/Order.scala[0m
+2025.07.07 17:30:41 WARN  Could not load snapshot text for /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/model/Order.scala[0m
+2025.07.07 17:30:41 WARN  Could not load snapshot text for /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/model/Order.scala[0m
+2025.07.07 17:30:41 WARN  Could not load snapshot text for /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/model/Order.scala[0m
+2025.07.07 17:30:41 WARN  Could not load snapshot text for /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/model/Order.scala[0m
+2025.07.07 17:30:41 WARN  Could not load snapshot text for /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/model/Order.scala[0m
+2025.07.07 17:30:41 WARN  Could not load snapshot text for /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/model/Order.scala[0m
+2025.07.07 17:30:41 WARN  Could not load snapshot text for /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/model/Order.scala[0m
+2025.07.07 17:30:41 WARN  Could not load snapshot text for /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/model/Order.scala[0m
+2025.07.07 17:30:41 WARN  Could not load snapshot text for /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/model/Order.scala[0m
+2025.07.07 17:30:41 WARN  Could not load snapshot text for /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/model/Order.scala[0m
+2025.07.07 17:30:41 WARN  Could not load snapshot text for /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/model/Order.scala[0m
+2025.07.07 17:30:41 WARN  Could not load snapshot text for /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/model/Order.scala[0m
+2025.07.07 17:30:41 WARN  Could not load snapshot text for /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/model/Order.scala[0m
+2025.07.07 17:30:41 WARN  Could not load snapshot text for /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/model/Order.scala[0m
+2025.07.07 17:30:41 WARN  Could not load snapshot text for /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/model/Order.scala[0m
+2025.07.07 17:30:41 WARN  Could not load snapshot text for /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/model/Order.scala[0m
+2025.07.07 17:30:41 WARN  Could not load snapshot text for /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/model/Order.scala[0m
+2025.07.07 17:30:41 INFO  empty definition using pc, found symbol in pc:  (full report at: "/home/enkit/Proyectos2025/ucsp/scala/ecom/.metals/.reports/metals-full/2025-07-07/r_empty-definition_(root)_16-56-36-601.md")[0m
+2025.07.07 17:30:42 WARN  Could not load snapshot text for /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/model/Order.scala[0m
+2025.07.07 17:30:42 WARN  Could not load snapshot text for /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/model/Order.scala[0m
+2025.07.07 17:30:42 WARN  Could not load snapshot text for /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/model/Order.scala[0m
+2025.07.07 17:30:42 WARN  Could not load snapshot text for /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/model/Order.scala[0m
+2025.07.07 17:30:42 WARN  Could not load snapshot text for /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/model/Order.scala[0m
+2025.07.07 17:30:42 WARN  Could not load snapshot text for /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/model/Order.scala[0m
+2025.07.07 17:30:42 WARN  Could not load snapshot text for /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/model/Order.scala[0m
+2025.07.07 17:30:42 INFO  empty definition using pc, found symbol in pc:  (full report at: "/home/enkit/Proyectos2025/ucsp/scala/ecom/.metals/.reports/metals-full/2025-07-07/r_empty-definition_(root)_16-56-36-601.md")[0m
+2025.07.07 17:30:42 INFO  empty definition using pc, found symbol in pc:  (full report at: "/home/enkit/Proyectos2025/ucsp/scala/ecom/.metals/.reports/metals-full/2025-07-07/r_empty-definition_(root)_16-56-36-601.md")[0m
+2025.07.07 17:30:43 WARN  Could not load snapshot text for /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/model/Order.scala[0m
+2025.07.07 17:30:43 WARN  Could not load snapshot text for /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/model/Order.scala[0m
+2025.07.07 17:30:43 WARN  Could not load snapshot text for /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/model/Order.scala[0m
+2025.07.07 17:30:43 WARN  Could not load snapshot text for /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/model/Order.scala[0m
+Exception in thread "pool-7-thread-1" java.lang.InterruptedException
+	at scala.meta.internal.metals.FutureCancelToken.checkCanceled(FutureCancelToken.scala:29)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$onCompilerJobQueue$1(CompilerAccess.scala:243)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:152)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+2025.07.07 17:30:44 WARN  Could not load snapshot text for /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/model/Order.scala[0m
+2025.07.07 17:30:44 WARN  Could not load snapshot text for /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/model/Order.scala[0m
+2025.07.07 17:30:43 WARN  Could not load snapshot text for /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/model/Order.scala[0m
+2025.07.07 17:30:43 WARN  Could not load snapshot text for /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/model/Order.scala[0m
+2025.07.07 17:30:44 WARN  Could not load snapshot text for /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/model/Order.scala[0m
+2025.07.07 17:30:45 WARN  Could not load snapshot text for /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/model/Order.scala[0m
+2025.07.07 17:30:46 WARN  Could not load snapshot text for /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/model/Order.scala[0m
+2025.07.07 17:30:46 WARN  Could not load snapshot text for /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/model/Order.scala[0m
+2025.07.07 17:30:46 INFO  empty definition using pc, found symbol in pc:  (full report at: "/home/enkit/Proyectos2025/ucsp/scala/ecom/.metals/.reports/metals-full/2025-07-07/r_empty-definition_(root)_16-56-36-601.md")[0m
+2025.07.07 17:30:46 WARN  Could not load snapshot text for /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/model/Order.scala[0m
+2025.07.07 17:30:46 WARN  Could not load snapshot text for /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/model/Order.scala[0m
+2025.07.07 17:30:46 INFO  empty definition using pc, found symbol in pc:  (full report at: "/home/enkit/Proyectos2025/ucsp/scala/ecom/.metals/.reports/metals-full/2025-07-07/r_empty-definition_(root)_16-56-36-601.md")[0m
+2025.07.07 17:30:46 WARN  Could not load snapshot text for /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/model/Order.scala[0m
+2025.07.07 17:30:46 WARN  Could not load snapshot text for /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/model/Order.scala[0m
+2025.07.07 17:30:46 WARN  Could not load snapshot text for /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/model/Order.scala[0m
+2025.07.07 17:30:47 WARN  Could not load snapshot text for /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/model/Order.scala[0m
+2025.07.07 17:30:47 WARN  Could not load snapshot text for /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/model/Order.scala[0m
+2025.07.07 17:30:47 WARN  Could not load snapshot text for /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/model/Order.scala[0m
+2025.07.07 17:30:47 WARN  Could not load snapshot text for /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/model/Order.scala[0m
+jul. 07, 2025 5:30:47 P. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+ADVERTENCIA: Unmatched cancel notification for request id 1459
+2025.07.07 17:30:47 WARN  Could not load snapshot text for /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/model/Order.scala[0m
+2025.07.07 17:30:47 WARN  Could not load snapshot text for /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/model/Order.scala[0m
+2025.07.07 17:30:47 WARN  Could not load snapshot text for /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/model/Order.scala[0m
+2025.07.07 17:30:47 INFO  empty definition using pc, found symbol in pc:  (full report at: "/home/enkit/Proyectos2025/ucsp/scala/ecom/.metals/.reports/metals-full/2025-07-07/r_empty-definition_(root)_16-56-36-601.md")[0m
+2025.07.07 17:30:49 WARN  Could not load snapshot text for /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/model/Order.scala[0m
+2025.07.07 17:30:49 WARN  Could not load snapshot text for /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/model/Order.scala[0m
+2025.07.07 17:30:49 WARN  Could not load snapshot text for /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/model/Order.scala[0m
+2025.07.07 17:30:49 WARN  Could not load snapshot text for /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/model/Order.scala[0m
+2025.07.07 17:30:49 INFO  empty definition using pc, found symbol in pc:  (full report at: "/home/enkit/Proyectos2025/ucsp/scala/ecom/.metals/.reports/metals-full/2025-07-07/r_empty-definition_(root)_16-56-36-601.md")[0m
+2025.07.07 17:30:49 WARN  Could not load snapshot text for /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/model/Order.scala[0m
+2025.07.07 17:30:49 WARN  Could not load snapshot text for /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/model/Order.scala[0m
+2025.07.07 17:30:49 INFO  empty definition using pc, found symbol in pc:  (full report at: "/home/enkit/Proyectos2025/ucsp/scala/ecom/.metals/.reports/metals-full/2025-07-07/r_empty-definition_(root)_16-56-36-601.md")[0m
+2025.07.07 17:30:49 INFO  compiling root (10 scala sources)[0m
+2025.07.07 17:30:49 WARN  Could not load snapshot text for /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/model/Order.scala[0m
+2025.07.07 17:30:49 WARN  Could not load snapshot text for /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/model/Order.scala[0m
+2025.07.07 17:30:49 WARN  Could not find 'UserRole' using presentation compiler nor semanticdb. Trying to guess the definition using available information from local class context. [0m
+2025.07.07 17:30:49 INFO  empty definition using pc, found symbol in pc:  (full report at: "/home/enkit/Proyectos2025/ucsp/scala/ecom/.metals/.reports/metals-full/2025-07-07/r_empty-definition_(root)_16-56-36-601.md")[0m
+2025.07.07 17:30:49 INFO  time: compiled root in 0.47s[0m
+2025.07.07 17:30:49 WARN  Could not load snapshot text for /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/model/User.scala[0m
+2025.07.07 17:30:50 WARN  Could not load snapshot text for /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/model/Order.scala[0m
+2025.07.07 17:30:50 WARN  Could not load snapshot text for /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/model/Order.scala[0m
+2025.07.07 17:30:51 WARN  Could not load snapshot text for /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/model/Order.scala[0m
+2025.07.07 17:30:52 WARN  Could not load snapshot text for /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/model/Order.scala[0m
+Exception in thread "pool-7-thread-2" java.lang.InterruptedException
+	at scala.meta.internal.metals.FutureCancelToken.checkCanceled(FutureCancelToken.scala:29)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$onCompilerJobQueue$1(CompilerAccess.scala:243)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:152)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+2025.07.07 17:30:52 WARN  Could not load snapshot text for /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/model/Order.scala[0m
+2025.07.07 17:30:52 WARN  Could not load snapshot text for /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/model/Order.scala[0m
+2025.07.07 17:30:52 WARN  Could not load snapshot text for /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/model/Order.scala[0m
+2025.07.07 17:30:52 WARN  Could not load snapshot text for /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/model/Order.scala[0m
+2025.07.07 17:30:52 WARN  Could not load snapshot text for /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/model/Order.scala[0m
+2025.07.07 17:30:52 WARN  Could not load snapshot text for /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/model/Order.scala[0m
+2025.07.07 17:30:52 WARN  Could not load snapshot text for /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/model/Order.scala[0m
+2025.07.07 17:30:52 WARN  Could not load snapshot text for /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/model/Order.scala[0m
+2025.07.07 17:30:52 WARN  Could not load snapshot text for /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/model/Order.scala[0m
+2025.07.07 17:30:52 WARN  Could not load snapshot text for /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/model/Order.scala[0m
+2025.07.07 17:30:52 WARN  Could not load snapshot text for /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/model/Order.scala[0m
+2025.07.07 17:30:52 WARN  Could not load snapshot text for /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/model/Order.scala[0m
+2025.07.07 17:30:52 WARN  Could not load snapshot text for /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/model/Order.scala[0m
+2025.07.07 17:30:52 WARN  Could not load snapshot text for /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/model/Order.scala[0m
+2025.07.07 17:30:52 WARN  Could not load snapshot text for /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/model/Order.scala[0m
+2025.07.07 17:30:52 WARN  Could not load snapshot text for /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/model/Order.scala[0m
+2025.07.07 17:30:52 WARN  Could not load snapshot text for /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/model/Order.scala[0m
+2025.07.07 17:30:52 WARN  Could not load snapshot text for /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/model/Order.scala[0m
+2025.07.07 17:30:52 WARN  Could not load snapshot text for /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/model/Order.scala[0m
+2025.07.07 17:30:52 WARN  Could not load snapshot text for /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/model/Order.scala[0m
+2025.07.07 17:30:52 WARN  Could not load snapshot text for /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/model/Order.scala[0m
+2025.07.07 17:30:52 WARN  Could not load snapshot text for /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/model/Order.scala[0m
+2025.07.07 17:30:52 WARN  Could not load snapshot text for /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/model/Order.scala[0m
+2025.07.07 17:30:52 WARN  Could not load snapshot text for /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/model/Order.scala[0m
+2025.07.07 17:30:52 WARN  Could not load snapshot text for /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/model/Order.scala[0m
+2025.07.07 17:30:53 WARN  Could not load snapshot text for /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/model/Order.scala[0m
+2025.07.07 17:30:53 INFO  empty definition using pc, found symbol in pc:  (full report at: "/home/enkit/Proyectos2025/ucsp/scala/ecom/.metals/.reports/metals-full/2025-07-07/r_empty-definition_(root)_16-56-36-601.md")[0m
+2025.07.07 17:30:52 INFO  empty definition using pc, found symbol in pc:  (full report at: "/home/enkit/Proyectos2025/ucsp/scala/ecom/.metals/.reports/metals-full/2025-07-07/r_empty-definition_(root)_16-56-36-601.md")[0m
+2025.07.07 17:30:52 WARN  Could not load snapshot text for /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/model/Order.scala[0m
+2025.07.07 17:30:53 WARN  Could not load snapshot text for /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/model/Order.scala[0m
+2025.07.07 17:30:53 INFO  empty definition using pc, found symbol in pc:  (full report at: "/home/enkit/Proyectos2025/ucsp/scala/ecom/.metals/.reports/metals-full/2025-07-07/r_empty-definition_(root)_16-56-36-601.md")[0m
+2025.07.07 17:30:54 WARN  Could not load snapshot text for /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/model/Order.scala[0m
+2025.07.07 17:30:53 WARN  Could not load snapshot text for /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/model/Order.scala[0m
+2025.07.07 17:30:53 INFO  empty definition using pc, found symbol in pc:  (full report at: "/home/enkit/Proyectos2025/ucsp/scala/ecom/.metals/.reports/metals-full/2025-07-07/r_empty-definition_(root)_16-56-36-601.md")[0m
+2025.07.07 17:30:54 WARN  Could not load snapshot text for /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/model/Order.scala[0m
+2025.07.07 17:30:54 WARN  Could not load snapshot text for /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/model/Order.scala[0m
+2025.07.07 17:30:54 WARN  Could not load snapshot text for /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/model/Order.scala[0m
+2025.07.07 17:30:54 WARN  Could not load snapshot text for /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/model/Order.scala[0m
+2025.07.07 17:30:54 WARN  Could not load snapshot text for /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/model/Order.scala[0m
+2025.07.07 17:30:54 WARN  Could not load snapshot text for /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/model/Order.scala[0m
+2025.07.07 17:30:54 WARN  Could not load snapshot text for /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/model/Order.scala[0m
+2025.07.07 17:30:54 INFO  empty definition using pc, found symbol in pc:  (full report at: "/home/enkit/Proyectos2025/ucsp/scala/ecom/.metals/.reports/metals-full/2025-07-07/r_empty-definition_(root)_16-56-36-601.md")[0m
+2025.07.07 17:30:54 WARN  Could not load snapshot text for /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/model/Order.scala[0m
+2025.07.07 17:30:54 WARN  Could not load snapshot text for /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/model/Order.scala[0m
+2025.07.07 17:30:54 INFO  empty definition using pc, found symbol in pc:  (full report at: "/home/enkit/Proyectos2025/ucsp/scala/ecom/.metals/.reports/metals-full/2025-07-07/r_empty-definition_(root)_16-56-36-601.md")[0m
+2025.07.07 17:30:54 WARN  Could not load snapshot text for /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/model/Order.scala[0m
+2025.07.07 17:30:55 WARN  Could not load snapshot text for /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/model/Order.scala[0m
+2025.07.07 17:30:55 WARN  Could not load snapshot text for /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/model/Order.scala[0m
+2025.07.07 17:30:55 WARN  Could not load snapshot text for /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/model/Order.scala[0m
+2025.07.07 17:30:55 WARN  Could not load snapshot text for /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/model/Order.scala[0m
+2025.07.07 17:30:55 WARN  Could not load snapshot text for /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/model/Order.scala[0m
+2025.07.07 17:30:55 WARN  Could not load snapshot text for /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/model/Order.scala[0m
+2025.07.07 17:30:55 WARN  Could not load snapshot text for /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/model/Order.scala[0m
+2025.07.07 17:30:55 WARN  Could not load snapshot text for /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/model/Order.scala[0m
+2025.07.07 17:30:55 WARN  Could not load snapshot text for /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/model/Order.scala[0m
+2025.07.07 17:30:55 WARN  Could not load snapshot text for /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/model/Order.scala[0m
+2025.07.07 17:30:55 INFO  empty definition using pc, found symbol in pc:  (full report at: "/home/enkit/Proyectos2025/ucsp/scala/ecom/.metals/.reports/metals-full/2025-07-07/r_empty-definition_(root)_16-56-36-601.md")[0m
+2025.07.07 17:30:55 WARN  Could not load snapshot text for /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/model/Order.scala[0m
+2025.07.07 17:30:55 WARN  Could not load snapshot text for /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/model/Order.scala[0m
+2025.07.07 17:30:55 INFO  empty definition using pc, found symbol in pc:  (full report at: "/home/enkit/Proyectos2025/ucsp/scala/ecom/.metals/.reports/metals-full/2025-07-07/r_empty-definition_(root)_16-56-36-601.md")[0m
+2025.07.07 17:30:55 WARN  Could not load snapshot text for /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/model/Order.scala[0m
+2025.07.07 17:30:55 WARN  Could not load snapshot text for /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/model/Order.scala[0m
+2025.07.07 17:30:55 INFO  empty definition using pc, found symbol in pc:  (full report at: "/home/enkit/Proyectos2025/ucsp/scala/ecom/.metals/.reports/metals-full/2025-07-07/r_empty-definition_(root)_16-56-36-601.md")[0m
+2025.07.07 17:30:55 WARN  Could not load snapshot text for /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/model/Order.scala[0m
+2025.07.07 17:30:55 WARN  Could not load snapshot text for /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/model/Order.scala[0m
+2025.07.07 17:30:55 INFO  empty definition using pc, found symbol in pc:  (full report at: "/home/enkit/Proyectos2025/ucsp/scala/ecom/.metals/.reports/metals-full/2025-07-07/r_empty-definition_(root)_16-56-36-601.md")[0m
+2025.07.07 17:30:56 WARN  Could not load snapshot text for /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/model/Order.scala[0m
+2025.07.07 17:30:56 WARN  Could not load snapshot text for /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/model/Order.scala[0m
+2025.07.07 17:30:56 INFO  empty definition using pc, found symbol in pc:  (full report at: "/home/enkit/Proyectos2025/ucsp/scala/ecom/.metals/.reports/metals-full/2025-07-07/r_empty-definition_(root)_16-56-36-601.md")[0m
+2025.07.07 17:30:56 WARN  Could not load snapshot text for /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/model/Order.scala[0m
+2025.07.07 17:30:56 WARN  Could not load snapshot text for /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/model/Order.scala[0m
+2025.07.07 17:30:56 WARN  Could not load snapshot text for /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/model/Order.scala[0m
+2025.07.07 17:30:56 INFO  empty definition using pc, found symbol in pc:  (full report at: "/home/enkit/Proyectos2025/ucsp/scala/ecom/.metals/.reports/metals-full/2025-07-07/r_empty-definition_(root)_16-56-36-601.md")[0m
+2025.07.07 17:30:56 WARN  Could not load snapshot text for /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/model/Order.scala[0m
+2025.07.07 17:30:56 WARN  Could not load snapshot text for /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/model/Order.scala[0m
+2025.07.07 17:30:56 WARN  Could not load snapshot text for /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/model/Order.scala[0m
+2025.07.07 17:30:56 WARN  Could not load snapshot text for /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/model/Order.scala[0m
+2025.07.07 17:30:56 WARN  Could not load snapshot text for /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/model/Order.scala[0m
+2025.07.07 17:30:56 WARN  Could not load snapshot text for /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/model/Order.scala[0m
+2025.07.07 17:30:59 WARN  Could not load snapshot text for /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/model/Order.scala[0m
+2025.07.07 17:30:59 WARN  Could not load snapshot text for /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/model/Order.scala[0m
+2025.07.07 17:30:59 WARN  Could not load snapshot text for /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/model/Order.scala[0m
+2025.07.07 17:30:59 WARN  Could not load snapshot text for /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/model/Order.scala[0m
+2025.07.07 17:30:59 WARN  Could not load snapshot text for /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/model/Order.scala[0m
+2025.07.07 17:30:59 WARN  Could not load snapshot text for /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/model/Order.scala[0m
+2025.07.07 17:30:59 INFO  empty definition using pc, found symbol in pc:  (full report at: "/home/enkit/Proyectos2025/ucsp/scala/ecom/.metals/.reports/metals-full/2025-07-07/r_empty-definition_(root)_16-56-36-601.md")[0m
+2025.07.07 17:30:59 WARN  Could not load snapshot text for /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/model/Order.scala[0m
+2025.07.07 17:30:59 WARN  Could not load snapshot text for /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/model/Order.scala[0m
+2025.07.07 17:30:59 INFO  empty definition using pc, found symbol in pc:  (full report at: "/home/enkit/Proyectos2025/ucsp/scala/ecom/.metals/.reports/metals-full/2025-07-07/r_empty-definition_(root)_16-56-36-601.md")[0m
+2025.07.07 17:30:59 WARN  Could not load snapshot text for /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/model/Order.scala[0m
+2025.07.07 17:30:59 WARN  Could not load snapshot text for /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/model/Order.scala[0m
+2025.07.07 17:30:59 INFO  empty definition using pc, found symbol in pc:  (full report at: "/home/enkit/Proyectos2025/ucsp/scala/ecom/.metals/.reports/metals-full/2025-07-07/r_empty-definition_(root)_16-56-36-601.md")[0m
+2025.07.07 17:30:59 WARN  Could not load snapshot text for /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/model/Order.scala[0m
+2025.07.07 17:30:59 WARN  Could not load snapshot text for /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/model/Order.scala[0m
+2025.07.07 17:30:59 INFO  empty definition using pc, found symbol in pc:  (full report at: "/home/enkit/Proyectos2025/ucsp/scala/ecom/.metals/.reports/metals-full/2025-07-07/r_empty-definition_(root)_16-56-36-601.md")[0m
+2025.07.07 17:30:59 WARN  Could not load snapshot text for /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/model/Order.scala[0m
+2025.07.07 17:30:59 WARN  Could not load snapshot text for /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/model/Order.scala[0m
+2025.07.07 17:30:59 INFO  empty definition using pc, found symbol in pc:  (full report at: "/home/enkit/Proyectos2025/ucsp/scala/ecom/.metals/.reports/metals-full/2025-07-07/r_empty-definition_(root)_16-56-36-601.md")[0m
+2025.07.07 17:31:00 WARN  Could not load snapshot text for /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/model/Order.scala[0m
+2025.07.07 17:31:00 WARN  Could not load snapshot text for /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/model/Order.scala[0m
+2025.07.07 17:31:00 INFO  empty definition using pc, found symbol in pc:  (full report at: "/home/enkit/Proyectos2025/ucsp/scala/ecom/.metals/.reports/metals-full/2025-07-07/r_empty-definition_(root)_16-56-36-601.md")[0m
+2025.07.07 17:31:00 WARN  Could not load snapshot text for /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/model/Order.scala[0m
+2025.07.07 17:31:01 WARN  Could not load snapshot text for /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/model/Order.scala[0m
+2025.07.07 17:31:02 INFO  compiling root (10 scala sources)[0m
+2025.07.07 17:31:02 WARN  Could not load snapshot text for /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/model/Order.scala[0m
+2025.07.07 17:31:02 INFO  time: compiled root in 0.49s[0m
+2025.07.07 17:31:02 WARN  Could not load snapshot text for /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/model/Order.scala[0m
+2025.07.07 17:31:02 WARN  Could not load snapshot text for /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/model/User.scala[0m
+2025.07.07 17:31:16 WARN  Could not load snapshot text for /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/model/Order.scala[0m
+2025.07.07 17:31:16 WARN  Could not load snapshot text for /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/model/Order.scala[0m
+2025.07.07 17:31:17 WARN  Could not load snapshot text for /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/model/Order.scala[0m
+2025.07.07 17:31:18 WARN  Could not load snapshot text for /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/model/Order.scala[0m
+2025.07.07 17:31:21 WARN  Could not load snapshot text for /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/model/Order.scala[0m
+2025.07.07 17:31:22 WARN  Could not load snapshot text for /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/model/Order.scala[0m
+2025.07.07 17:31:22 WARN  Could not load snapshot text for /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/model/Order.scala[0m
+2025.07.07 17:31:22 WARN  Could not load snapshot text for /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/model/Order.scala[0m
+2025.07.07 17:31:22 INFO  empty definition using pc, found symbol in pc:  (full report at: "/home/enkit/Proyectos2025/ucsp/scala/ecom/.metals/.reports/metals-full/2025-07-07/r_empty-definition_(root)_16-56-36-601.md")[0m
+2025.07.07 17:31:22 WARN  Could not load snapshot text for /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/model/Order.scala[0m
+2025.07.07 17:31:22 WARN  Could not load snapshot text for /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/model/Order.scala[0m
+2025.07.07 17:31:21 WARN  Could not load snapshot text for /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/model/Order.scala[0m
+2025.07.07 17:31:22 WARN  Could not load snapshot text for /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/model/Order.scala[0m
+2025.07.07 17:31:22 WARN  Could not load snapshot text for /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/model/Order.scala[0m
+2025.07.07 17:31:22 WARN  Could not load snapshot text for /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/model/Order.scala[0m
+2025.07.07 17:31:22 WARN  Could not load snapshot text for /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/model/Order.scala[0m
+2025.07.07 17:31:22 WARN  Could not load snapshot text for /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/model/Order.scala[0m
+2025.07.07 17:31:23 WARN  Could not load snapshot text for /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/model/Order.scala[0m
+2025.07.07 17:31:23 WARN  Could not load snapshot text for /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/model/Order.scala[0m
+2025.07.07 17:31:23 WARN  Could not load snapshot text for /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/model/Order.scala[0m
+2025.07.07 17:31:23 WARN  Could not load snapshot text for /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/model/User.scala[0m
+2025.07.07 17:31:23 WARN  Could not load snapshot text for /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/model/Order.scala[0m
+2025.07.07 17:31:23 WARN  Could not load snapshot text for /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/model/Order.scala[0m
+2025.07.07 17:31:23 INFO  empty definition using pc, found symbol in pc:  (full report at: "/home/enkit/Proyectos2025/ucsp/scala/ecom/.metals/.reports/metals-full/2025-07-07/r_empty-definition_(root)_16-56-36-601.md")[0m
+2025.07.07 17:31:23 WARN  Could not load snapshot text for /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/model/Order.scala[0m
+2025.07.07 17:31:23 WARN  Could not load snapshot text for /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/model/Order.scala[0m
+2025.07.07 17:31:23 WARN  Could not load snapshot text for /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/model/Order.scala[0m
+2025.07.07 17:31:23 INFO  empty definition using pc, found symbol in pc:  (full report at: "/home/enkit/Proyectos2025/ucsp/scala/ecom/.metals/.reports/metals-full/2025-07-07/r_empty-definition_(root)_16-56-36-601.md")[0m
+2025.07.07 17:31:24 WARN  Could not load snapshot text for /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/model/Order.scala[0m
+2025.07.07 17:31:25 WARN  Could not load snapshot text for /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/model/Order.scala[0m
+2025.07.07 17:31:25 WARN  Could not load snapshot text for /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/model/Order.scala[0m
+2025.07.07 17:31:25 INFO  empty definition using pc, found symbol in pc:  (full report at: "/home/enkit/Proyectos2025/ucsp/scala/ecom/.metals/.reports/metals-full/2025-07-07/r_empty-definition_(root)_16-56-36-601.md")[0m
+2025.07.07 17:31:25 INFO  compiling root (10 scala sources)[0m
+2025.07.07 17:31:25 INFO  time: compiled root in 0.43s[0m
+2025.07.07 17:31:25 WARN  Could not load snapshot text for /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/model/Order.scala[0m
+2025.07.07 17:31:25 WARN  Could not load snapshot text for /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/model/User.scala[0m
+2025.07.07 17:31:32 WARN  Could not load snapshot text for /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/model/Order.scala[0m
+2025.07.07 17:31:32 INFO  compiling root (10 scala sources)[0m
+2025.07.07 17:31:32 INFO  time: compiled root in 0.42s[0m
+2025.07.07 17:31:33 WARN  Could not load snapshot text for /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/model/User.scala[0m
+2025.07.07 17:31:33 WARN  Could not load snapshot text for /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/model/Order.scala[0m
+2025.07.07 17:31:36 WARN  Could not load snapshot text for /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/model/Order.scala[0m
+2025.07.07 17:31:38 WARN  Could not load snapshot text for /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/model/Order.scala[0m
+2025.07.07 17:32:11 WARN  Could not load snapshot text for /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/model/Order.scala[0m
+2025.07.07 17:32:22 WARN  Could not load snapshot text for /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/model/Order.scala[0m
+2025.07.07 17:32:50 WARN  Could not load snapshot text for /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/model/Order.scala[0m
+2025.07.07 17:32:50 WARN  Could not load snapshot text for /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/model/Order.scala[0m
+2025.07.07 17:32:50 WARN  Could not load snapshot text for /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/model/Order.scala[0m
+2025.07.07 17:32:50 WARN  Could not load snapshot text for /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/model/Order.scala[0m
+2025.07.07 17:32:50 WARN  Could not load snapshot text for /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/model/Order.scala[0m
+2025.07.07 17:32:50 WARN  Could not load snapshot text for /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/model/Order.scala[0m
+2025.07.07 17:32:50 WARN  Could not load snapshot text for /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/model/Order.scala[0m
+2025.07.07 17:32:51 WARN  Could not load snapshot text for /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/model/Order.scala[0m
+2025.07.07 17:32:52 WARN  Could not load snapshot text for /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/model/Order.scala[0m
+2025.07.07 17:32:53 WARN  Could not load snapshot text for /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/model/Order.scala[0m
+2025.07.07 17:32:52 WARN  Could not load snapshot text for /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/model/Order.scala[0m
+2025.07.07 17:32:53 WARN  Could not load snapshot text for /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/model/Order.scala[0m
+2025.07.07 17:32:52 WARN  Could not load snapshot text for /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/model/Order.scala[0m
+2025.07.07 17:32:53 WARN  Could not load snapshot text for /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/model/Order.scala[0m
+2025.07.07 17:32:52 WARN  Could not load snapshot text for /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/model/Order.scala[0m
+2025.07.07 17:32:54 WARN  Could not load snapshot text for /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/model/Order.scala[0m
+2025.07.07 17:32:54 WARN  Could not load snapshot text for /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/model/Order.scala[0m
+2025.07.07 17:32:54 WARN  Could not load snapshot text for /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/model/Order.scala[0m
+2025.07.07 17:32:56 WARN  Could not load snapshot text for /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/model/Order.scala[0m
+2025.07.07 17:32:56 WARN  Could not load snapshot text for /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/model/Order.scala[0m
+2025.07.07 17:32:56 WARN  Could not load snapshot text for /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/model/Order.scala[0m
+2025.07.07 17:32:58 WARN  Could not load snapshot text for /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/model/Order.scala[0m
+2025.07.07 17:33:00 WARN  Could not load snapshot text for /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/model/Order.scala[0m
+2025.07.07 17:33:00 WARN  Could not load snapshot text for /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/model/Order.scala[0m
+2025.07.07 17:33:00 INFO  empty definition using pc, found symbol in pc:  (full report at: "/home/enkit/Proyectos2025/ucsp/scala/ecom/.metals/.reports/metals-full/2025-07-07/r_empty-definition_(root)_16-56-36-601.md")[0m
+2025.07.07 17:33:00 WARN  Could not load snapshot text for /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/model/Order.scala[0m
+2025.07.07 17:33:00 WARN  Could not load snapshot text for /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/model/Order.scala[0m
+2025.07.07 17:33:00 INFO  empty definition using pc, found symbol in pc:  (full report at: "/home/enkit/Proyectos2025/ucsp/scala/ecom/.metals/.reports/metals-full/2025-07-07/r_empty-definition_(root)_16-56-36-601.md")[0m
+2025.07.07 17:33:00 WARN  Could not load snapshot text for /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/model/Order.scala[0m
+2025.07.07 17:33:00 WARN  Could not load snapshot text for /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/model/Order.scala[0m
+2025.07.07 17:33:00 INFO  empty definition using pc, found symbol in pc:  (full report at: "/home/enkit/Proyectos2025/ucsp/scala/ecom/.metals/.reports/metals-full/2025-07-07/r_empty-definition_(root)_16-56-36-601.md")[0m
+2025.07.07 17:33:00 WARN  Could not load snapshot text for /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/model/Order.scala[0m
+2025.07.07 17:33:00 WARN  Could not load snapshot text for /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/model/Order.scala[0m
+2025.07.07 17:33:00 INFO  empty definition using pc, found symbol in pc:  (full report at: "/home/enkit/Proyectos2025/ucsp/scala/ecom/.metals/.reports/metals-full/2025-07-07/r_empty-definition_(root)_16-56-36-601.md")[0m
+2025.07.07 17:33:00 WARN  Could not load snapshot text for /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/model/Order.scala[0m
+2025.07.07 17:33:02 WARN  Could not load snapshot text for /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/model/Order.scala[0m
+2025.07.07 17:33:02 WARN  Could not load snapshot text for /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/model/Order.scala[0m
+2025.07.07 17:33:02 WARN  Could not load snapshot text for /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/model/Order.scala[0m
+2025.07.07 17:33:02 WARN  Could not load snapshot text for /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/model/Order.scala[0m
+2025.07.07 17:33:02 WARN  Could not load snapshot text for /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/model/Order.scala[0m
+2025.07.07 17:33:02 INFO  empty definition using pc, found symbol in pc:  (full report at: "/home/enkit/Proyectos2025/ucsp/scala/ecom/.metals/.reports/metals-full/2025-07-07/r_empty-definition_(root)_16-56-36-601.md")[0m
+2025.07.07 17:33:03 WARN  Could not load snapshot text for /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/model/Order.scala[0m
+2025.07.07 17:33:03 WARN  Could not load snapshot text for /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/model/Order.scala[0m
+2025.07.07 17:33:03 WARN  Could not load snapshot text for /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/model/Order.scala[0m
+2025.07.07 17:33:03 WARN  Could not load snapshot text for /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/model/Order.scala[0m
+2025.07.07 17:33:03 WARN  Could not load snapshot text for /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/model/Order.scala[0m
+2025.07.07 17:33:03 WARN  Could not load snapshot text for /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/model/User.scala[0m
+2025.07.07 17:33:03 WARN  Could not load snapshot text for /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/model/Order.scala[0m
+2025.07.07 17:33:03 INFO  empty definition using pc, found symbol in pc:  (full report at: "/home/enkit/Proyectos2025/ucsp/scala/ecom/.metals/.reports/metals-full/2025-07-07/r_empty-definition_(root)_16-56-36-601.md")[0m
+2025.07.07 17:33:03 WARN  Could not load snapshot text for /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/model/Order.scala[0m
+2025.07.07 17:33:04 WARN  Could not load snapshot text for /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/model/Order.scala[0m
+2025.07.07 17:33:04 WARN  Could not load snapshot text for /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/model/Order.scala[0m
+2025.07.07 17:33:04 WARN  Could not load snapshot text for /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/model/Order.scala[0m
+2025.07.07 17:33:04 INFO  empty definition using pc, found symbol in pc:  (full report at: "/home/enkit/Proyectos2025/ucsp/scala/ecom/.metals/.reports/metals-full/2025-07-07/r_empty-definition_(root)_16-56-36-601.md")[0m
+2025.07.07 17:33:04 WARN  Could not load snapshot text for /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/model/Order.scala[0m
+2025.07.07 17:33:04 WARN  Could not load snapshot text for /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/model/Order.scala[0m
+2025.07.07 17:33:04 INFO  empty definition using pc, found symbol in pc:  (full report at: "/home/enkit/Proyectos2025/ucsp/scala/ecom/.metals/.reports/metals-full/2025-07-07/r_empty-definition_(root)_16-56-36-601.md")[0m
+2025.07.07 17:33:06 WARN  Could not load snapshot text for /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/model/Order.scala[0m
+2025.07.07 17:33:06 WARN  Could not load snapshot text for /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/model/Order.scala[0m
+2025.07.07 17:33:06 WARN  Could not load snapshot text for /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/model/Order.scala[0m
+2025.07.07 17:33:06 WARN  Could not load snapshot text for /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/model/Order.scala[0m
+2025.07.07 17:33:06 WARN  Could not load snapshot text for /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/model/Order.scala[0m
+2025.07.07 17:33:06 WARN  Could not load snapshot text for /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/model/Order.scala[0m
+2025.07.07 17:33:06 WARN  Could not load snapshot text for /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/model/Order.scala[0m
+2025.07.07 17:33:06 WARN  Could not load snapshot text for /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/model/Order.scala[0m
+2025.07.07 17:33:06 WARN  Could not load snapshot text for /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/model/Order.scala[0m
+2025.07.07 17:33:06 WARN  Could not load snapshot text for /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/model/User.scala[0m
+2025.07.07 17:33:06 INFO  empty definition using pc, found symbol in pc:  (full report at: "/home/enkit/Proyectos2025/ucsp/scala/ecom/.metals/.reports/metals-full/2025-07-07/r_empty-definition_(root)_16-56-36-601.md")[0m
+2025.07.07 17:33:06 WARN  Could not load snapshot text for /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/model/Order.scala[0m
+2025.07.07 17:33:06 WARN  Could not load snapshot text for /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/model/Order.scala[0m
+2025.07.07 17:33:06 WARN  Could not load snapshot text for /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/model/Order.scala[0m
+2025.07.07 17:33:06 WARN  Could not load snapshot text for /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/model/Order.scala[0m
+2025.07.07 17:33:06 INFO  empty definition using pc, found symbol in pc:  (full report at: "/home/enkit/Proyectos2025/ucsp/scala/ecom/.metals/.reports/metals-full/2025-07-07/r_empty-definition_(root)_16-56-36-601.md")[0m
+2025.07.07 17:33:06 WARN  Could not load snapshot text for /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/model/Order.scala[0m
+2025.07.07 17:33:06 WARN  Could not load snapshot text for /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/model/Order.scala[0m
+2025.07.07 17:33:06 INFO  empty definition using pc, found symbol in pc:  (full report at: "/home/enkit/Proyectos2025/ucsp/scala/ecom/.metals/.reports/metals-full/2025-07-07/r_empty-definition_(root)_16-56-36-601.md")[0m
+2025.07.07 17:33:06 WARN  Could not load snapshot text for /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/model/Order.scala[0m
+2025.07.07 17:33:06 WARN  Could not load snapshot text for /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/model/Order.scala[0m
+2025.07.07 17:33:07 WARN  Could not load snapshot text for /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/model/Order.scala[0m
+2025.07.07 17:33:06 WARN  Could not load snapshot text for /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/model/Order.scala[0m
+2025.07.07 17:33:06 WARN  Could not load snapshot text for /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/model/Order.scala[0m
+2025.07.07 17:33:06 WARN  Could not load snapshot text for /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/model/Order.scala[0m
+2025.07.07 17:33:06 WARN  Could not load snapshot text for /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/model/Order.scala[0m
+2025.07.07 17:33:08 WARN  Could not load snapshot text for /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/model/Order.scala[0m
+2025.07.07 17:33:08 WARN  Could not load snapshot text for /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/model/Order.scala[0m
+2025.07.07 17:33:08 WARN  Could not load snapshot text for /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/model/Order.scala[0m
+2025.07.07 17:33:08 WARN  Could not load snapshot text for /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/model/Order.scala[0m
+2025.07.07 17:33:08 INFO  empty definition using pc, found symbol in pc:  (full report at: "/home/enkit/Proyectos2025/ucsp/scala/ecom/.metals/.reports/metals-full/2025-07-07/r_empty-definition_(root)_16-56-36-601.md")[0m
+2025.07.07 17:33:08 WARN  Could not load snapshot text for /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/model/Order.scala[0m
+2025.07.07 17:33:09 INFO  compiling root (10 scala sources)[0m
+2025.07.07 17:33:09 WARN  Could not load snapshot text for /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/model/Order.scala[0m
+2025.07.07 17:33:09 INFO  time: compiled root in 0.58s[0m
+2025.07.07 17:33:09 WARN  Could not load snapshot text for /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/model/User.scala[0m
+2025.07.07 17:33:09 WARN  Could not load snapshot text for /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/model/Order.scala[0m
+2025.07.07 17:33:15 WARN  Could not load snapshot text for /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/model/Order.scala[0m
+2025.07.07 17:33:15 WARN  Could not load snapshot text for /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/model/Order.scala[0m
+2025.07.07 17:33:15 WARN  Could not load snapshot text for /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/model/Order.scala[0m
+2025.07.07 17:33:15 WARN  Could not load snapshot text for /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/model/Order.scala[0m
+2025.07.07 17:33:15 WARN  Could not load snapshot text for /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/model/Order.scala[0m
+2025.07.07 17:33:15 WARN  Could not load snapshot text for /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/model/Order.scala[0m
+2025.07.07 17:33:15 WARN  Could not load snapshot text for /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/model/Order.scala[0m
+2025.07.07 17:33:15 WARN  Could not load snapshot text for /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/model/Order.scala[0m
+2025.07.07 17:33:15 WARN  Could not load snapshot text for /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/model/Order.scala[0m
+2025.07.07 17:33:15 WARN  Could not load snapshot text for /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/model/Order.scala[0m
+2025.07.07 17:33:15 WARN  Could not load snapshot text for /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/model/Order.scala[0m
+2025.07.07 17:33:16 WARN  Could not load snapshot text for /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/model/Order.scala[0m
+2025.07.07 17:33:16 WARN  Could not load snapshot text for /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/model/User.scala[0m
+2025.07.07 17:33:16 WARN  Could not load snapshot text for /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/model/Order.scala[0m
+2025.07.07 17:33:17 WARN  Could not load snapshot text for /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/model/Order.scala[0m
+2025.07.07 17:33:17 WARN  Could not load snapshot text for /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/model/Order.scala[0m
+2025.07.07 17:33:17 WARN  Could not load snapshot text for /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/model/Order.scala[0m
+2025.07.07 17:33:17 INFO  compiling root (10 scala sources)[0m
+2025.07.07 17:33:17 INFO  time: compiled root in 0.41s[0m
+2025.07.07 17:33:17 WARN  Could not load snapshot text for /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/model/Order.scala[0m
+2025.07.07 17:33:18 WARN  Could not load snapshot text for /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/model/User.scala[0m
+2025.07.07 17:33:34 WARN  Could not load snapshot text for /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/model/User.scala[0m
+2025.07.07 17:33:36 WARN  Could not load snapshot text for /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/model/Order.scala[0m
+2025.07.07 17:33:37 WARN  Could not load snapshot text for /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/model/Order.scala[0m
+2025.07.07 17:33:37 WARN  Could not load snapshot text for /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/model/Order.scala[0m
+2025.07.07 17:33:37 WARN  Could not find 'userRoleMeta' using presentation compiler nor semanticdb. Trying to guess the definition using available information from local class context. [0m
+2025.07.07 17:33:37 INFO  empty definition using pc, found symbol in pc:  (full report at: "/home/enkit/Proyectos2025/ucsp/scala/ecom/.metals/.reports/metals-full/2025-07-07/r_empty-definition_(root)_16-56-36-601.md")[0m
+2025.07.07 17:33:38 WARN  Could not load snapshot text for /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/model/Order.scala[0m
+2025.07.07 17:33:40 WARN  Could not load snapshot text for /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/model/Order.scala[0m
+2025.07.07 17:33:41 WARN  Could not load snapshot text for /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/model/Order.scala[0m
+2025.07.07 17:33:42 WARN  Could not load snapshot text for /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/model/Order.scala[0m
+2025.07.07 17:33:47 WARN  Could not load snapshot text for /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/model/Order.scala[0m
+2025.07.07 17:33:49 WARN  Could not load snapshot text for /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/model/Order.scala[0m
+2025.07.07 17:33:50 WARN  Could not load snapshot text for /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/model/Order.scala[0m
+2025.07.07 17:33:53 WARN  Could not load snapshot text for /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/model/User.scala[0m
+2025.07.07 17:33:56 WARN  Could not load snapshot text for /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/model/Order.scala[0m
+2025.07.07 17:33:57 WARN  Could not load snapshot text for /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/model/Order.scala[0m
+2025.07.07 17:33:56 WARN  Could not load snapshot text for /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/model/Order.scala[0m
+2025.07.07 17:33:56 WARN  Could not load snapshot text for /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/model/Order.scala[0m
+2025.07.07 17:33:57 WARN  Could not load snapshot text for /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/model/Order.scala[0m
+2025.07.07 17:33:57 WARN  Could not load snapshot text for /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/model/Order.scala[0m
+2025.07.07 17:33:57 WARN  Could not load snapshot text for /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/model/Order.scala[0m
+2025.07.07 17:33:57 WARN  Could not load snapshot text for /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/model/Order.scala[0m
+2025.07.07 17:33:56 WARN  Could not load snapshot text for /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/model/Order.scala[0m
+2025.07.07 17:33:56 INFO  empty definition using pc, found symbol in pc:  (full report at: "/home/enkit/Proyectos2025/ucsp/scala/ecom/.metals/.reports/metals-full/2025-07-07/r_empty-definition_(root)_16-56-36-601.md")[0m
+2025.07.07 17:33:57 INFO  empty definition using pc, found symbol in pc:  (full report at: "/home/enkit/Proyectos2025/ucsp/scala/ecom/.metals/.reports/metals-full/2025-07-07/r_empty-definition_(root)_16-56-36-601.md")[0m
+2025.07.07 17:33:59 WARN  Could not load snapshot text for /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/model/Order.scala[0m
+2025.07.07 17:34:01 INFO  compiling root (10 scala sources)[0m
+2025.07.07 17:34:01 INFO  time: compiled root in 0.53s[0m
+2025.07.07 17:34:02 WARN  Could not load snapshot text for /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/model/User.scala[0m
+2025.07.07 17:34:02 WARN  Could not load snapshot text for /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/model/Order.scala[0m
+2025.07.07 17:34:06 WARN  Could not load snapshot text for /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/model/Order.scala[0m
+2025.07.07 17:34:07 WARN  Could not load snapshot text for /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/model/Order.scala[0m
+2025.07.07 17:34:14 WARN  Could not load snapshot text for /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/model/Order.scala[0m
+2025.07.07 17:34:14 WARN  Could not load snapshot text for /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/model/Order.scala[0m
+2025.07.07 17:34:16 WARN  Could not load snapshot text for /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/model/Order.scala[0m
+2025.07.07 17:34:29 WARN  Could not load snapshot text for /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/model/Order.scala[0m
+2025.07.07 17:34:29 WARN  Could not load snapshot text for /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/model/Order.scala[0m
+2025.07.07 17:34:30 WARN  Could not load snapshot text for /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/model/Order.scala[0m
+2025.07.07 17:34:30 WARN  Could not load snapshot text for /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/model/Order.scala[0m
+2025.07.07 17:34:31 WARN  Could not load snapshot text for /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/model/Order.scala[0m
+2025.07.07 17:34:32 INFO  compiling root (10 scala sources)[0m
+2025.07.07 17:34:32 WARN  Could not load snapshot text for /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/model/Order.scala[0m
+2025.07.07 17:34:35 INFO  time: compiled root in 3.08s[0m
+jul. 07, 2025 6:47:51 P. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+ADVERTENCIA: Unmatched cancel notification for request id 2513
+2025.07.07 19:02:03 INFO  compiling root (1 scala source)[0m
+2025.07.07 19:02:04 WARN  Invalid text document uri received from build server: file:///home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/http/Server.scala[0m
+2025.07.07 19:02:04 WARN  Invalid text document uri received from build server: file:///home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/http/views/HomeController.scala[0m
+2025.07.07 19:02:04 INFO  time: compiled root in 1.41s[0m
+2025.07.07 19:32:15 INFO  empty definition using pc, found symbol in pc:  (full report at: "/home/enkit/Proyectos2025/ucsp/scala/ecom/.metals/.reports/metals-full/2025-06-18/r_empty-definition_(root)_15-37-04-881.md")[0m
+2025.07.07 19:32:17 INFO  empty definition using pc, found symbol in pc:  (full report at: "/home/enkit/Proyectos2025/ucsp/scala/ecom/.metals/.reports/metals-full/2025-06-18/r_empty-definition_(root)_15-37-04-881.md")[0m
+2025.07.07 19:32:18 ERROR scalafmt: /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/http/controllers/CategoryAdminController.scala:19: error: [dialect scala213] ) expected but case found
+    case GET -> Root / "add" =>
+    ^[0m
+2025.07.07 19:32:19 INFO  compiling root (2 scala sources)[0m
+2025.07.07 19:32:19 INFO  time: compiled root in 0.84s[0m
+Exception in thread "pool-7-thread-3" java.lang.InterruptedException
+	at scala.meta.internal.metals.FutureCancelToken.checkCanceled(FutureCancelToken.scala:29)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$onCompilerJobQueue$1(CompilerAccess.scala:243)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:152)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+2025.07.07 19:32:21 INFO  Created report: Optional[file:///home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/http/controllers/CategoryAdminController.scala][0m
+2025.07.07 19:32:21 INFO  empty definition using pc, found symbol in pc:  (full report at: "/home/enkit/Proyectos2025/ucsp/scala/ecom/.metals/.reports/metals-full/2025-07-07/r_empty-definition_(root)_19-32-21-908.md")[0m
+2025.07.07 19:32:22 INFO  empty definition using pc, found symbol in pc:  (full report at: "/home/enkit/Proyectos2025/ucsp/scala/ecom/.metals/.reports/metals-full/2025-06-18/r_empty-definition_(root)_15-37-04-881.md")[0m
+2025.07.07 19:32:25 INFO  empty definition using pc, found symbol in pc:  (full report at: "/home/enkit/Proyectos2025/ucsp/scala/ecom/.metals/.reports/metals-full/2025-06-18/r_empty-definition_(root)_15-37-04-881.md")[0m
+2025.07.07 19:32:27 INFO  compiling root (1 scala source)[0m
+2025.07.07 19:32:28 INFO  time: compiled root in 1.02s[0m
+2025.07.07 19:32:50 INFO  compiling root (2 scala sources)[0m
+2025.07.07 19:32:50 INFO  time: compiled root in 0.55s[0m
+2025.07.07 19:32:52 INFO  Created report: Optional[file:///home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/http/controllers/ProductAdminController.scala][0m
+2025.07.07 19:32:52 INFO  empty definition using pc, found symbol in pc:  (full report at: "/home/enkit/Proyectos2025/ucsp/scala/ecom/.metals/.reports/metals-full/2025-07-07/r_empty-definition_(root)_19-32-52-545.md")[0m
+2025.07.07 19:32:53 INFO  compiling root (2 scala sources)[0m
+2025.07.07 19:32:56 INFO  time: compiled root in 2.46s[0m
+2025.07.07 20:05:56 INFO  compiling root (3 scala sources)[0m
+2025.07.07 20:05:56 INFO  time: compiled root in 0.45s[0m
+2025.07.07 20:06:07 INFO  compiling root (3 scala sources)[0m
+2025.07.07 20:06:07 INFO  time: compiled root in 0.34s[0m
+2025.07.07 20:06:22 INFO  Created report: Optional[file:///home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/service/ProductService.scala][0m
+2025.07.07 20:06:22 INFO  empty definition using pc, found symbol in pc:  (full report at: "/home/enkit/Proyectos2025/ucsp/scala/ecom/.metals/.reports/metals-full/2025-07-07/r_empty-definition_(root)_20-06-22-741.md")[0m
+2025.07.07 20:06:31 INFO  Created report: Optional[file:///home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/service/ProductService.scala][0m
+2025.07.07 20:06:31 INFO  empty definition using pc, found symbol in pc:  (full report at: "/home/enkit/Proyectos2025/ucsp/scala/ecom/.metals/.reports/metals-full/2025-07-07/r_empty-definition_(root)_20-06-31-326.md")[0m
+2025.07.07 20:06:40 INFO  Created report: Optional[file:///home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/service/ProductService.scala][0m
+2025.07.07 20:06:40 INFO  empty definition using pc, found symbol in pc:  (full report at: "/home/enkit/Proyectos2025/ucsp/scala/ecom/.metals/.reports/metals-full/2025-07-07/r_empty-definition_(root)_20-06-40-666.md")[0m
+2025.07.07 20:06:40 INFO  Created report: Optional[file:///home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/service/ProductService.scala][0m
+2025.07.07 20:06:40 INFO  empty definition using pc, found symbol in pc:  (full report at: "/home/enkit/Proyectos2025/ucsp/scala/ecom/.metals/.reports/metals-full/2025-07-07/r_empty-definition_(root)_20-06-40-891.md")[0m
+2025.07.07 20:06:42 INFO  Created report: Optional[file:///home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/service/ProductService.scala][0m
+2025.07.07 20:06:42 INFO  empty definition using pc, found symbol in pc:  (full report at: "/home/enkit/Proyectos2025/ucsp/scala/ecom/.metals/.reports/metals-full/2025-07-07/r_empty-definition_(root)_20-06-42-191.md")[0m
+2025.07.07 20:06:47 INFO  compiling root (3 scala sources)[0m
+2025.07.07 20:06:47 INFO  Created report: Optional[file:///home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/service/ProductService.scala][0m
+2025.07.07 20:06:47 INFO  empty definition using pc, found symbol in pc:  (full report at: "/home/enkit/Proyectos2025/ucsp/scala/ecom/.metals/.reports/metals-full/2025-07-07/r_empty-definition_(root)_20-06-47-750.md")[0m
+2025.07.07 20:06:47 INFO  time: compiled root in 0.44s[0m
+jul. 07, 2025 8:06:48 P. M. scala.meta.internal.pc.CompilerAccess retryWithCleanCompiler
+INFORMACIÓN: compiler crashed due to an error in the Scala compiler, retrying with new compiler instance.
+2025.07.07 20:06:49 INFO  Created report: Optional[file:///home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/service/ProductService.scala][0m
+2025.07.07 20:06:49 INFO  empty definition using pc, found symbol in pc:  (full report at: "/home/enkit/Proyectos2025/ucsp/scala/ecom/.metals/.reports/metals-full/2025-07-07/r_empty-definition_(root)_20-06-49-075.md")[0m
+2025.07.07 20:06:49 INFO  Created report: Optional[file:///home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/service/ProductService.scala][0m
+2025.07.07 20:06:49 INFO  empty definition using pc, found symbol in pc:  (full report at: "/home/enkit/Proyectos2025/ucsp/scala/ecom/.metals/.reports/metals-full/2025-07-07/r_empty-definition_(root)_20-06-49-374.md")[0m
+2025.07.07 20:06:49 INFO  Created report: Optional[file:///home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/service/ProductService.scala][0m
+2025.07.07 20:06:49 INFO  empty definition using pc, found symbol in pc:  (full report at: "/home/enkit/Proyectos2025/ucsp/scala/ecom/.metals/.reports/metals-full/2025-07-07/r_empty-definition_(root)_20-06-49-598.md")[0m
+jul. 07, 2025 8:06:49 P. M. scala.meta.internal.pc.CompilerAccess retryWithCleanCompiler
+INFORMACIÓN: compiler crashed due to an error in the Scala compiler, retrying with new compiler instance.
+jul. 07, 2025 8:06:49 P. M. scala.meta.internal.pc.CompilerAccess retryWithCleanCompiler
+INFORMACIÓN: compiler crashed due to an error in the Scala compiler, retrying with new compiler instance.
+jul. 07, 2025 8:06:51 P. M. scala.meta.internal.pc.CompilerAccess retryWithCleanCompiler
+INFORMACIÓN: compiler crashed due to an error in the Scala compiler, retrying with new compiler instance.
+jul. 07, 2025 8:06:52 P. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+ADVERTENCIA: Unmatched cancel notification for request id 3215
+2025.07.07 20:06:55 INFO  Created report: Optional[file:///home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/service/ProductService.scala][0m
+2025.07.07 20:06:55 INFO  empty definition using pc, found symbol in pc:  (full report at: "/home/enkit/Proyectos2025/ucsp/scala/ecom/.metals/.reports/metals-full/2025-07-07/r_empty-definition_(root)_20-06-55-974.md")[0m
+2025.07.07 20:06:57 INFO  Created report: Optional[file:///home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/service/ProductService.scala][0m
+2025.07.07 20:06:57 INFO  empty definition using pc, found symbol in pc:  (full report at: "/home/enkit/Proyectos2025/ucsp/scala/ecom/.metals/.reports/metals-full/2025-07-07/r_empty-definition_(root)_20-06-57-245.md")[0m
+2025.07.07 20:06:57 INFO  Created report: Optional[file:///home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/service/ProductService.scala][0m
+2025.07.07 20:06:57 INFO  empty definition using pc, found symbol in pc:  (full report at: "/home/enkit/Proyectos2025/ucsp/scala/ecom/.metals/.reports/metals-full/2025-07-07/r_empty-definition_(root)_20-06-57-391.md")[0m
+2025.07.07 20:06:58 INFO  Created report: Optional[file:///home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/service/ProductService.scala][0m
+2025.07.07 20:06:58 INFO  empty definition using pc, found symbol in pc:  (full report at: "/home/enkit/Proyectos2025/ucsp/scala/ecom/.metals/.reports/metals-full/2025-07-07/r_empty-definition_(root)_20-06-58-715.md")[0m
+2025.07.07 20:06:58 INFO  Created report: Optional[file:///home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/service/ProductService.scala][0m
+2025.07.07 20:06:58 INFO  empty definition using pc, found symbol in pc:  (full report at: "/home/enkit/Proyectos2025/ucsp/scala/ecom/.metals/.reports/metals-full/2025-07-07/r_empty-definition_(root)_20-06-58-750.md")[0m
+2025.07.07 20:07:00 INFO  Created report: Optional[file:///home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/service/ProductService.scala][0m
+2025.07.07 20:07:00 INFO  empty definition using pc, found symbol in pc:  (full report at: "/home/enkit/Proyectos2025/ucsp/scala/ecom/.metals/.reports/metals-full/2025-07-07/r_empty-definition_(root)_20-07-00-188.md")[0m
+jul. 07, 2025 8:07:00 P. M. scala.meta.internal.pc.CompilerAccess retryWithCleanCompiler
+INFORMACIÓN: compiler crashed due to an error in the Scala compiler, retrying with new compiler instance.
+jul. 07, 2025 8:07:01 P. M. scala.meta.internal.pc.CompilerAccess retryWithCleanCompiler
+INFORMACIÓN: compiler crashed due to an error in the Scala compiler, retrying with new compiler instance.
+2025.07.07 20:07:01 INFO  Created report: Optional[file:///home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/service/ProductService.scala][0m
+2025.07.07 20:07:01 INFO  empty definition using pc, found symbol in pc:  (full report at: "/home/enkit/Proyectos2025/ucsp/scala/ecom/.metals/.reports/metals-full/2025-07-07/r_empty-definition_(root)_20-07-01-329.md")[0m
+2025.07.07 20:07:02 INFO  Created report: Optional[file:///home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/service/ProductService.scala][0m
+2025.07.07 20:07:02 INFO  empty definition using pc, found symbol in pc:  (full report at: "/home/enkit/Proyectos2025/ucsp/scala/ecom/.metals/.reports/metals-full/2025-07-07/r_empty-definition_(root)_20-07-02-970.md")[0m
+jul. 07, 2025 8:07:04 P. M. scala.meta.internal.pc.CompilerAccess retryWithCleanCompiler
+INFORMACIÓN: compiler crashed due to an error in the Scala compiler, retrying with new compiler instance.
+2025.07.07 20:07:10 INFO  Created report: Optional[file:///home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/service/ProductService.scala][0m
+2025.07.07 20:07:10 INFO  empty definition using pc, found symbol in pc:  (full report at: "/home/enkit/Proyectos2025/ucsp/scala/ecom/.metals/.reports/metals-full/2025-07-07/r_empty-definition_(root)_20-07-10-614.md")[0m
+2025.07.07 20:07:17 INFO  compiling root (3 scala sources)[0m
+2025.07.07 20:07:20 INFO  time: compiled root in 2.52s[0m
+2025.07.07 20:07:51 INFO  compiling root (3 scala sources)[0m
+2025.07.07 20:07:52 INFO  time: compiled root in 1.11s[0m
+2025.07.07 20:08:09 INFO  Created report: Optional[file:///home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/repository/CategoryRepository.scala][0m
+2025.07.07 20:08:09 INFO  empty definition using pc, found symbol in pc:  (full report at: "/home/enkit/Proyectos2025/ucsp/scala/ecom/.metals/.reports/metals-full/2025-07-07/r_empty-definition_(root)_20-08-09-648.md")[0m
+2025.07.07 20:08:20 WARN  Could not find 'IO' using presentation compiler nor semanticdb. Trying to guess the definition using available information from local class context. [0m
+2025.07.07 20:08:20 INFO  Created report: Optional[file:///home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/repository/ProductRepository.scala][0m
+2025.07.07 20:08:20 INFO  empty definition using pc, found symbol in pc:  (full report at: "/home/enkit/Proyectos2025/ucsp/scala/ecom/.metals/.reports/metals-full/2025-07-07/r_empty-definition_(root)_20-08-20-445.md")[0m
+2025.07.07 20:08:20 WARN  Could not find 'IO' using presentation compiler nor semanticdb. Trying to guess the definition using available information from local class context. [0m
+2025.07.07 20:08:20 INFO  empty definition using pc, found symbol in pc:  (full report at: "/home/enkit/Proyectos2025/ucsp/scala/ecom/.metals/.reports/metals-full/2025-07-07/r_empty-definition_(root)_20-08-20-445.md")[0m
+2025.07.07 20:08:21 INFO  compiling root (4 scala sources)[0m
+2025.07.07 20:08:21 INFO  time: compiled root in 0.51s[0m
+2025.07.07 20:08:29 INFO  empty definition using pc, found symbol in pc:  (full report at: "/home/enkit/Proyectos2025/ucsp/scala/ecom/.metals/.reports/metals-full/2025-07-07/r_empty-definition_(root)_20-08-20-445.md")[0m
+2025.07.07 20:08:29 INFO  empty definition using pc, found symbol in pc:  (full report at: "/home/enkit/Proyectos2025/ucsp/scala/ecom/.metals/.reports/metals-full/2025-07-07/r_empty-definition_(root)_20-08-20-445.md")[0m
+2025.07.07 20:08:29 INFO  empty definition using pc, found symbol in pc:  (full report at: "/home/enkit/Proyectos2025/ucsp/scala/ecom/.metals/.reports/metals-full/2025-07-07/r_empty-definition_(root)_20-08-20-445.md")[0m
+2025.07.07 20:08:36 INFO  compiling root (4 scala sources)[0m
+2025.07.07 20:08:36 INFO  time: compiled root in 0.57s[0m
+2025.07.07 20:08:39 INFO  empty definition using pc, found symbol in pc:  (full report at: "/home/enkit/Proyectos2025/ucsp/scala/ecom/.metals/.reports/metals-full/2025-07-07/r_empty-definition_(root)_20-08-20-445.md")[0m
+2025.07.07 20:08:48 INFO  compiling root (4 scala sources)[0m
+2025.07.07 20:08:48 INFO  time: compiled root in 0.45s[0m
+2025.07.07 20:09:01 INFO  compiling root (4 scala sources)[0m
+2025.07.07 20:09:01 INFO  time: compiled root in 0.46s[0m
+2025.07.07 20:09:20 INFO  compiling root (5 scala sources)[0m
+2025.07.07 20:09:20 INFO  time: compiled root in 0.45s[0m
+2025.07.07 20:09:28 INFO  compiling root (5 scala sources)[0m
+2025.07.07 20:09:28 INFO  time: compiled root in 0.51s[0m
+2025.07.07 20:10:39 INFO  compiling root (5 scala sources)[0m
+2025.07.07 20:10:39 INFO  time: compiled root in 0.56s[0m
+2025.07.07 20:10:50 INFO  compiling root (5 scala sources)[0m
+2025.07.07 20:10:50 INFO  time: compiled root in 0.53s[0m
+2025.07.07 20:10:52 INFO  compiling root (5 scala sources)[0m
+2025.07.07 20:10:52 INFO  time: compiled root in 0.49s[0m
+2025.07.07 20:10:56 INFO  compiling root (5 scala sources)[0m
+2025.07.07 20:10:56 INFO  time: compiled root in 0.47s[0m
+2025.07.07 20:11:05 INFO  compiling root (5 scala sources)[0m
+2025.07.07 20:11:05 INFO  time: compiled root in 0.38s[0m
+2025.07.07 20:11:19 INFO  compiling root (5 scala sources)[0m
+2025.07.07 20:11:19 INFO  time: compiled root in 0.49s[0m
+2025.07.07 20:11:28 INFO  compiling root (5 scala sources)[0m
+2025.07.07 20:11:28 INFO  time: compiled root in 0.36s[0m
+2025.07.07 20:11:37 INFO  compiling root (5 scala sources)[0m
+2025.07.07 20:11:37 INFO  time: compiled root in 0.92s[0m
+2025.07.07 20:11:43 INFO  compiling root (5 scala sources)[0m
+2025.07.07 20:11:43 INFO  time: compiled root in 0.46s[0m
+2025.07.07 20:11:49 INFO  compiling root (5 scala sources)[0m
+2025.07.07 20:11:49 INFO  time: compiled root in 0.47s[0m
+2025.07.07 20:12:00 INFO  compiling root (5 scala sources)[0m
+2025.07.07 20:12:00 INFO  time: compiled root in 0.37s[0m
+2025.07.07 20:12:27 INFO  compiling root (5 scala sources)[0m
+2025.07.07 20:12:27 INFO  time: compiled root in 0.47s[0m
+2025.07.07 20:12:27 INFO  compiling root (7 scala sources)[0m
+2025.07.07 20:12:28 INFO  time: compiled root in 0.98s[0m
+2025.07.07 20:12:36 INFO  compiling root (7 scala sources)[0m
+2025.07.07 20:12:36 INFO  time: compiled root in 0.7s[0m
+2025.07.07 20:12:40 INFO  compiling root (7 scala sources)[0m
+2025.07.07 20:12:40 INFO  time: compiled root in 0.69s[0m
+2025.07.07 20:12:43 INFO  Created report: Optional[file:///home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/http/controllers/ProductAdminController.scala][0m
+2025.07.07 20:12:43 INFO  empty definition using pc, found symbol in pc:  (full report at: "/home/enkit/Proyectos2025/ucsp/scala/ecom/.metals/.reports/metals-full/2025-07-07/r_empty-definition_(root)_20-12-43-575.md")[0m
+jul. 07, 2025 8:12:49 P. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+ADVERTENCIA: Unmatched cancel notification for request id 4503
+2025.07.07 20:13:21 INFO  compiling root (7 scala sources)[0m
+2025.07.07 20:13:21 INFO  time: compiled root in 0.89s[0m
+2025.07.07 20:13:23 WARN  Could not find 'all' using presentation compiler nor semanticdb. Trying to guess the definition using available information from local class context. [0m
+2025.07.07 20:13:23 INFO  Created report: Optional[file:///home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/http/views/admin/CategoryAdminView.scala][0m
+2025.07.07 20:13:23 INFO  empty definition using pc, found symbol in pc:  (full report at: "/home/enkit/Proyectos2025/ucsp/scala/ecom/.metals/.reports/metals-full/2025-07-07/r_empty-definition_(root)_20-13-23-786.md")[0m
+2025.07.07 20:13:24 INFO  Created report: Optional[file:///home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/http/controllers/ProductAdminController.scala][0m
+2025.07.07 20:13:24 INFO  empty definition using pc, found symbol in pc:  (full report at: "/home/enkit/Proyectos2025/ucsp/scala/ecom/.metals/.reports/metals-full/2025-07-07/r_empty-definition_(root)_20-13-24-454.md")[0m
+2025.07.07 20:13:24 INFO  compiling root (7 scala sources)[0m
+2025.07.07 20:13:24 INFO  Created report: Optional[file:///home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/http/controllers/ProductAdminController.scala][0m
+2025.07.07 20:13:24 INFO  empty definition using pc, found symbol in pc:  (full report at: "/home/enkit/Proyectos2025/ucsp/scala/ecom/.metals/.reports/metals-full/2025-07-07/r_empty-definition_(root)_20-13-24-574.md")[0m
+2025.07.07 20:13:25 INFO  time: compiled root in 1s[0m
+2025.07.07 20:13:26 INFO  Created report: Optional[file:///home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/http/controllers/ProductAdminController.scala][0m
+2025.07.07 20:13:26 INFO  empty definition using pc, found symbol in pc:  (full report at: "/home/enkit/Proyectos2025/ucsp/scala/ecom/.metals/.reports/metals-full/2025-07-07/r_empty-definition_(root)_20-13-26-631.md")[0m
+2025.07.07 20:13:26 INFO  compiling root (7 scala sources)[0m
+2025.07.07 20:13:26 INFO  time: compiled root in 0.72s[0m
+2025.07.07 20:13:27 WARN  Could not find 'ProductAdminView' using presentation compiler nor semanticdb. Trying to guess the definition using available information from local class context. [0m
+2025.07.07 20:13:27 INFO  Created report: Optional[file:///home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/http/controllers/ProductAdminController.scala][0m
+2025.07.07 20:13:27 INFO  empty definition using pc, found symbol in pc:  (full report at: "/home/enkit/Proyectos2025/ucsp/scala/ecom/.metals/.reports/metals-full/2025-07-07/r_empty-definition_(root)_20-13-27-840.md")[0m
+2025.07.07 20:13:27 INFO  Created report: Optional[file:///home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/http/controllers/ProductAdminController.scala][0m
+2025.07.07 20:13:27 INFO  empty definition using pc, found symbol in pc:  (full report at: "/home/enkit/Proyectos2025/ucsp/scala/ecom/.metals/.reports/metals-full/2025-07-07/r_empty-definition_(root)_20-13-28-095.md")[0m
+Exception in thread "pool-7-thread-4" java.lang.InterruptedException
+	at scala.meta.internal.metals.FutureCancelToken.checkCanceled(FutureCancelToken.scala:29)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$onCompilerJobQueue$1(CompilerAccess.scala:243)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:152)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+2025.07.07 20:13:28 WARN  Could not find 'IO' using presentation compiler nor semanticdb. Trying to guess the definition using available information from local class context. [0m
+2025.07.07 20:13:28 INFO  Created report: Optional[file:///home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/http/controllers/ProductAdminController.scala][0m
+2025.07.07 20:13:28 INFO  empty definition using pc, found symbol in pc:  (full report at: "/home/enkit/Proyectos2025/ucsp/scala/ecom/.metals/.reports/metals-full/2025-07-07/r_empty-definition_(root)_20-13-28-225.md")[0m
+2025.07.07 20:13:28 WARN  Could not find 'IO' using presentation compiler nor semanticdb. Trying to guess the definition using available information from local class context. [0m
+2025.07.07 20:13:28 INFO  empty definition using pc, found symbol in pc:  (full report at: "/home/enkit/Proyectos2025/ucsp/scala/ecom/.metals/.reports/metals-full/2025-07-07/r_empty-definition_(root)_20-13-28-225.md")[0m
+2025.07.07 20:13:28 INFO  compiling root (7 scala sources)[0m
+2025.07.07 20:13:28 INFO  time: compiled root in 0.73s[0m
+2025.07.07 20:13:33 INFO  compiling root (7 scala sources)[0m
+2025.07.07 20:13:33 INFO  time: compiled root in 0.71s[0m
+2025.07.07 20:13:49 WARN  Could not find 'CategoryAdminView' using presentation compiler nor semanticdb. Trying to guess the definition using available information from local class context. [0m
+2025.07.07 20:13:49 INFO  Created report: Optional[file:///home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/http/controllers/CategoryAdminController.scala][0m
+2025.07.07 20:13:49 INFO  empty definition using pc, found symbol in pc:  (full report at: "/home/enkit/Proyectos2025/ucsp/scala/ecom/.metals/.reports/metals-full/2025-07-07/r_empty-definition_(root)_20-13-49-808.md")[0m
+2025.07.07 20:13:53 INFO  compiling root (7 scala sources)[0m
+2025.07.07 20:13:53 INFO  time: compiled root in 0.68s[0m
+2025.07.07 20:14:58 INFO  compiling root (7 scala sources)[0m
+2025.07.07 20:14:58 INFO  time: compiled root in 0.85s[0m
+2025.07.07 20:15:08 INFO  compiling root (7 scala sources)[0m
+2025.07.07 20:15:08 INFO  time: compiled root in 0.68s[0m
+2025.07.07 20:29:28 INFO  compiling root (7 scala sources)[0m
+2025.07.07 20:29:28 INFO  time: compiled root in 0.81s[0m
+2025.07.07 20:29:55 INFO  compiling root (7 scala sources)[0m
+2025.07.07 20:29:55 INFO  time: compiled root in 0.7s[0m
+2025.07.07 20:30:05 INFO  compiling root (7 scala sources)[0m
+2025.07.07 20:30:05 INFO  time: compiled root in 0.76s[0m
+2025.07.07 20:32:20 INFO  compiling root (7 scala sources)[0m
+jul. 07, 2025 8:32:22 P. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+ADVERTENCIA: Unmatched cancel notification for request id 5388
+2025.07.07 20:32:24 INFO  time: compiled root in 3.55s[0m
+2025.07.07 20:34:01 INFO  compiling root (7 scala sources)[0m
+2025.07.07 20:34:01 INFO  time: compiled root in 0.92s[0m
+2025.07.07 20:35:43 INFO  Created report: Optional[file:///home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/http/controllers/ProductAdminController.scala][0m
+2025.07.07 20:35:43 INFO  empty definition using pc, found symbol in pc:  (full report at: "/home/enkit/Proyectos2025/ucsp/scala/ecom/.metals/.reports/metals-full/2025-07-07/r_empty-definition_(root)_20-35-43-429.md")[0m
+2025.07.07 20:35:44 INFO  compiling root (7 scala sources)[0m
+2025.07.07 20:35:44 INFO  time: compiled root in 0.85s[0m
+2025.07.07 20:35:52 INFO  compiling root (7 scala sources)[0m
+2025.07.07 20:35:52 INFO  time: compiled root in 0.69s[0m
+2025.07.07 20:36:01 INFO  compiling root (7 scala sources)[0m
+2025.07.07 20:36:01 INFO  time: compiled root in 0.68s[0m
+2025.07.07 20:36:18 INFO  compiling root (7 scala sources)[0m
+2025.07.07 20:36:18 INFO  time: compiled root in 0.66s[0m
+2025.07.07 20:39:21 INFO  compiling root (7 scala sources)[0m
+2025.07.07 20:39:21 INFO  time: compiled root in 0.95s[0m
+2025.07.07 20:39:27 INFO  empty definition using pc, found symbol in pc:  (full report at: "/home/enkit/Proyectos2025/ucsp/scala/ecom/.metals/.reports/metals-full/2025-06-18/r_empty-definition_(root)_15-36-41-186.md")[0m
+jul. 07, 2025 8:39:27 P. M. scala.meta.internal.pc.CompilerAccess retryWithCleanCompiler
+INFORMACIÓN: compiler crashed due to an error in the Scala compiler, retrying with new compiler instance.
+jul. 07, 2025 8:39:28 P. M. scala.meta.internal.pc.CompilerAccess retryWithCleanCompiler
+INFORMACIÓN: compiler crashed due to an error in the Scala compiler, retrying with new compiler instance.
+jul. 07, 2025 8:39:29 P. M. scala.meta.internal.pc.CompilerAccess retryWithCleanCompiler
+INFORMACIÓN: compiler crashed due to an error in the Scala compiler, retrying with new compiler instance.
+2025.07.07 20:39:31 INFO  compiling root (7 scala sources)[0m
+2025.07.07 20:39:31 INFO  time: compiled root in 0.76s[0m
+2025.07.07 20:39:34 INFO  compiling root (7 scala sources)[0m
+2025.07.07 20:39:34 INFO  time: compiled root in 0.73s[0m
+jul. 07, 2025 8:39:47 P. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint fallbackResponseError
+GRAVE: Internal error: java.nio.file.FileAlreadyExistsException: The file /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/http/controllers/HomeController.scala already exists.
+java.util.concurrent.CompletionException: java.nio.file.FileAlreadyExistsException: The file /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/http/controllers/HomeController.scala already exists.
+	at java.base/java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:332)
+	at java.base/java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:347)
+	at java.base/java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:708)
+	at java.base/java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:510)
+	at java.base/java.util.concurrent.CompletableFuture.completeExceptionally(CompletableFuture.java:2162)
+	at scala.concurrent.java8.FuturesConvertersImpl$CF.apply(FutureConvertersImpl.scala:29)
+	at scala.concurrent.java8.FuturesConvertersImpl$CF.apply(FutureConvertersImpl.scala:26)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:484)
+	at scala.concurrent.ExecutionContext$parasitic$.execute(ExecutionContext.scala:222)
+	at scala.concurrent.impl.Promise$Transformation.submitWithValue(Promise.scala:429)
+	at scala.concurrent.impl.Promise$DefaultPromise.submitWithValue(Promise.scala:338)
+	at scala.concurrent.impl.Promise$DefaultPromise.tryComplete0(Promise.scala:285)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:504)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+Caused by: java.nio.file.FileAlreadyExistsException: The file /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/http/controllers/HomeController.scala already exists.
+	at scala.meta.internal.metals.newScalaFile.NewFileProvider.createFileAndWriteText(NewFileProvider.scala:253)
+	at scala.meta.internal.metals.newScalaFile.NewFileProvider.createEmptyFileWithPackage(NewFileProvider.scala:223)
+	at scala.meta.internal.metals.newScalaFile.NewFileProvider.$anonfun$createFile$3(NewFileProvider.scala:106)
+	at scala.meta.internal.metals.MetalsEnrichments$OptionFutureTransformer.$anonfun$mapOption$3(MetalsEnrichments.scala:1264)
+	at scala.Option.fold(Option.scala:263)
+	at scala.meta.internal.metals.MetalsEnrichments$OptionFutureTransformer.$anonfun$mapOption$1(MetalsEnrichments.scala:1264)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:470)
+	... 3 more
+
+2025.07.07 20:39:47 ERROR Cannot create file
+java.nio.file.FileAlreadyExistsException: The file /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/http/controllers/HomeController.scala already exists.
+	at scala.meta.internal.metals.newScalaFile.NewFileProvider.createFileAndWriteText(NewFileProvider.scala:253)
+	at scala.meta.internal.metals.newScalaFile.NewFileProvider.createEmptyFileWithPackage(NewFileProvider.scala:223)
+	at scala.meta.internal.metals.newScalaFile.NewFileProvider.$anonfun$createFile$3(NewFileProvider.scala:106)
+	at scala.meta.internal.metals.MetalsEnrichments$OptionFutureTransformer.$anonfun$mapOption$3(MetalsEnrichments.scala:1264)
+	at scala.Option.fold(Option.scala:263)
+	at scala.meta.internal.metals.MetalsEnrichments$OptionFutureTransformer.$anonfun$mapOption$1(MetalsEnrichments.scala:1264)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:470)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.lang.Thread.run(Thread.java:840)
+[0m
+2025.07.07 20:40:07 INFO  compiling root (7 scala sources)[0m
+2025.07.07 20:40:08 INFO  time: compiled root in 1.07s[0m
+2025.07.07 20:47:51 INFO  compiling root (8 scala sources)[0m
+2025.07.07 20:47:51 INFO  time: compiled root in 0.91s[0m
+2025.07.07 20:48:30 INFO  Created report: Optional[file:///home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/service/OrderService.scala][0m
+2025.07.07 20:48:30 INFO  empty definition using pc, found symbol in pc:  (full report at: "/home/enkit/Proyectos2025/ucsp/scala/ecom/.metals/.reports/metals-full/2025-07-07/r_empty-definition_(root)_20-48-30-879.md")[0m
+2025.07.07 20:48:31 INFO  compiling root (8 scala sources)[0m
+2025.07.07 20:48:31 INFO  Created report: Optional[file:///home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/service/OrderService.scala][0m
+2025.07.07 20:48:31 INFO  empty definition using pc, found symbol in pc: java/lang/IllegalStateException# (full report at: "/home/enkit/Proyectos2025/ucsp/scala/ecom/.metals/.reports/metals-full/2025-07-07/r_empty-definition_(root)_20-48-31-081.md")[0m
+2025.07.07 20:48:31 INFO  time: compiled root in 0.91s[0m
+2025.07.07 20:49:41 INFO  empty definition using pc, found symbol in pc:  (full report at: "/home/enkit/Proyectos2025/ucsp/scala/ecom/.metals/.reports/metals-full/2025-06-18/r_empty-definition_(root)_15-36-41-186.md")[0m
+2025.07.07 20:49:48 INFO  compiling root (8 scala sources)[0m
+2025.07.07 20:49:48 INFO  time: compiled root in 0.95s[0m
+2025.07.07 20:49:52 INFO  empty definition using pc, found symbol in pc:  (full report at: "/home/enkit/Proyectos2025/ucsp/scala/ecom/.metals/.reports/metals-full/2025-06-18/r_empty-definition_(root)_15-36-41-186.md")[0m
+2025.07.07 20:49:52 INFO  compiling root (8 scala sources)[0m
+2025.07.07 20:49:52 INFO  time: compiled root in 0.75s[0m
+2025.07.07 20:51:42 INFO  compiling root (9 scala sources)[0m
+2025.07.07 20:51:44 INFO  time: compiled root in 1.4s[0m
+2025.07.07 20:51:45 INFO  compiling root (9 scala sources)[0m
+2025.07.07 20:51:45 INFO  Created report: Optional[file:///home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/http/controllers/OrderAdminController.scala][0m
+2025.07.07 20:51:45 INFO  empty definition using pc, found symbol in pc:  (full report at: "/home/enkit/Proyectos2025/ucsp/scala/ecom/.metals/.reports/metals-full/2025-07-07/r_empty-definition_(root)_20-51-45-793.md")[0m
+2025.07.07 20:51:45 INFO  time: compiled root in 0.95s[0m
+2025.07.07 20:51:58 INFO  compiling root (10 scala sources)[0m
+2025.07.07 20:51:58 INFO  time: compiled root in 0.82s[0m
+2025.07.07 20:52:01 ERROR scalafmt: /home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/http/views/admin/OrderAdminView.scala:132: error: [dialect scala213] ) expected but end of file found
+                      td(item.quant
+                                   ^[0m
+2025.07.07 20:52:01 INFO  compiling root (10 scala sources)[0m
+2025.07.07 20:52:01 INFO  time: compiled root in 97ms[0m
+2025.07.07 20:52:20 INFO  compiling root (10 scala sources)[0m
+2025.07.07 20:52:22 INFO  time: compiled root in 1.9s[0m
+2025.07.07 20:52:51 INFO  compiling root (10 scala sources)[0m
+2025.07.07 20:52:54 INFO  time: compiled root in 2.61s[0m
+2025.07.07 20:53:20 INFO  Created report: Optional[file:///home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/service/OrderService.scala][0m
+2025.07.07 20:53:20 INFO  empty definition using pc, found symbol in pc:  (full report at: "/home/enkit/Proyectos2025/ucsp/scala/ecom/.metals/.reports/metals-full/2025-07-07/r_empty-definition_(root)_20-53-20-931.md")[0m
+2025.07.07 20:53:21 INFO  compiling root (10 scala sources)[0m
+2025.07.07 20:53:21 INFO  time: compiled root in 0.8s[0m
+2025.07.07 20:53:29 INFO  compiling root (10 scala sources)[0m
+2025.07.07 20:53:29 INFO  time: compiled root in 0.86s[0m
+2025.07.07 20:53:40 INFO  empty definition using pc, found symbol in pc:  (full report at: "/home/enkit/Proyectos2025/ucsp/scala/ecom/.metals/.reports/metals-full/2025-07-07/r_empty-definition_(root)_20-08-20-445.md")[0m
+2025.07.07 20:53:45 INFO  Created report: Optional[file:///home/enkit/Proyectos2025/ucsp/scala/ecom/src/main/scala/repository/OrderRepository.scala][0m
+2025.07.07 20:53:45 INFO  empty definition using pc, found symbol in pc:  (full report at: "/home/enkit/Proyectos2025/ucsp/scala/ecom/.metals/.reports/metals-full/2025-07-07/r_empty-definition_(root)_20-53-45-029.md")[0m
+2025.07.07 20:53:45 INFO  empty definition using pc, found symbol in pc:  (full report at: "/home/enkit/Proyectos2025/ucsp/scala/ecom/.metals/.reports/metals-full/2025-07-07/r_empty-definition_(root)_20-53-45-029.md")[0m
+2025.07.07 20:53:45 INFO  empty definition using pc, found symbol in pc:  (full report at: "/home/enkit/Proyectos2025/ucsp/scala/ecom/.metals/.reports/metals-full/2025-07-07/r_empty-definition_(root)_20-53-45-029.md")[0m
+2025.07.07 20:53:45 INFO  empty definition using pc, found symbol in pc:  (full report at: "/home/enkit/Proyectos2025/ucsp/scala/ecom/.metals/.reports/metals-full/2025-07-07/r_empty-definition_(root)_20-53-45-029.md")[0m
+2025.07.07 20:53:45 INFO  empty definition using pc, found symbol in pc:  (full report at: "/home/enkit/Proyectos2025/ucsp/scala/ecom/.metals/.reports/metals-full/2025-07-07/r_empty-definition_(root)_20-53-45-029.md")[0m
+2025.07.07 20:53:46 INFO  compiling root (11 scala sources)[0m
+2025.07.07 20:53:46 INFO  time: compiled root in 0.92s[0m
+2025.07.07 20:53:48 INFO  empty definition using pc, found symbol in pc:  (full report at: "/home/enkit/Proyectos2025/ucsp/scala/ecom/.metals/.reports/metals-full/2025-07-07/r_empty-definition_(root)_20-53-45-029.md")[0m
+2025.07.07 20:53:49 INFO  empty definition using pc, found symbol in pc:  (full report at: "/home/enkit/Proyectos2025/ucsp/scala/ecom/.metals/.reports/metals-full/2025-07-07/r_empty-definition_(root)_20-53-45-029.md")[0m
+2025.07.07 20:53:49 INFO  compiling root (11 scala sources)[0m
+2025.07.07 20:53:50 INFO  time: compiled root in 1.54s[0m
+2025.07.07 20:53:55 INFO  empty definition using pc, found symbol in pc:  (full report at: "/home/enkit/Proyectos2025/ucsp/scala/ecom/.metals/.reports/metals-full/2025-07-07/r_empty-definition_(root)_20-08-20-445.md")[0m
+2025.07.07 20:53:58 INFO  compiling root (11 scala sources)[0m
+2025.07.07 20:54:00 INFO  time: compiled root in 1.57s[0m
+2025.07.07 20:54:00 INFO  compiling root (11 scala sources)[0m
+2025.07.07 20:54:01 INFO  time: compiled root in 0.79s[0m
+2025.07.07 20:54:13 INFO  compiling root (11 scala sources)[0m
+2025.07.07 20:54:13 INFO  time: compiled root in 0.82s[0m

@@ -8,6 +8,7 @@ import model.Product
 import model.Product._ // Importa las instancias implícitas
 
 trait ProductRepository {
+  def findAll(): IO[List[Product]]
   def findById(id: Int): IO[Option[Product]]
   def findBySlug(slug: String): IO[Option[Product]]
   def create(product: Product): IO[Unit]
@@ -17,6 +18,13 @@ trait ProductRepository {
 
 object ProductRepository {
   def apply(xa: Transactor[IO]): ProductRepository = new ProductRepository {
+
+    def findAll(): IO[List[Product]] =
+      sql"""
+        SELECT *
+        FROM products
+        WHERE deleted_at IS NULL
+      """.query[Product].to[List].transact(xa)
 
     def findById(id: Int): IO[Option[Product]] = {
       sql"""
