@@ -13,15 +13,15 @@ object UserRole {
   // Conversión explícita para evitar problemas de varianza
   implicit val userRoleMeta: Meta[UserRole] = {
     val fromString: String => UserRole = {
-      case "Admin"    => Admin
-      case "Customer" => Customer
+      case "admin"    => Admin
+      case "customer" => Customer
       case other =>
         throw new IllegalArgumentException(s"Unknown UserRole: $other")
     }
 
     val toString: UserRole => String = {
-      case Admin    => "Admin"
-      case Customer => "Customer"
+      case Admin    => "admin"
+      case Customer => "customer"
     }
 
     Meta[String].timap(fromString)(toString)

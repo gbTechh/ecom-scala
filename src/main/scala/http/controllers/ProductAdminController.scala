@@ -8,6 +8,7 @@ import org.http4s.headers.Location
 import org.http4s.headers.`Content-Type`
 import service.{ProductService, CategoryService}
 import java.sql.Timestamp
+import model.Product
 import java.time.Instant
 import _root_.http.views.admin.ProductAdminView
 import org.http4s.MediaType
@@ -43,7 +44,27 @@ class ProductAdminController(
             .map(_.withContentType(`Content-Type`(MediaType.text.html)))
         case _ => NotFound("Product not found")
       }
-
+    case req @ POST -> Root / "edit" / IntVar(id) =>
+      req.as[UrlForm].flatMap { form =>
+        val now = Timestamp.from(Instant.now())
+        val updatedProduct = model.Product(
+          id = id,
+          name = form.getFirstOrElse("name", ""),
+          slug = form.getFirstOrElse("slug", ""),
+          description =
+            Option(form.getFirstOrElse("description", "")).filter(_.nonEmpty),
+          status = Option(form.getFirstOrElse("status", "false").toBoolean),
+          price = Option(form.getFirstOrElse("price", "0").toFloat),
+          stock = Option(form.getFirstOrElse("stock", "0").toInt),
+          categoryId = Option(form.getFirstOrElse("categoryId", "0").toInt),
+          createdAt =
+            now, // Deberías obtener el producto existente para mantener createdAt
+          updatedAt = now,
+          deletedAt = None
+        )
+        productService.update(updatedProduct) *>
+          SeeOther(Location(uri"/admin/products"))
+      }
     case req @ POST -> Root / "add" =>
       req.as[UrlForm].flatMap { form =>
         val now = Timestamp.from(Instant.now())

@@ -8,6 +8,8 @@ import java.sql.Timestamp
 import java.time.Instant
 
 trait OrderService {
+  def createOrderAndGetId(order: Order): IO[Int]
+  def createOrderItem(item: OrderItem): IO[Unit]
   def findAll(): IO[List[Order]]
   def findById(id: Int): IO[Option[Order]]
   def findByUserId(userId: Int): IO[List[Order]]
@@ -22,6 +24,15 @@ object OrderService {
       orderRepo: OrderRepository,
       orderItemRepo: OrderItemRepository
   ): OrderService = new OrderService {
+    def createOrderAndGetId(order: Order): IO[Int] = {
+      for {
+        _ <- validateOrder(order)
+        orderId <- orderRepo.createAndGetId(order)
+      } yield orderId
+    }
+    def createOrderItem(item: OrderItem): IO[Unit] = {
+      orderItemRepo.create(item)
+    }
     def findAll(): IO[List[Order]] =
       orderRepo.findAll()
 

@@ -5,10 +5,13 @@ import org.http4s._
 import org.http4s.dsl.io._
 import org.http4s.headers.`Content-Type`
 import org.http4s.MediaType
-import service.CategoryService
+import service.{CategoryService, ProductService}
 import http.views.CategoryView
 
-class CategoryController(categoryService: CategoryService) {
+class CategoryController(
+    categoryService: CategoryService,
+    productService: ProductService
+) {
   val routes: HttpRoutes[IO] = HttpRoutes.of[IO] {
     case GET -> Root =>
       categoryService
@@ -19,13 +22,18 @@ class CategoryController(categoryService: CategoryService) {
         )
 
     case GET -> Root / slug =>
-      categoryService.findBySlug(slug).flatMap {
-        case Some(category) =>
-          Ok(CategoryView.show(category))
-            .map(_.withContentType(`Content-Type`(MediaType.text.html)))
-        case None =>
-          NotFound(CategoryView.notFound())
-            .map(_.withContentType(`Content-Type`(MediaType.text.html)))
-      }
+      for {
+        maybeCategory <- categoryService.findBySlug(slug)
+        products <- productService.findByCategorySlug(slug)
+        response <- maybeCategory match {
+          case Some(category) =>
+            Ok(CategoryView.show(category, products))
+              .map(_.withContentType(`Content-Type`(MediaType.text.html)))
+          case None =>
+            NotFound(CategoryView.notFound())
+              .map(_.withContentType(`Content-Type`(MediaType.text.html)))
+        }
+      } yield response
   }
+
 }

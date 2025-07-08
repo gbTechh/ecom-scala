@@ -13,6 +13,7 @@ trait UserRepository {
   def create(user: User): IO[Unit]
   def update(user: User): IO[Unit]
   def delete(id: Int): IO[Unit]
+  def createAndReturnId(user: User): IO[Int]
 }
 
 object UserRepository {
@@ -72,6 +73,19 @@ object UserRepository {
         SET deleted_at = NOW()
         WHERE id = $id
       """.update.run.transact(xa).void
+    }
+    def createAndReturnId(user: User): IO[Int] = {
+      sql"""
+      INSERT INTO users (email, password, role, first_name, last_name, status)
+      VALUES (
+        ${user.email},
+        ${user.password},
+        ${user.role.toString.toLowerCase},
+        ${user.firstName},
+        ${user.lastName},
+        ${user.status}
+      )
+    """.update.withUniqueGeneratedKeys[Int]("id").transact(xa)
     }
   }
 }

@@ -10,6 +10,7 @@ trait ProductService {
   def findById(id: Int): IO[Option[Product]]
   def findBySlug(slug: String): IO[Option[Product]]
   def findByCategorySlug(categorySlug: String): IO[List[Product]]
+  def searchByName(term: String): IO[List[Product]]
   def create(product: Product): IO[Unit]
   def update(product: Product): IO[Unit]
   def delete(id: Int): IO[Unit]
@@ -17,6 +18,8 @@ trait ProductService {
 
 object ProductService {
   def apply(repo: ProductRepository): ProductService = new ProductService {
+    def searchByName(term: String): IO[List[Product]] =
+      repo.searchByName(term)
     def findAll(): IO[List[Product]] =
       repo.findAll()
 

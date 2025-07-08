@@ -9,6 +9,7 @@ import model.Order._
 import model.OrderStatus
 
 trait OrderRepository {
+  def createAndGetId(order: Order): IO[Int]
   def findAll(): IO[List[Order]]
   def findById(id: Int): IO[Option[Order]]
   def findByUserId(userId: Int): IO[List[Order]]
@@ -20,6 +21,14 @@ trait OrderRepository {
 
 object OrderRepository {
   def apply(xa: Transactor[IO]): OrderRepository = new OrderRepository {
+    def createAndGetId(order: Order): IO[Int] = {
+      sql"""
+    INSERT INTO orders (id_user, total_amount, status)
+    VALUES (${order.userId}, ${order.totalAmount}, ${order.status})
+  """.update
+        .withUniqueGeneratedKeys[Int]("id")
+        .transact(xa)
+    }
     def findAll(): IO[List[Order]] =
       sql"""
         SELECT *
@@ -28,7 +37,7 @@ object OrderRepository {
       """.query[Order].to[List].transact(xa)
     def findById(id: Int): IO[Option[Order]] = {
       sql"""
-        SELECT id, user_id, total_amount, status, created_at, updated_at, deleted_at 
+        SELECT id, id_user, total_amount, status, created_at, updated_at, deleted_at 
         FROM orders 
         WHERE id = $id AND deleted_at IS NULL
       """.query[Order].option.transact(xa)
@@ -36,15 +45,15 @@ object OrderRepository {
 
     def findByUserId(userId: Int): IO[List[Order]] = {
       sql"""
-        SELECT id, user_id, total_amount, status, created_at, updated_at, deleted_at 
+        SELECT id, id_user, total_amount, status, created_at, updated_at, deleted_at 
         FROM orders 
-        WHERE user_id = $userId AND deleted_at IS NULL
+        WHERE id_user = $userId AND deleted_at IS NULL
       """.query[Order].to[List].transact(xa)
     }
 
     def create(order: Order): IO[Unit] = {
       sql"""
-        INSERT INTO orders (user_id, total_amount, status)
+        INSERT INTO orders (id_user, total_amount, status)
         VALUES (${order.userId}, ${order.totalAmount}, ${order.status})
       """.update.run.transact(xa).void
     }
@@ -52,7 +61,7 @@ object OrderRepository {
     def update(order: Order): IO[Unit] = {
       sql"""
         UPDATE orders
-        SET user_id = ${order.userId}, 
+        SET id_user = ${order.userId}, 
             total_amount = ${order.totalAmount}, 
             status = ${order.status},
             updated_at = NOW()

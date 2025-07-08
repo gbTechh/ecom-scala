@@ -21,7 +21,7 @@ object OrderItemRepository {
 
     def findById(id: Int): IO[Option[OrderItem]] = {
       sql"""
-        SELECT id, order_id, product_id, quantity, unit_price, created_at, updated_at 
+        SELECT id, id_order, id_product, quantity, unit_price, created_at, updated_at 
         FROM order_items 
         WHERE id = $id
       """.query[OrderItem].option.transact(xa)
@@ -29,15 +29,15 @@ object OrderItemRepository {
 
     def findByOrderId(orderId: Int): IO[List[OrderItem]] = {
       sql"""
-        SELECT id, order_id, product_id, quantity, unit_price, created_at, updated_at 
+        SELECT id, id_order, id_product, quantity, unit_price, created_at, updated_at 
         FROM order_items 
-        WHERE order_id = $orderId
+        WHERE id_order = $orderId
       """.query[OrderItem].to[List].transact(xa)
     }
 
     def create(orderItem: OrderItem): IO[Unit] = {
       sql"""
-        INSERT INTO order_items (order_id, product_id, quantity, unit_price)
+        INSERT INTO order_items (id_order, id_product, quantity, unit_price)
         VALUES (${orderItem.orderId}, ${orderItem.productId}, ${orderItem.quantity}, ${orderItem.unitPrice})
       """.update.run.transact(xa).void
     }
@@ -45,8 +45,8 @@ object OrderItemRepository {
     def update(orderItem: OrderItem): IO[Unit] = {
       sql"""
         UPDATE order_items
-        SET order_id = ${orderItem.orderId}, 
-            product_id = ${orderItem.productId}, 
+        SET id_order = ${orderItem.orderId}, 
+            id_product = ${orderItem.productId}, 
             quantity = ${orderItem.quantity}, 
             unit_price = ${orderItem.unitPrice},
             updated_at = NOW()
@@ -61,7 +61,7 @@ object OrderItemRepository {
     }
 
     def deleteByOrderId(orderId: Int): IO[Unit] = {
-      sql"DELETE FROM order_items WHERE order_id = $orderId".update.run
+      sql"DELETE FROM order_items WHERE id_order = $orderId".update.run
         .transact(xa)
         .void
     }
